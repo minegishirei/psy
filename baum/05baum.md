@@ -32,10 +32,9 @@ title:バウムテストの歴史
 
 description:1950年代に外交官、教育学者、心理学者でありピアリスト(カトリック教会の一員)でもあったアーベルが生み出した手法である。
 
+category_script:True
 
-
-
-
+img:https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-10112136480?w=200&h=200&up=0
 
 
 
