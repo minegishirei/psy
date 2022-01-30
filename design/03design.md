@@ -217,3 +217,6 @@
 title:デザインについての総まとめ
 
 description:デザインについての総まとめ
+
+category_script:True
+

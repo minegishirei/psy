@@ -47,7 +47,7 @@ title:バウムテスト時間軸アプローチ
 
 description:バウムテストで時間軸を見る場合、二つの方法がある。
 
-
+category_script:True
 
 
 
