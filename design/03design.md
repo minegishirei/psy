@@ -220,3 +220,4 @@ description:デザインについての総まとめ
 
 category_script:True
 
+img:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPfnupE9abWiOGVW9wmSpPls4zIY7WwBX4rI9K2Zt_h8BxZrfc0x6K0hEv1OK2F8XqkpY&usqp=CAU
