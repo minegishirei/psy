@@ -49,7 +49,9 @@
 
 title:バウムテストで測る「自己肯定感」
 
-description:
+description:用紙に対して極端に小さい木を書いた場合は次の傾向が強い。自分が重要な人間でないという感情。広い世界によって圧倒された自己。
 
+img:https://images-fe.ssl-images-amazon.com/images/I/81vd4PLxkhL.__AC_SY300_SX300_QL70_ML2_.jpg
 
+category_script:True
 
