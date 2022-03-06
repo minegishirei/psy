@@ -1,0 +1,100 @@
+@startuml 00target
+
+namespace type {
+    class 自己中心的 
+    class 頑固 
+    class 防衛的
+    class 濾過機能
+    防衛的 --> 濾過機能
+    class 羞恥心
+  
+    class より若い
+
+    class 野心
+}
+
+namespace 思考傾向 {
+    class 伝統志向
+}
+
+
+
+namespace env {
+    class 不満
+    class 圧力下
+  
+    class 女性的要素からの圧力
+    
+    class 諦め
+    圧力下 --> 諦め
+  
+    class 他者との接触の増加
+}
+
+namespace think {
+    class 秘密主義
+    class 伝統主義
+    class 理想主義
+    class 逃避
+}
+
+namespace living {
+    class 死
+    class 充実
+}
+
+namespace state {
+    class 喪失
+
+    class 空想
+
+    class 現実
+
+    class 過去
+}
+
+namespace time {
+    class 過去
+
+    class 未来
+}
+
+namespace parents {
+    class 母親からの影響
+    class 母親からの影響の克服
+    class 父親からの影響
+    父親からの影響 --> 憧れと諦め
+    class 憧れと諦め
+}
+
+namespace towoman {
+    class 軽蔑
+}
+
+namespace sexual {
+    class 同性愛
+    class 自己啓発 {
+        恋愛に対する自己啓発
+    }
+    class 計画性 {
+        恋愛に値する計画性
+    }
+}
+
+
+namespace freedom {
+    class 闘争
+    class 服従
+}
+
+namespace commonsense {
+    class 非常識
+    class 常識的
+}
+
+namespace ex {
+    class 物理学者
+    type.野心 ---> 物理学者
+}
+
+@enduml
