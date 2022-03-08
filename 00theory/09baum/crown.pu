@@ -85,7 +85,24 @@ namespace 樹冠内部 {
     
 }
 
+class StemToCrown 
 
+
+class StemToCrownTwin {
+    二手に分かれている場合
+    平和という意味と
+    優柔不断という意味がある
+}
+StemToCrown --> StemToCrownTwin
+StemToCrownTwin ---> type.平和
+StemToCrownTwin ---> type.優柔不断
+
+class SteamToCrownLeftUp {
+  　右側のみ幹の線が樹冠に伸びている
+    情緒領域からのエネルギーをせきとめる
+}
+StemToCrown --> SteamToCrownLeftUp
+SteamToCrownLeftUp ---> env.女性的要素からの圧力
 
 
 @enduml
