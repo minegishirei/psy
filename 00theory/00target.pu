@@ -52,6 +52,11 @@ namespace type {
     }
 }
 
+namespace realtime {
+    class lie
+    class priority
+    class highcadence
+}
 
 
 
@@ -79,6 +84,7 @@ namespace think {
     class 理想主義
     class 逃避
     class 可逆性
+    class 平和主義
 }
 
 namespace living {

@@ -2,7 +2,7 @@
 
 
 
-!include 00target.pu
+!include ../00target.pu
 
 
 
@@ -32,34 +32,40 @@ Fill --> Dark
 Dark ---> living.死
 
 
-namespace 樹冠形 {
-    class Square
-    Square ---> type.頑固
-  
-    class SideEclipse
-    SideEclipse ---> env.圧力下
 
-    class FirstQuarterMoon
-    FirstQuarterMoon ---> type.防衛的
-    FirstQuarterMoon ---> type.羞恥心
 
-    class ToRightUp{
-      樹冠が右上に伸びている木
-      批判的,現実主義であり
-      - 科学的で高度に理性的な研究
-      - 実際的な仕事
-      一つの面にしか興味がなく、言ってしまえば常識がない
-    }
-    ToRightUp ---> state.現実主義
-    ToRightUp ---> commonsense.非常識
+class Square
+樹冠形 --> Square
+Square ---> type.頑固
 
-    class ToLeftUp {
-      樹冠が左上に伸びている木
-世間の動きなどには興味を示さない。
-    }
-    ToLeftUp ---> think.理想主義
-    ToLeftUp ---> think.逃避
+class SideEclipse
+樹冠形 --> SideEclipse
+SideEclipse ---> env.圧力下
+
+class FirstQuarterMoon
+樹冠形 --> FirstQuarterMoon
+FirstQuarterMoon ---> type.防衛的
+FirstQuarterMoon ---> type.羞恥心
+
+class ToRightUp{
+  樹冠が右上に伸びている木
+  批判的,現実主義であり
+  - 科学的で高度に理性的な研究
+  - 実際的な仕事
+  一つの面にしか興味がなく、言ってしまえば常識がない
 }
+樹冠形 --> ToRightUp
+ToRightUp ---> state.現実主義
+ToRightUp ---> commonsense.非常識
+
+class ToLeftUp {
+  樹冠が左上に伸びている木
+世間の動きなどには興味を示さない。
+}
+樹冠形 --> ToLeftUp
+ToLeftUp ---> think.理想主義
+ToLeftUp ---> think.逃避
+
 
 
 namespace wing {
