@@ -177,6 +177,12 @@ https://www.wikihow.jp/%E6%80%A7%E7%9A%84%E8%A1%9D%E5%8B%95%E3%82%92%E3%82%B3%E3
 
 
 
+title:根っこの観察の仕方【バウムテスト実践】
+
+description:「バウムテスト活用マニュアル」より抜粋。
+
+
+img:https://images-na.ssl-images-amazon.com/images/I/71peUoBtZdL.jpg
 
 
 
