@@ -158,3 +158,4 @@ description:一般に地面は被験者が生活している直接的な環境�
 img:https://1.bp.blogspot.com/-ZuYe-moNbzU/XZ7gYiQVrGI/AAAAAAAABps/zkP9c1RCLaoF0KSOydfdYDVzu0ihi30HwCLcBGAsYHQ/s400/petunjukonlene-com.JPG
 
 
+category_script:True

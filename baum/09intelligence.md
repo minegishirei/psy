@@ -12,6 +12,11 @@
 
 
 
+title:知性を表す指標
+
+description:ポプラの木は知性が優位であり、楽観的思考の傾向が強い。
+
+category_script:True
 
 
 
