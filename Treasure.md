@@ -205,6 +205,7 @@ title:立ち回りから判断するパーソナリティ
 
 psychology of ~ で検索する
 
+brain of ~
 
 
 - psychology by arm
@@ -212,4 +213,7 @@ psychology of ~ で検索する
 
 ## 脳科学
 
+平均して、脊髄は4 歳で成長を停止します。神経組織と支持細胞の束で構成される脊髄は、脳から全身にメッセージを送る役割を担っています。
+
+https://www.nm.org/healthbeat/healthy-tips/11-fun-facts-about-your-brain
 
