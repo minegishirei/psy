@@ -329,6 +329,17 @@ https://www.mindtools.com/a4denhh/maslows-hierarchy-of-needs
 
 
 
+## 夢の中の象徴一覧
 
+- 奇形児を産む夢
+
+https://www.free-dreameyes.com/visitor2015/deformed_child.html
+
+https://www.dreameyes.shop/psych/sy-itiran.html
+
+
+- シンボル(象徴) 辞典
+
+https://www.dreameyes.shop/psych/symbol/
 
 
