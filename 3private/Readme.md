@@ -1,0 +1,4 @@
+
+
+
+individual personality analysis
