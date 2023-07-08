@@ -389,3 +389,32 @@ https://www.dreameyes.shop/psych/symbol/
 
 
 
+
+## 監視、不安：笑顔
+
+女性は、監視されている、不安を感じているとわかると笑顔になることをご存知ですか？あるいは、雨や曇りのときよりも、晴れていて快適なときのほうが笑顔がよく出るのはどうでしょうか1？
+
+ Read more at: https://www.scienceofpeople.com/mouth-body-language/
+
+
+## 本物の笑顔
+
+本物の笑顔の指標となるのは、大頬骨筋、つまり笑顔のときに活性化する筋肉です。ある研究では、大頬骨筋の活動の頻度、持続時間、強度は、さまざまな種類の映画を観ているときに人々が感じた幸福感の程度と相関関係があったと報告されています1。
+
+言い換えれば…人は幸せであればあるほど、頬骨筋はより活性化します。
+
+ Read more at: https://www.scienceofpeople.com/mouth-body-language/
+
+<img src="https://www.hakoshima.com/staff/wp-content/uploads/2016/11/%E8%A1%A8%E6%83%85%E7%AD%8B.jpg">
+
+
+
+
+from https://www.scienceofpeople.com/
+
+## 笑顔
+
+オリンピック競技中に撮影された金メダリストは、観客から離れた表彰台の後ろに立っているときや、国歌を聴きながら表彰台に立っているときと比較して、一般の人々と交流しているときに最も笑顔を見せていることがわかりました。
+
+
+ Read more at: https://www.scienceofpeople.com/mouth-body-language/
