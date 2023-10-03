@@ -6,7 +6,7 @@
     <meta http-equiv="content-type" content="text-html; charset=utf-8" />
 
     <script src="https://code.jscharting.com/latest/jscharting.js"></script>
-
+    <script type="text/javascript" src="https://code.jscharting.com/latest/modules/types.js"></script>
     <style>
         .chartDiv {
             margin: 8px auto;
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div id="chartDiv" class="chartDiv" style="max-width: 1000px;height: 1000px;"></div>
+    <div id="chartDiv" class="chartDiv" style="max-width: 2000px;height: 1000px;"></div>
 
     <script type="text/javascript">
         /*
@@ -60,6 +60,7 @@
                 ],
                 'className': '.product-dept',
                 img_0: "https://cdn.balkan.app/shared/2.jpg",
+                link : "https://psy.hatenadiary.com/entry/2023/06/06/204035"
             },
             {
                 parent: "start",
@@ -72,14 +73,14 @@
             {
                 parent: "start",
                 "name": "プライド、賢さ",
-                "id": "",
+                "id": "pride",
                 "kind": "condition",
                 "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/OOjs_UI_icon_eye.svg/1200px-OOjs_UI_icon_eye.svg.png",
                 "description": "「一貫性」を認識できるだけの賢さが必要。<br>ない場合はそこまでレベルを落として説明する必要がある。"
             },
             {
                 "id": "consistency",
-                parent: "other_sight",
+                parent: ["other_sight", "pride"],
                 "name": "一貫性の法則",
                 "description": "「自分の行動は一貫する。一貫していなければならない」<br>という考え方。",
                 "image": "https://static.thenounproject.com/png/1490399-200.png",
@@ -161,6 +162,15 @@
                 attributes: {
                     ...row,
                     role: row.description
+                },
+                events: {
+                    click: function (e) {
+                        // event code
+                        window.location.href = row.link
+                    }
+                },
+                states_hover: {
+                    cursor: "pointer"
                 }
             }
         })
@@ -183,30 +193,47 @@
 
         var chart = JSC.chart('chartDiv', {
             debug: true,
-            type: 'organizational',
-
-            /*These options will apply to all annotations including point nodes and breadcrumbs.*/
+            type: 'organizational down',
             defaultAnnotation: {
                 padding: [5, 10],
                 margin: [50, 0],
                 radius: 15
             },
-
-            defaultTooltip_enabled: false,
+            defaultTooltip: {
+                asHTML: true,
+                outline: 'none',
+                zIndex: 10
+            },
+            annotation: {
+                padding: 9,
+                corners: ['cut', 'square', 'cut', 'square'],
+                margin: [15, 5, 10, 0]
+            },
             defaultSeries: {
-                mouseTracking: false,
                 color: 'white',
                 defaultPoint: {
                     outline_width: 0,
                     connectorLine: { radius: 140, width: 2 },
+                    tooltip: '<div class="tooltipBox">%description</div>',
                     label: {
-                        text: `<img width=48 height=48 margin_bottom=4 src=%image><br><b>%name</b><br><span style="font-size:10px; ">%description</span>`,
-                        maxWidth: 500
+                        text: `
+                        <img width=48 height=48 margin_bottom=4 src=%image><br>
+                        <b>%name</b><br>
+                        <br><span style="font-size:10px; ">%description</span><br>`,
+                        maxWidth: 500,
+                        autoWrap: false
                     }
                 }
             },
 
             series: [{ points: points }]
         });
+
+        function onClickNode(link) {
+            window.location.href = link
+        }
     </script>
 </body>
+
+
+
