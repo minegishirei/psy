@@ -42,15 +42,15 @@
             {
                 id: "start",
                 name: "Start",
-                "image" : "https://sato-icons.com/wp/wp-content/uploads/2021/09/%E6%AD%AF%E8%BB%8A%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
-                "description" : "Start"
+                "image": "https://sato-icons.com/wp/wp-content/uploads/2021/09/%E6%AD%AF%E8%BB%8A%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+                "description": "Start"
             },
             {
                 "id": "reception",
                 parent: "start",
                 "name": "返報性の原理",
                 "description": "やられたことをやり返したくなる",
-                "image" : "https://cdn.icon-icons.com/icons2/3856/PNG/512/interaction_icon_238012.png",
+                "image": "https://cdn.icon-icons.com/icons2/3856/PNG/512/interaction_icon_238012.png",
                 "blog": "",
                 "froms": [
                     "https://note.com/designstrategy/n/n310bca7d5b5c"
@@ -60,23 +60,23 @@
                     "labeling"
                 ],
                 'className': '.product-dept',
-                
-                img_0: "https://cdn.balkan.app/shared/2.jpg" ,
+
+                img_0: "https://cdn.balkan.app/shared/2.jpg",
             },
             {
                 parent: "start",
-                "name" : "他者の視点",
-                "id" : "other_sight",
+                "name": "他者の視点",
+                "id": "other_sight",
                 "kind": "condition",
-                "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/OOjs_UI_icon_eye.svg/1200px-OOjs_UI_icon_eye.svg.png",
-                "description" : "「第三者が見ている」というシチュエーション"
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/OOjs_UI_icon_eye.svg/1200px-OOjs_UI_icon_eye.svg.png",
+                "description": "「第三者が見ている」というシチュエーション"
             },
             {
                 "id": "consistency",
                 parent: "other_sight",
                 "name": "一貫性の法則",
                 "description": "「自分の行動は一貫する。一貫していなければならない」<br>という考え方。",
-                "image":"https://static.thenounproject.com/png/1490399-200.png",
+                "image": "https://static.thenounproject.com/png/1490399-200.png",
                 "blog": "",
                 "froms": [
                     "https://note.com/designstrategy/n/n310bca7d5b5c"
@@ -106,7 +106,7 @@
                     }
                 ],
                 "call_excecution": "任意の命令、実行を",
-                "image" : "https://cdn-icons-png.flaticon.com/512/130/130213.png",
+                "image": "https://cdn-icons-png.flaticon.com/512/130/130213.png",
                 "blog": "",
                 "froms": [
                     "https://note.com/designstrategy/n/n310bca7d5b5c"
@@ -134,7 +134,7 @@
                     }
                 ],
                 "call_excecution": "任意の命令、実行を",
-                "image" : "https://cdn-icons-png.flaticon.com/512/10154/10154555.png",
+                "image": "https://cdn-icons-png.flaticon.com/512/10154/10154555.png",
                 "blog": "",
                 "froms": [
                     "https://note.com/designstrategy/n/n310bca7d5b5c"
@@ -146,25 +146,25 @@
             },
             {
                 parent: ["labeling", "declare"],
-                "name" : "任意コードの実行",
-                "id" : "arbitrary_order_excecution",
+                "name": "任意コードの実行",
+                "id": "arbitrary_order_excecution",
                 "kind": "result",
-                "image" : "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
-                "description" : "任意のコード実行が可能"
+                "image": "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
+                "description": "任意のコード実行が可能"
             },
             {
                 parent: ["reception"],
-                "name" : "低リスクなコード実行",
+                "name": "低リスクなコード実行",
                 "id": "",
                 "kind": "result",
-                "image" : "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
-                "description" : "任意のコード実行が可能"
+                "image": "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
+                "description": "任意のコード実行が可能"
             }
         ];
-        points = points.map((row)=>{
+        points = points.map((row) => {
             return {
                 ...row,
-                attributes : {
+                attributes: {
                     ...row,
                     role: row.description
                 }
