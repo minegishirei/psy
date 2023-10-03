@@ -1,17 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<script src="https://balkan.app/js/orgchart.js"></script>
-<div id="tree"/>
-<script> 
-    var chart = new OrgChart(document.getElementById("tree"), {
-    nodeBinding: {
-        field_0: "name"
-    },
-    nodes: [
-        
-    { id: 1, name: "Amber McKenzie" },
-        { id: 2, pid: 1, name: "Ava Field" },
-        { id: 3, pid: 1, name: "Peter Stevens" }
-        
-    ]
-});
-</script>
+<head>
+    <title>Multiple Parent Org Chart Styled Colored Boxes and Connectors | JSCharting</title>
+    <meta http-equiv="content-type" content="text-html; charset=utf-8" />
+
+    <script src="https://code.jscharting.com/latest/jscharting.js"></script>
+
+    <style>
+        .chartDiv {
+            margin: 8px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="chartDiv" class="chartDiv" style="max-width: 1000px;height: 1000px;"></div>
+
+    <script type="text/javascript">
+        /*
+  Multiple parent organizational chart with per node colors and color synchronized connector lines with custom corner radius settings.
+  Learn how to:
+  
+    - Style different point connectors in organizational charts.
+  */
+        // JS
+        var palette = [
+            '#A1F8AE',
+            '#6ECE89',
+            '#42A467',
+            '#1A7B48',
+            '#eeeeee',
+            '#B3E5FC',
+            '#4FC3F7',
+            '#03A9F4',
+            '#0288D1',
+            '#01579B'
+        ];
+
+        var points = [
+            {
+                id: "start",
+                name: "Start",
+                "image" : "https://sato-icons.com/wp/wp-content/uploads/2021/09/%E6%AD%AF%E8%BB%8A%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+                "description" : "Start"
+            },
+            {
+                "id": "reception",
+                parent: "start",
+                "name": "返報性の原理",
+                "description": "やられたことをやり返したくなる",
+                "image" : "https://cdn.icon-icons.com/icons2/3856/PNG/512/interaction_icon_238012.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                "child_nodes": [
+                    "自分への期待",
+                    "labeling"
+                ],
+                'className': '.product-dept',
+                
+                img_0: "https://cdn.balkan.app/shared/2.jpg" ,
+            },
+            {
+                parent: "start",
+                "name" : "他者の視点",
+                "id" : "other_sight",
+                "kind": "condition",
+                "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/OOjs_UI_icon_eye.svg/1200px-OOjs_UI_icon_eye.svg.png",
+                "description" : "「第三者が見ている」というシチュエーション"
+            },
+            {
+                "id": "consistency",
+                parent: "other_sight",
+                "name": "一貫性の法則",
+                "description": "「自分の行動は一貫する。一貫していなければならない」<br>という考え方。",
+                "image":"https://static.thenounproject.com/png/1490399-200.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                "child_nodes": [
+                    "自分への期待",
+                    "labeling"
+                ]
+            },
+            {
+                "id": "labeling",
+                parent: "consistency",
+                //parent: [{id:"consistency"},{id:"reception"}],
+                "kind": "node",
+                "name": "ラベリング",
+                "description": "他者からつけられたあだ名、称号、立場によって行動を最適化してしまうこと",
+                "from": [
+                    "他者からの期待"
+                ],
+                "args": [
+                    "order"
+                ],
+                "call": [
+                    {
+                        "id": "",
+                        "args": "order"
+                    }
+                ],
+                "call_excecution": "任意の命令、実行を",
+                "image" : "https://cdn-icons-png.flaticon.com/512/130/130213.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                "child_nodes": [
+                    "自分への期待",
+                    "labeling"
+                ]
+            },
+            {
+                "id": "declare",
+                parent: "consistency",
+                "name": "宣言による一貫性",
+                "description": "自分で自分の立ち位置を固定してしまうこと",
+                "from": [
+                    "他者からの期待"
+                ],
+                "args": [
+                    "order"
+                ],
+                "call": [
+                    {
+                        "id": "",
+                        "args": "order"
+                    }
+                ],
+                "call_excecution": "任意の命令、実行を",
+                "image" : "https://cdn-icons-png.flaticon.com/512/10154/10154555.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                "child_nodes": [
+                    "自分への期待",
+                    "labeling"
+                ]
+            },
+            {
+                parent: ["labeling", "declare"],
+                "name" : "任意コードの実行",
+                "id" : "arbitrary_order_excecution",
+                "kind": "result",
+                "image" : "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
+                "description" : "任意のコード実行が可能"
+            },
+            {
+                parent: ["reception"],
+                "name" : "低リスクなコード実行",
+                "id": "",
+                "kind": "result",
+                "image" : "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
+                "description" : "任意のコード実行が可能"
+            }
+        ];
+        points = points.map((row)=>{
+            return {
+                ...row,
+                attributes : {
+                    ...row,
+                    role: row.description
+                }
+            }
+        })
+
+
+        /**
+         * Iterate points to apply palette colors.
+         */
+        points.forEach(function (point, i) {
+            point.color = palette[i];
+            if (point.id === 'ceo') {
+                point.parent.forEach(function (connector, j) {
+                    connector.line_color = palette[j];
+                });
+            }
+            if (point.parent === 'ceo') {
+                point.connectorLine_color = palette[i];
+            }
+        });
+
+        var chart = JSC.chart('chartDiv', {
+            debug: true,
+            type: 'organizational',
+
+            /*These options will apply to all annotations including point nodes and breadcrumbs.*/
+            defaultAnnotation: {
+                padding: [5, 10],
+                margin: [50, 0],
+                radius: 15
+            },
+
+            defaultTooltip_enabled: false,
+            defaultSeries: {
+                mouseTracking: false,
+                color: 'white',
+                defaultPoint: {
+                    outline_width: 0,
+                    connectorLine: { radius: 140, width: 2 },
+                    label: {
+                        text: `<img width=48 height=48 margin_bottom=4 src=%image><br><b>%name</b><br><span style="font-size:10px; ">%description</span>`,
+                        maxWidth: 500
+                    }
+                }
+            },
+
+            series: [{ points: points }]
+        });
+    </script>
+</body>
+
+<
