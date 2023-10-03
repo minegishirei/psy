@@ -161,8 +161,7 @@
                 },
                 events: {
                     click: function (e) {
-                        // event code
-                        window.location.href = row.link
+                        window.open(row.link)
                     }
                 },
                 states_hover: {
@@ -171,10 +170,6 @@
             }
         })
 
-
-        /**
-         * Iterate points to apply palette colors.
-         */
         points.forEach(function (point, i) {
             point.color = palette[i];
             if (point.id === 'ceo') {
