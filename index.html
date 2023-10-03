@@ -39,8 +39,16 @@
                 "description": "Start"
             },
             {
-                "id": "reception",
                 parent: "start",
+                "name": "子供",
+                "id": "child",
+                "kind": "condition",
+                "image": "https://cdn2.iconfinder.com/data/icons/eldorado-navigation/40/baby_child-512.png",
+                "description": "子供のような性格をしていること。"
+            },
+            {
+                "id": "reception",
+                parent: ["child"],
                 "name": "返報性の原理",
                 "description": "やられたことをやり返したくなる",
                 "image": "https://cdn.icon-icons.com/icons2/3856/PNG/512/interaction_icon_238012.png",
