@@ -3,9 +3,9 @@
 ## できること
 
 
-- 0000write
+- <a href="./write.html">0000write</a>
     - 実行可能な命令とその詳細。
-- 1000read
+- <a href="./read.html">1000read</a>
     - stateの読み取り。
 - 2000personality
     - 人格形成判断。
