@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>psychology</title>
+    <link rel="icon" href="https://sato-icons.com/wp/wp-content/uploads/2021/09/%E6%AD%AF%E8%BB%8A%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png">
+    <meta http-equiv="content-type" content="text-html; charset=utf-8" />
+    <script src="https://code.jscharting.com/latest/jscharting.js"></script>
+    <script type="text/javascript" src="https://code.jscharting.com/latest/modules/types.js"></script>
+    <style>
+        .chartDiv {
+            margin: 8px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="chartDiv" class="chartDiv" style="max-width: 2000px;height: 1000px;"></div>
+
+    <script type="text/javascript">
+        var palette = [
+            '#A1F8AE',
+            '#6ECE89',
+            '#42A467',
+            '#1A7B48',
+            '#eeeeee',
+            '#B3E5FC',
+            '#4FC3F7',
+            '#03A9F4',
+            '#0288D1',
+            '#01579B'
+        ];
+
+        var points = [
+            {
+                "name": "子供",
+                "id": "child",
+                "kind": "condition",
+                "image": "https://cdn2.iconfinder.com/data/icons/eldorado-navigation/40/baby_child-512.png",
+                "description": "子供のような性格をしていること。"
+            },
+            {
+                "id": "reception",
+                parent: ["child"],
+                "name": "返報性の原理",
+                "description": "やられたことをやり返したくなる",
+                "image": "https://cdn.icon-icons.com/icons2/3856/PNG/512/interaction_icon_238012.png",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                "child_nodes": [
+                    "自分への期待",
+                    "labeling"
+                ],
+                'className': '.product-dept',
+                img_0: "https://cdn.balkan.app/shared/2.jpg",
+            },
+            {
+                "name": "他者の視点",
+                "id": "other_sight",
+                "kind": "condition",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/OOjs_UI_icon_eye.svg/1200px-OOjs_UI_icon_eye.svg.png",
+                "description": "「第三者が見ている」というシチュエーション"
+            },
+            {
+                "name": "プライド、賢さ",
+                "id": "pride",
+                "kind": "condition",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/OOjs_UI_icon_eye.svg/1200px-OOjs_UI_icon_eye.svg.png",
+                "description": "「一貫性」を認識できるだけの賢さが必要。<br>ない場合はそこまでレベルを落として説明する必要がある。"
+            },
+
+            // 
+            {
+                "name": "相手の姿が見える",
+                "id": "face_to_face",
+                "kind": "condition",
+                "image": "https://static.thenounproject.com/png/200729-200.png",
+                "description": "対面形式。顔が見えること。"
+            },
+            {
+                "id": "mirroring",
+                parent: ["face_to_face"],
+                "name": "ミラーリング",
+                "description": "自分と同じ行動をしている人を気に入ってしまうこと。",
+                "image": "https://icon-pit.com/wp-content/uploads/2020/08/ellipse-mirror_12230.png",
+                link : ""
+            },
+
+
+            {
+                "id": "parrot_response",
+                "name": "オウム返し",
+                "description": "相手のセリフに対するリアクションの際に、<br>同じセリフを返すだけで好感度が上がる",
+                "image": "https://www.pinclipart.com/picdir/big/149-1498769_it-is-always-worth-asking-the-young-people.png",
+            },
+
+
+
+            {
+                "id": "anchoring",
+                "name": "アンカリング",
+                "description": "伝える順序が異なることで<br>聞き手の印象（=判断）が異なっている",
+                "image": "https://iconbox.fun/wp/wp-content/uploads/513_s_f.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                link : "https://psy.hatenadiary.com/entry/2023/06/06/204035"
+            },
+
+            {
+                "id": "consistency",
+                parent: ["other_sight", "pride"],
+                "name": "一貫性の法則",
+                "description": "「自分の行動は一貫する。一貫していなければならない」<br>という考え方。",
+                "image": "https://static.thenounproject.com/png/1490399-200.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                link : "https://psy.hatenadiary.com/entry/2023/06/06/204035"
+            },
+            {
+                "id": "labeling",
+                parent: "consistency",
+                //parent: [{id:"consistency"},{id:"reception"}],
+                "kind": "node",
+                "name": "ラベリング",
+                "description": "他者からつけられたあだ名、称号、立場によって<br>行動を最適化してしまうこと",
+                "from": [
+                    "他者からの期待"
+                ],
+                "args": [
+                    "order"
+                ],
+                "call_excecution": "任意の命令、実行を",
+                "image": "https://cdn-icons-png.flaticon.com/512/130/130213.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                "child_nodes": [
+                    "自分への期待",
+                    "labeling"
+                ]
+            },
+            {
+                "id": "declare",
+                parent: "consistency",
+                "name": "宣言による一貫性",
+                "description": "自分で自分の立ち位置を固定してしまうこと",
+                "from": [
+                    "他者からの期待"
+                ],
+                "args": [
+                    "order"
+                ],
+                "call_excecution": "任意の命令、実行を",
+                "image": "https://cdn-icons-png.flaticon.com/512/10154/10154555.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                "child_nodes": [
+                    "自分への期待",
+                    "labeling"
+                ]
+            },
+            {
+                "id": "foot_in_the_door",
+                parent: "declare",
+                "name": "foot in the door",
+                "description": "小さな要求からyesを続けさせることで一貫性を生むこと。",
+                "image": "https://cdn1.iconfinder.com/data/icons/sapiens/68/kick_door_out_bust_rejection_fired-512.png",
+                "blog": "",
+                link: "https://psy.hatenadiary.com/entry/2023/06/06/204035#%E3%83%95%E3%83%83%E3%83%88%E3%82%A4%E3%83%B3%E3%82%B6%E3%83%89%E3%82%A2",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                "child_nodes": [
+                    "自分への期待",
+                    "labeling"
+                ]
+            },
+            {
+                parent: ["labeling", "declare", "anchoring"],
+                "name": "任意コードの実行",
+                "id": "arbitrary_order_excecution",
+                "kind": "result",
+                "image": "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
+                "description": "任意のコード実行が可能"
+            },
+            {
+                parent: ["reception"],
+                "name": "低リスクなコード実行",
+                "id": "",
+                "kind": "result",
+                "image": "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
+                "description": "任意のコード実行が可能"
+            },
+            {
+                parent: ["mirroring", "parrot_response"],
+                "name": "好感度を上げる",
+                "kind": "result",
+                "image": "https://iconbox.fun/wp/wp-content/uploads/1012_sy_h.png",
+                "description": "任意のコード実行が可能"
+            },
+            {
+                "id": "hide",
+                "name": "ハイド",
+                "description": "見えないものは選択肢にすら上がらないこと",
+                "image": "https://iconbox.fun/wp/wp-content/uploads/513_s_f.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                link : "https://psy.hatenadiary.com/entry/2023/06/06/204035"
+            },
+            {
+                parent: ["hide"],
+                "name": "都合の悪い事実を隠す",
+                "kind": "result",
+                "image": "https://static-00.iconduck.com/assets.00/smoke-icon-1873x2048-knjmjbbe.png",
+                "description": "都合の悪い事実を隠すことが可能"
+            }
+        ];
+        points = points.map((row) => {
+            return {
+                ...row,
+                attributes: {
+                    ...row,
+                    role: row.description
+                },
+                events: {
+                    click: function (e) {
+                        window.open(row.link)
+                    }
+                },
+                states_hover: {
+                    cursor: "pointer"
+                }
+            }
+        })
+
+        points.forEach(function (point, i) {
+            point.color = palette[i];
+            if (point.id === 'ceo') {
+                point.parent.forEach(function (connector, j) {
+                    connector.line_color = palette[j];
+                });
+            }
+            if (point.parent === 'ceo') {
+                point.connectorLine_color = palette[i];
+            }
+        });
+
+        var chart = JSC.chart('chartDiv', {
+            debug: true,
+            type: 'organizational down',
+            defaultAnnotation: {
+                padding: [5, 10],
+                margin: [50, 0],
+                radius: 15
+            },
+            defaultTooltip: {
+                asHTML: true,
+                outline: 'none',
+                zIndex: 10
+            },
+            annotation: {
+                padding: 9,
+                corners: ['cut', 'square', 'cut', 'square'],
+                margin: [15, 5, 10, 0]
+            },
+            defaultSeries: {
+                color: 'white',
+                defaultPoint: {
+                    outline_width: 0,
+                    connectorLine: { radius: 140, width: 2 },
+                    tooltip: '<div class="tooltipBox">%description</div>',
+                    label: {
+                        text: `
+                        <img width=48 height=48 margin_bottom=4 src=%image><br>
+                        <b>%name</b><br>
+                        <br><span style="font-size:10px; ">%description</span><br>
+                        `,
+                        maxWidth: 500,
+                        autoWrap: false
+                    }
+                }
+            },
+
+            series: [{ points: points }]
+        });
+
+        function onClickNode(link) {
+            window.location.href = link
+        }
+    </script>
+</body>
+
+
