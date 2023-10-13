@@ -261,24 +261,10 @@
                 },
                 states_hover: {
                     cursor: "pointer"
-                }
+                },
+                ...{color :  row.kind ? my_palette[row.kind] : my_palette.else}
             }
         })
-
-        points.forEach(function (point, i) {
-            /*
-            point.color = palette[i];
-            if (point.id === 'ceo') {
-                point.parent.forEach(function (connector, j) {
-                    connector.line_color = palette[j];
-                });
-            }
-            if (point.parent === 'ceo') {
-                point.connectorLine_color = palette[i];
-            }
-            */
-            point.color =  point.kind ? my_palette[point.kind] : my_palette.else
-        });
 
         var chart = JSC.chart('chartDiv', {
             debug: true,
