@@ -97,8 +97,9 @@
 
 
             {
-                "id" : "tone_tuning",
+                "id" : "voice_tone_tuning",
                 "name" : "声のトーンを変える",
+                "image" : "https://cdn2.iconfinder.com/data/icons/don-t-stop-the-music/64/tuning_fork-512.png"
             },
 
             {
@@ -191,7 +192,7 @@
                 "id" : "favorite_word",
                 "name" : "相手の話したい話を話題にする",
                 "description" : "相手が食いつきそうな話を振る。<br>年上ならCOBOLの話が吉",
-                "image" : ""
+                "image" : "https://cdn1.iconfinder.com/data/icons/streamline-comments-chat/60/cell-8-6-480.png"
             },
             {
                 parent: ["labeling", "declare", "anchoring"],
@@ -234,7 +235,12 @@
                 "image": "https://static-00.iconduck.com/assets.00/smoke-icon-1873x2048-knjmjbbe.png",
                 "description": "都合の悪い事実を隠すことが可能"
             },
-
+            {
+                parent : ["voice_tone_tuning"],
+                "name" : "任意選択の操作" ,
+                "kind" : "result" ,
+                "image": "https://cdn-icons-png.flaticon.com/512/1356/1356586.png"
+            }
         ];
         points = points.map((row) => {
             return {
