@@ -16,6 +16,7 @@
         var my_palette = {
             "result" : '#798CD2',
             "condition" : '#D1C075',
+            "hertfull" : '#CD6AB9',
             "else" : '#cccccc',
         }
         // #6ACDC2 purple
@@ -73,6 +74,7 @@
             {
                 "id": "mirroring",
                 parent: ["face_to_face"],
+                "kind":"hertfull",
                 "name": "ミラーリング",
                 "description": "自分と同じ行動をしている人を気に入ってしまうこと。",
                 "image": "https://icon-pit.com/wp-content/uploads/2020/08/ellipse-mirror_12230.png",
@@ -82,6 +84,7 @@
 
             {
                 "id": "parrot_response",
+                "kind":"hertfull",
                 "name": "オウム返し",
                 "description": "相手のセリフに対するリアクションの際に、<br>同じセリフを返すだけで好感度が上がる",
                 "image": "https://www.pinclipart.com/picdir/big/149-1498769_it-is-always-worth-asking-the-young-people.png",
@@ -165,6 +168,7 @@
             },
             {
                 "id" : "favorite_word",
+                "kind":"hertfull",
                 "name" : "相手の話したい話を話題にする",
                 "description" : "相手が食いつきそうな話を振る。<br>年上ならCOBOLの話が吉",
                 "image" : "https://cdn1.iconfinder.com/data/icons/streamline-comments-chat/60/cell-8-6-480.png"
@@ -188,7 +192,7 @@
             {
                 parent: ["mirroring", "parrot_response", "favorite_word"],
                 "name": "好感度を上げる",
-                "kind": "result",
+                "kind": "hertfull",
                 "image": "https://iconbox.fun/wp/wp-content/uploads/1012_sy_h.png",
                 "description": "任意のコード実行が可能"
             },
