@@ -27,6 +27,40 @@
         var points = [
             //
             {
+                parent: ["mirroring", "parrot_response", "favorite_word"],
+                "name": "好感度を上げる",
+                "kind": "hertfull",
+                "image": "https://iconbox.fun/wp/wp-content/uploads/1012_sy_h.png",
+                "description": "任意のコード実行が可能"
+            },
+            {
+                "name": "相手の姿が見える",
+                "id": "face_to_face",
+                "kind": "condition",
+                "image": "https://static.thenounproject.com/png/200729-200.png",
+                "description": "対面形式。顔が見えること。"
+            },
+            {
+                "id": "mirroring",
+                parent: ["face_to_face"],
+                "kind":"hertfull",
+                "name": "ミラーリング",
+                "description": "自分と同じ行動をしている人を気に入ってしまうこと。",
+                "image": "https://icon-pit.com/wp-content/uploads/2020/08/ellipse-mirror_12230.png",
+                link : ""
+            },
+            {
+                "id": "parrot_response",
+                "kind":"hertfull",
+                "name": "オウム返し",
+                "description": "相手のセリフに対するリアクションの際に、<br>同じセリフを返すだけで好感度が上がる",
+                "image": "https://www.pinclipart.com/picdir/big/149-1498769_it-is-always-worth-asking-the-young-people.png",
+            },
+            //
+            
+
+            //
+            {
                 parent : ["voice_tone_tuning", "anchoring"],
                 "id" : "select_controll",
                 "name" : "任意選択の操作" ,
@@ -90,31 +124,6 @@
             },
 
             // 
-            {
-                "name": "相手の姿が見える",
-                "id": "face_to_face",
-                "kind": "condition",
-                "image": "https://static.thenounproject.com/png/200729-200.png",
-                "description": "対面形式。顔が見えること。"
-            },
-            {
-                "id": "mirroring",
-                parent: ["face_to_face"],
-                "kind":"hertfull",
-                "name": "ミラーリング",
-                "description": "自分と同じ行動をしている人を気に入ってしまうこと。",
-                "image": "https://icon-pit.com/wp-content/uploads/2020/08/ellipse-mirror_12230.png",
-                link : ""
-            },
-
-
-            {
-                "id": "parrot_response",
-                "kind":"hertfull",
-                "name": "オウム返し",
-                "description": "相手のセリフに対するリアクションの際に、<br>同じセリフを返すだけで好感度が上がる",
-                "image": "https://www.pinclipart.com/picdir/big/149-1498769_it-is-always-worth-asking-the-young-people.png",
-            },
 
 
 
@@ -200,13 +209,7 @@
                 "image": "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
                 "description": "任意のコード実行が可能"
             },
-            {
-                parent: ["mirroring", "parrot_response", "favorite_word"],
-                "name": "好感度を上げる",
-                "kind": "hertfull",
-                "image": "https://iconbox.fun/wp/wp-content/uploads/1012_sy_h.png",
-                "description": "任意のコード実行が可能"
-            },
+
             {
                 "id": "hide",
                 "name": "ハイド",
