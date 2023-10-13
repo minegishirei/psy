@@ -96,6 +96,10 @@
             },
 
 
+            {
+                "id" : "tone_tuning",
+                "name" : "声のトーンを変える",
+            },
 
             {
                 "id": "anchoring",
@@ -184,6 +188,12 @@
                 ]
             },
             {
+                "id" : "favorite_word",
+                "name" : "相手の話したい話を話題にする",
+                "description" : "相手が食いつきそうな話を振る。<br>年上ならCOBOLの話が吉",
+                "image" : ""
+            },
+            {
                 parent: ["labeling", "declare", "anchoring"],
                 "name": "任意コードの実行",
                 "id": "arbitrary_order_excecution",
@@ -200,7 +210,7 @@
                 "description": "任意のコード実行が可能"
             },
             {
-                parent: ["mirroring", "parrot_response"],
+                parent: ["mirroring", "parrot_response", "favorite_word"],
                 "name": "好感度を上げる",
                 "kind": "result",
                 "image": "https://iconbox.fun/wp/wp-content/uploads/1012_sy_h.png",
@@ -223,7 +233,8 @@
                 "kind": "result",
                 "image": "https://static-00.iconduck.com/assets.00/smoke-icon-1873x2048-knjmjbbe.png",
                 "description": "都合の悪い事実を隠すことが可能"
-            }
+            },
+
         ];
         points = points.map((row) => {
             return {
