@@ -25,6 +25,30 @@
         // #7E2A41 red
 
         var points = [
+
+            {
+                "id": "anchoring",
+                "name": "アンカリング",
+                "description": "伝える順序が異なることで<br>聞き手の印象（=判断）が異なっている",
+                "image": "https://iconbox.fun/wp/wp-content/uploads/513_s_f.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                link : "https://psy.hatenadiary.com/entry/2023/06/06/204035"
+            },
+            {
+                "id" : "voice_tone_tuning",
+                "name" : "声のトーンを変える",
+                "image" : "https://cdn2.iconfinder.com/data/icons/don-t-stop-the-music/64/tuning_fork-512.png"
+            },
+
+            {
+                parent : ["voice_tone_tuning", "anchoring"],
+                "name" : "任意選択の操作" ,
+                "kind" : "result" ,
+                "image": "https://cdn-icons-png.flaticon.com/512/1356/1356586.png"
+            },
             {
                 "name": "子供",
                 "id": "child",
@@ -91,23 +115,8 @@
             },
 
 
-            {
-                "id" : "voice_tone_tuning",
-                "name" : "声のトーンを変える",
-                "image" : "https://cdn2.iconfinder.com/data/icons/don-t-stop-the-music/64/tuning_fork-512.png"
-            },
 
-            {
-                "id": "anchoring",
-                "name": "アンカリング",
-                "description": "伝える順序が異なることで<br>聞き手の印象（=判断）が異なっている",
-                "image": "https://iconbox.fun/wp/wp-content/uploads/513_s_f.png",
-                "blog": "",
-                "froms": [
-                    "https://note.com/designstrategy/n/n310bca7d5b5c"
-                ],
-                link : "https://psy.hatenadiary.com/entry/2023/06/06/204035"
-            },
+
 
             {
                 "id": "consistency",
@@ -214,12 +223,7 @@
                 "image": "https://static-00.iconduck.com/assets.00/smoke-icon-1873x2048-knjmjbbe.png",
                 "description": "都合の悪い事実を隠すことが可能"
             },
-            {
-                parent : ["voice_tone_tuning", "anchoring"],
-                "name" : "任意選択の操作" ,
-                "kind" : "result" ,
-                "image": "https://cdn-icons-png.flaticon.com/512/1356/1356586.png"
-            }
+
         ];
         points = points.map((row) => {
             return {
