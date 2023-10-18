@@ -11,6 +11,11 @@ var my_palette = {
 // #7E2A41 red
 
 
+function insertBR(sentense){
+    return sentense.match(/.{20}/g).join("<br>");
+}
+
+
 
 function applyChartJS(points) {
     points = points.map((row) => {
@@ -19,7 +24,7 @@ function applyChartJS(points) {
             attributes: {
                 ...row,
                 role: row.description,
-                ...{"example" : row.example ? row.example : row.description}
+                ...{"example" : row.example ? row.example : insertBR(row.description)}
             },
             events: {
                 click: function (e) {
@@ -62,6 +67,7 @@ function applyChartJS(points) {
                         <b>%id</b><br>
                         <img width=48 height=48 margin_bottom=4 src=%image><br>
                         <b>%name</b><br>
+                        <p>%explain</p><br>
                         `,
                     maxWidth: 500,
                     autoWrap: false
