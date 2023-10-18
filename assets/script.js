@@ -12,7 +12,11 @@ var my_palette = {
 
 
 function insertBR(sentense){
-    return sentense.match(/.{20}/g).join("<br>");
+    if(sentense.length > 20){
+        return sentense.match(/.{20}/g).join("<br>");
+    }else{
+        return ""
+    }
 }
 
 
