@@ -64,8 +64,29 @@
             //
 
             //
-            
+            {
+                "id":"hide_lip",
+                "name":"唇を隠してしゃべる",
+                "description":"発言に気を使いながらしゃべっている状態"
+            },
+            {
+                "parent": ["hide_lip"],
+                "name":"発言に気を使いながらしゃべっている状態",
+                "description":"発言に気を使いながらしゃべっている状態"
+            },
             //
+
+            //
+            {
+                "id":"blank",
+                "name":"瞬きの増加",
+                "description":"瞬きの増加は目線の動きよりも虚偽の弁論と比例する"
+            },
+            {
+                "parent": ["blank"],
+                "name":"嘘をついている可能性",
+                "description":"嘘をついている"
+            },
         ];
         points = points.map((row) => {
             return {
