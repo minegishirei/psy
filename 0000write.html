@@ -3,7 +3,8 @@
 
 <head>
     <title>psychology</title>
-    <link rel="icon" href="https://sato-icons.com/wp/wp-content/uploads/2021/09/%E6%AD%AF%E8%BB%8A%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png">
+    <link rel="icon"
+        href="https://sato-icons.com/wp/wp-content/uploads/2021/09/%E6%AD%AF%E8%BB%8A%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png">
     <meta http-equiv="content-type" content="text-html; charset=utf-8" />
     <script src="https://code.jscharting.com/latest/jscharting.js"></script>
     <script type="text/javascript" src="https://code.jscharting.com/latest/modules/types.js"></script>
@@ -14,213 +15,211 @@
 <body>
     <div id="chartDiv" class="chartDiv" style="max-width: 2000px;height: 1000px;"></div>
 
-<script>
+    <script>
 
 
- var points = [
-    //
-    {
-        parent: ["mirroring", "parrot_response", "favorite_word"],
-        "id": "hertfull",
-        "name": "好感度を上げる",
-        "kind": "hertfull",
-        "image": "https://iconbox.fun/wp/wp-content/uploads/1012_sy_h.png",
-        "description": "任意のコード実行が可能"
-    },
-    {
-        "name": "相手の姿が見える",
-        "id": "face_to_face",
-        "kind": "condition",
-        "image": "https://static.thenounproject.com/png/200729-200.png",
-        "description": "対面形式。顔が見えること。"
-    },
-    {
-        "id": "mirroring",
-        parent: ["face_to_face"],
-        "kind": "hertfull",
-        "name": "ミラーリング",
-        "description": "自分と同じ行動をしている人を気に入ってしまうこと。",
-        "image": "https://icon-pit.com/wp-content/uploads/2020/08/ellipse-mirror_12230.png",
-        link: ""
-    },
-    {
-        "id": "parrot_response",
-        "kind": "hertfull",
-        "name": "オウム返し",
-        "description": "相手のセリフに対するリアクションの際に、<br>同じセリフを返すだけで好感度が上がる",
-        "image": "https://www.pinclipart.com/picdir/big/149-1498769_it-is-always-worth-asking-the-young-people.png",
-    },
-    {
-        "id": "favorite_word",
-        "kind": "hertfull",
-        "name": "相手の話したい話を話題にする",
-        "description": "相手が食いつきそうな話を振る。<br>関係構築に役に立つ",
-        "example": "年上ならCOBOLの話が吉<br>技術者なら本の話が吉",
-        "image": "https://cdn1.iconfinder.com/data/icons/streamline-comments-chat/60/cell-8-6-480.png"
-    },
-    //
+        var points = [
+            //
+            {
+                parent: ["mirroring", "parrot_response", "favorite_word"],
+                "id": "hertfull",
+                "name": "好感度を上げる",
+                "kind": "hertfull",
+                "image": "https://iconbox.fun/wp/wp-content/uploads/1012_sy_h.png",
+                "description": "任意のコード実行が可能"
+            },
+            {
+                "name": "相手の姿が見える",
+                "id": "face_to_face",
+                "kind": "condition",
+                "image": "https://static.thenounproject.com/png/200729-200.png",
+                "description": "対面形式。顔が見えること。"
+            },
+            {
+                "id": "mirroring",
+                parent: ["face_to_face"],
+                "kind": "hertfull",
+                "name": "ミラーリング",
+                "description": "自分と同じ行動をしている人を気に入ってしまうこと。",
+                "image": "https://icon-pit.com/wp-content/uploads/2020/08/ellipse-mirror_12230.png",
+                link: ""
+            },
+            {
+                "id": "parrot_response",
+                "kind": "hertfull",
+                "name": "オウム返し",
+                "description": "相手のセリフに対するリアクションの際に、<br>同じセリフを返すだけで好感度が上がる",
+                "image": "https://www.pinclipart.com/picdir/big/149-1498769_it-is-always-worth-asking-the-young-people.png",
+            },
+            {
+                "id": "favorite_word",
+                "kind": "hertfull",
+                "name": "相手の話したい話を話題にする",
+                "description": "相手が食いつきそうな話を振る。<br>関係構築に役に立つ",
+                "example": "年上ならCOBOLの話が吉<br>技術者なら本の話が吉",
+                "image": "https://cdn1.iconfinder.com/data/icons/streamline-comments-chat/60/cell-8-6-480.png"
+            },
+            //
 
 
-    //
-    {
-        parent: ["voice_tone_tuning", "anchoring", "hide"],
-        "id": "select_controll",
-        "name": "任意選択の操作",
-        "kind": "result",
-        "image": "https://cdn-icons-png.flaticon.com/512/1356/1356586.png"
-    },
-    {
-        "id": "anchoring",
-        "name": "アンカリング",
-        "description": "伝える順序が異なることで<br>聞き手の印象（=判断）が異なっている",
-        "image": "https://iconbox.fun/wp/wp-content/uploads/513_s_f.png",
-        "blog": "",
-        "froms": [
-            "https://note.com/designstrategy/n/n310bca7d5b5c"
-        ],
-        link: "https://psy.hatenadiary.com/entry/2023/06/06/204035"
-    },
-    {
-        "id": "voice_tone_tuning",
-        "name": "声のトーンを変える",
-        "image": "https://cdn2.iconfinder.com/data/icons/don-t-stop-the-music/64/tuning_fork-512.png"
-    },
-    {
-        "id": "hide",
-        "name": "ハイド",
-        "description": "見えないものは選択肢にすら上がらないこと",
-        "image": "https://iconbox.fun/wp/wp-content/uploads/513_s_f.png",
-        "blog": "",
-        "froms": [
-            "https://note.com/designstrategy/n/n310bca7d5b5c"
-        ],
-        link: "https://psy.hatenadiary.com/entry/2023/06/06/204035"
-    },
-    //
+            //
+            {
+                parent: ["voice_tone_tuning", "anchoring", "hide"],
+                "id": "select_controll",
+                "name": "任意選択の操作",
+                "kind": "result",
+                "image": "https://cdn-icons-png.flaticon.com/512/1356/1356586.png"
+            },
+            {
+                "id": "anchoring",
+                "name": "アンカリング",
+                "description": "伝える順序が異なることで<br>聞き手の印象（=判断）が異なっている",
+                "image": "https://iconbox.fun/wp/wp-content/uploads/513_s_f.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                link: "https://psy.hatenadiary.com/entry/2023/06/06/204035"
+            },
+            {
+                "id": "voice_tone_tuning",
+                "name": "声のトーンを変える",
+                "image": "https://cdn2.iconfinder.com/data/icons/don-t-stop-the-music/64/tuning_fork-512.png"
+            },
+            {
+                "id": "hide",
+                "name": "ハイド",
+                "description": "見えないものは選択肢にすら上がらないこと",
+                "image": "https://iconbox.fun/wp/wp-content/uploads/513_s_f.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                link: "https://psy.hatenadiary.com/entry/2023/06/06/204035"
+            },
+            //
 
-    //
-    {
-        "name": "子供",
-        "id": "child",
-        "kind": "condition",
-        "image": "https://cdn2.iconfinder.com/data/icons/eldorado-navigation/40/baby_child-512.png",
-        "description": "子供のような性格をしていること。"
-    },
-    {
-        "id": "reception",
-        parent: ["child"],
-        "name": "返報性の原理",
-        "description": "やられたことをやり返したくなる",
-        "image": "https://cdn.icon-icons.com/icons2/3856/PNG/512/interaction_icon_238012.png",
-        "froms": [
-            "https://note.com/designstrategy/n/n310bca7d5b5c"
-        ],
-        "child_nodes": [
-            "自分への期待",
-            "labeling"
-        ],
-        'className': '.product-dept',
-        img_0: "https://cdn.balkan.app/shared/2.jpg",
-    },
-    {
-        "name": "他者の視点",
-        "id": "other_sight",
-        "kind": "condition",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/OOjs_UI_icon_eye.svg/1200px-OOjs_UI_icon_eye.svg.png",
-        "description": "「第三者が見ている」というシチュエーション"
-    },
-    {
-        "name": "プライド、賢さ",
-        "id": "pride",
-        "kind": "condition",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/OOjs_UI_icon_eye.svg/1200px-OOjs_UI_icon_eye.svg.png",
-        "description": "「一貫性」を認識できるだけの賢さが必要。<br>ない場合はそこまでレベルを落として説明する必要がある。"
-    },
+            //
+            {
+                "name": "子供",
+                "id": "child",
+                "kind": "condition",
+                "image": "https://cdn2.iconfinder.com/data/icons/eldorado-navigation/40/baby_child-512.png",
+                "description": "子供のような性格をしていること。"
+            },
+            {
+                "id": "reception",
+                parent: ["child"],
+                "name": "返報性の原理",
+                "description": "やられたことをやり返したくなる",
+                "image": "https://cdn.icon-icons.com/icons2/3856/PNG/512/interaction_icon_238012.png",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                "child_nodes": [
+                    "自分への期待",
+                    "labeling"
+                ],
+                'className': '.product-dept',
+                img_0: "https://cdn.balkan.app/shared/2.jpg",
+            },
+            {
+                "name": "他者の視点",
+                "id": "other_sight",
+                "kind": "condition",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/OOjs_UI_icon_eye.svg/1200px-OOjs_UI_icon_eye.svg.png",
+                "description": "「第三者が見ている」というシチュエーション"
+            },
+            {
+                "name": "プライド、賢さ",
+                "id": "pride",
+                "kind": "condition",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/OOjs_UI_icon_eye.svg/1200px-OOjs_UI_icon_eye.svg.png",
+                "description": "「一貫性」を認識できるだけの賢さが必要。<br>ない場合はそこまでレベルを落として説明する必要がある。"
+            },
 
-    // 
-
-
-
+            // 
 
 
 
-    {
-        "id": "consistency",
-        parent: ["other_sight", "pride"],
-        "name": "一貫性の法則",
-        "description": "「自分の行動は一貫する。一貫していなければならない」<br>という考え方。",
-        "image": "https://static.thenounproject.com/png/1490399-200.png",
-        "blog": "",
-        "froms": [
-            "https://note.com/designstrategy/n/n310bca7d5b5c"
-        ],
-        link: "https://psy.hatenadiary.com/entry/2023/06/06/204035"
-    },
-    {
-        "id": "labeling",
-        parent: "consistency",
-        "name": "ラベリング",
-        "description": "他者からつけられたあだ名、称号、立場によって<br>行動を最適化してしまうこと",
-        "image": "https://cdn-icons-png.flaticon.com/512/130/130213.png",
-    },
-    {
-        "id": "declare",
-        parent: "consistency",
-        "name": "宣言による一貫性",
-        "description": "自分で自分の立ち位置を固定してしまうこと",
-        "from": [
-            "他者からの期待"
-        ],
-        "args": [
-            "order"
-        ],
-        "call_excecution": "任意の命令、実行を",
-        "image": "https://cdn-icons-png.flaticon.com/512/10154/10154555.png",
-        "blog": "",
-        "froms": [
-            "https://note.com/designstrategy/n/n310bca7d5b5c"
-        ],
-        "child_nodes": [
-            "自分への期待",
-            "labeling"
-        ]
-    },
-    {
-        "id": "foot_in_the_door",
-        parent: "declare",
-        "name": "foot in the door",
-        "description": "小さな要求からyesを続けさせることで一貫性を生むこと。",
-        "image": "https://cdn1.iconfinder.com/data/icons/sapiens/68/kick_door_out_bust_rejection_fired-512.png",
-        "blog": "",
-        link: "https://psy.hatenadiary.com/entry/2023/06/06/204035#%E3%83%95%E3%83%83%E3%83%88%E3%82%A4%E3%83%B3%E3%82%B6%E3%83%89%E3%82%A2",
-        "froms": [
-            "https://note.com/designstrategy/n/n310bca7d5b5c"
-        ],
-        "child_nodes": [
-            "自分への期待",
-            "labeling"
-        ]
-    },
-    {
-        parent: ["labeling", "declare"],
-        "name": "任意コードの実行",
-        "id": "arbitrary_order_excecution",
-        "kind": "result",
-        "image": "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
-        "description": "任意のコード実行が可能"
-    },
-    {
-        parent: ["reception"],
-        "name": "低リスクなコード実行",
-        "id": "",
-        "kind": "result",
-        "image": "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
-        "description": "任意のコード実行が可能"
-    },
-];
 
-applyChartJS(points)
-</script>
+
+
+            {
+                "id": "consistency",
+                parent: ["other_sight", "pride"],
+                "name": "一貫性の法則",
+                "description": "「自分の行動は一貫する。一貫していなければならない」<br>という考え方。",
+                "image": "https://static.thenounproject.com/png/1490399-200.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                link: "https://psy.hatenadiary.com/entry/2023/06/06/204035"
+            },
+            {
+                "id": "labeling",
+                parent: "consistency",
+                "name": "ラベリング",
+                "description": "他者からつけられたあだ名、称号、立場によって<br>行動を最適化してしまうこと",
+                "image": "https://cdn-icons-png.flaticon.com/512/130/130213.png",
+            },
+            {
+                "id": "declare",
+                parent: "consistency",
+                "name": "宣言による一貫性",
+                "description": "自分で自分の立ち位置を固定してしまうこと",
+                "from": [
+                    "他者からの期待"
+                ],
+                "args": [
+                    "order"
+                ],
+                "call_excecution": "任意の命令、実行を",
+                "image": "https://cdn-icons-png.flaticon.com/512/10154/10154555.png",
+                "blog": "",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                "child_nodes": [
+                    "自分への期待",
+                    "labeling"
+                ]
+            },
+            {
+                "id": "foot_in_the_door",
+                parent: "declare",
+                "name": "foot in the door",
+                "description": "小さな要求からyesを続けさせることで一貫性を生むこと。",
+                "image": "https://cdn1.iconfinder.com/data/icons/sapiens/68/kick_door_out_bust_rejection_fired-512.png",
+                "blog": "",
+                link: "https://psy.hatenadiary.com/entry/2023/06/06/204035#%E3%83%95%E3%83%83%E3%83%88%E3%82%A4%E3%83%B3%E3%82%B6%E3%83%89%E3%82%A2",
+                "froms": [
+                    "https://note.com/designstrategy/n/n310bca7d5b5c"
+                ],
+                "child_nodes": [
+                    "自分への期待",
+                    "labeling"
+                ]
+            },
+            {
+                parent: ["labeling", "declare"],
+                "name": "任意コードの実行",
+                "id": "arbitrary_order_excecution",
+                "kind": "result",
+                "image": "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
+                "description": "任意のコード実行が可能"
+            },
+            {
+                parent: ["reception"],
+                "name": "低リスクなコード実行",
+                "id": "",
+                "kind": "result",
+                "image": "https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png",
+                "description": "任意のコード実行が可能"
+            },
+        ];
+
+        applyChartJS(points)
+    </script>
 </body>
-
-
