@@ -28,7 +28,8 @@ function applyChartJS(points) {
             states_hover: {
                 cursor: "pointer"
             },
-            ...{ color: row.kind ? my_palette[row.kind] : my_palette.else }
+            ...{ color: row.kind ? my_palette[row.kind] : my_palette.else },
+            ...{"example" : row.example ? row.example : row.description}
         }
     })
 
