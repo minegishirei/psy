@@ -44,9 +44,24 @@
                 "id" : "good",
                 "parent" : ["upper_lip_lick"],
                 "name": "好印象を持っている",
-                "description":"自分に対して+のイメージを持っていると判断してよい",
+                "description":"自分に対して＋のイメージを持っていると判断してよい",
                 "image": "https://iconbox.fun/wp/wp-content/uploads/1012_sy_h.png",
+            },
+            //
+
+            //
+            {
+                "id" : "eye_blocking",
+                "name": "アイブロッキング",
+                "description":"目を覆うような仕草はよくない。<br>長い間隔で瞬きしている場合も同様。<br>嫌われていると考えていい",
+            },
+            {
+                "id" : "bad",
+                "parent" : ["eye_blocking"],
+                "name": "悪い印象",
+                "description":"自分に対してあまりよくないイメージを持っていると判断してよい",
             }
+
         ];
         points = points.map((row) => {
             return {
