@@ -24,6 +24,9 @@
   - [夢分析の方法](#夢分析の方法)
 
 
+## 大脳基底核
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tqdNbmQ68hg?si=SAbPKaM4eJJS1jA_&amp;start=73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## ビッグファイブ
 
