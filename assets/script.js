@@ -28,7 +28,8 @@ function applyChartJS(points) {
             attributes: {
                 ...row,
                 role: row.description,
-                ...{"example" : row.example ? row.example : insertBR(row.description)}
+                ...{"example" : row.example ? row.example : insertBR(row.description)},
+                ...{"explain" : row.explain ? row.explain : insertBR(row.description)}
             },
             events: {
                 click: function (e) {
@@ -39,6 +40,8 @@ function applyChartJS(points) {
                 cursor: "pointer"
             },
             ...{ color: row.kind ? my_palette[row.kind] : my_palette.else },
+            ...{"example" : row.example ? row.example : insertBR(row.description)},
+            ...{"explain" : row.explain ? row.explain : insertBR(row.description)}
         }
     })
 
