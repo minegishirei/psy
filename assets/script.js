@@ -71,7 +71,7 @@ function applyChartJS(points) {
             defaultPoint: {
                 outline_width: 0,
                 connectorLine: { radius: 140, width: 2 },
-                tooltip: '<div class="tooltipBox">%example</div>',
+                tooltip: '<div class="tooltipBox" style="background-color: white;">%example</div>',
                 label: {
                     text: `
                         <b>%id</b><br>
