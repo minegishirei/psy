@@ -77,7 +77,7 @@ function applyChartJS(points) {
                         <b>%id</b><br>
                         <img width=48 height=48 margin_bottom=4 src=%image><br>
                         <b>%name</b><br>
-                        <p>%explain</p><br>
+                        %explain
                         `,
                     maxWidth: 500,
                     autoWrap: false
