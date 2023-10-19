@@ -1,9 +1,12 @@
 
+// https://colorhunt.co/palette/2414689f0d7fea1179f79bd3
+
+// https://colorhunt.co/palette/fff5e0ff6969c70039141e46
 var my_palette = {
-    "result": '#1C3C54',
-    "condition": '#D1C075',
-    "hertfull": '#CD6AB9',
-    "else": 'white',
+    "result": '#141E46',
+    "condition": '#C70039',
+    "hertfull": '#FF6969',
+    "else": '#FFF5E0',
 }
 // #6ACDC2 purple
 // #D1C075 yellow 
