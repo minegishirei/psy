@@ -16,11 +16,23 @@
 https://en.wikipedia.org/wiki/Manipulation_(psychology)
 
 
+## ケース一覧
+
+### 仕事を受ける時に意識しなければならないこと
+
+
+### [好感度を上げるために必要なこと](https://qiita.com/minegishirei_v2/items/83894ad72808afdf8025)
+
+同僚を含めた仕事仲間と適切な関係が構築するためには、ある程度の「好感度」が必要になります。
 
 
 
 
-psychology Github Topics
+
+
+
+
+
 
 
 
