@@ -23,6 +23,7 @@
   - [そもそも夢分析って何?](#そもそも夢分析って何)
   - [夢分析の方法](#夢分析の方法)
 
+https://en.wikipedia.org/wiki/Manipulation_(psychology)
 
 ## 大脳基底核
 

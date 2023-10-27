@@ -13,5 +13,4 @@
     - 0,1,2上記を含めたケースごとの対応
 
 
-https://en.wikipedia.org/wiki/Manipulation_(psychology)
 
