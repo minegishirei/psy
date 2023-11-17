@@ -20,7 +20,8 @@
 
 全体的なイメージは以下の通り
 
-<img src="https://github.com/minegishirei/psy/blob/main/img/arch.png?raw=true">
+<img src="https://github.com/minegishirei/draw_v1/blob/main/life.draw.io-engineer_psychology.drawio.png?raw=true">
+
 
 大まかに以下の要素で構成されます。
 
