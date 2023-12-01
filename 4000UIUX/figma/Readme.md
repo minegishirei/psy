@@ -27,15 +27,34 @@ Mac / Windows / Webブラウザを使って誰でもデザインを始められ�
 ## チームの作り方
 
 
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/1.png?raw=true">
+
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/2.png?raw=true">
+
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/3.png?raw=true">
+
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/4.png?raw=true">
+
+
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/5.png?raw=true">
+
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/6.png?raw=true">
+
+
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/7.png?raw=true">
+
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/8.png?raw=true">
 
 
 
 
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/9.png?raw=true">
 
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/10.png?raw=true">
 
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/11.png?raw=true">
 
-
-
+<img src="https://github.com/minegishirei/psy/blob/main/img/figma/create_team/12.png?raw=true">
 
 
 
