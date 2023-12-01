@@ -87,7 +87,7 @@ Mac / Windows / Webブラウザを使って誰でもデザインを始められ�
 
 
 
-
+page:https://qiita.com/minegishirei_v2/items/92e29e890f2cd2921c8c
 
 
 
