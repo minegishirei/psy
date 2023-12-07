@@ -1,12 +1,3 @@
-# スタイリッシュ、躍動感が欲しい時 
-
-<small>斜めスタイリッシュ</small> 
-
-<img width="80%" src="https://liginc.co.jp/wp-content/uploads/2013/11/diagonal.jpg"> 
-
-<p>細い線だと洗礼されたデザインに</p>
-
-
 # バランスよく目立たせられる。 
 
 <small>丸インパクト</small> 
