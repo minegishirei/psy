@@ -9,6 +9,7 @@
         - [直観の心理](https://qiita.com/minegishirei_v2/items/4dddc8d6ebd71a9d108f)
     - [行動を変える戦略]
         - [チート戦略](https://qiita.com/minegishirei_v2/items/67495058294bd916c90a)
+        - [習慣化戦略]()
 - UI（ユーザーインターフェース）
     - assets
         - fonts
