@@ -1,12 +1,14 @@
 
 
 
-
+## デザイン心理学まとめ
 
 - UX（ユーザー体験）
-    - [熟考の心理](https://qiita.com/minegishirei_v2/items/47f0108e59a03eeb2309)
-    - [直観の心理](https://qiita.com/minegishirei_v2/items/4dddc8d6ebd71a9d108f)
     - [CREATEアクションファネル](https://qiita.com/minegishirei_v2/items/43a339cc1baab8ef14bc)
+        - [熟考の心理](https://qiita.com/minegishirei_v2/items/47f0108e59a03eeb2309)
+        - [直観の心理](https://qiita.com/minegishirei_v2/items/4dddc8d6ebd71a9d108f)
+    - [行動を変える戦略]
+        - [チート戦略](https://qiita.com/minegishirei_v2/items/67495058294bd916c90a)
 - UI（ユーザーインターフェース）
     - assets
         - fonts
