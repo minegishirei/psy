@@ -3,17 +3,9 @@
 
 # まとめ方のルール
 
-今必要なもの：markdownとdraw.ioが一体化されたツール
+draw.ioを頂点として、各記事へはdraw.ioのコンポーネントにリンクを付けて紐づけを行う。
 
-
-| タイトル |     |     | 
-| --- | --- | --- | 
-| `0000read` |  読み取り専用。| ぼんやり頭の中においておく程度でよい。文字にて管理だが、リンクなどを頻繁に変えてはいけない。 | 
-|     |     |     | 
-|     |     |     | 
-
-
-- `0000read`  : 読み取り専用。
+- `0000read`  : 読み取り専用。ぼんやり頭の中においておく程度でよい。文字にて管理だが、依存先となるのでリンクなどを頻繁に変えてはいけない。
 - `1000write` : 書き込み専用。図面にて対応
 - `2000users` : 各個人特有の個性。心理学ブログにて対応。
 - `3000cases` : 上記をまとめたすべての情報
@@ -22,8 +14,7 @@
 
 
 
-<iframe frameborder="0" style="width:100%;height:1353px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=psy.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fminegishirei%2Fdraw_v1%2Fmain%2Fpsy%2Fpsy.drawio">
-</iframe>
+<iframe frameborder="0" style="width:100%;height:1353px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=psy.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fminegishirei%2Fdraw_v1%2Fmain%2Fpsy%2Fpsy.drawio"></iframe>
 
 
 # 運用フロー
