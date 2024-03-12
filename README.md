@@ -17,7 +17,7 @@
 
 これらの課題をクリアし、全エンジニアにとって心理学の敷居を下げるために、本書は **チートシート** を導入しています。
 
-<iframe frameborder="0" style="width:100%;height:653px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=psy.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fminegishirei%2Fdraw_v1%2Fmain%2Fpsy%2Fpsy.drawio"></iframe>
+![](https://raw.githubusercontent.com/minegishirei/draw_v1/8c5fba9ef361896b55fc1508a0e2d6c5b39da669/psy-treasure_map.drawio.svg)
 
 まずは、上記のチートシートを持ちながら会議に参加することをお勧めします。
 
