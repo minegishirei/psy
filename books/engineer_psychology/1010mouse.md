@@ -1,5 +1,5 @@
 ---
-title: "感情を読み取る : 口の動きは心の動き"
+title: "感情を読み取る ② : 口の動きは心の動き"
 emoji: ""
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ProductivityWeekly", "生産性向上"]
