@@ -1,3 +1,12 @@
+---
+title: "エンジニアにこそ心理学が必要"
+emoji: ""
+type: "tech" # tech: 技術記事 / idea: アイデア
+topics: ["ProductivityWeekly", "生産性向上"]
+published: false
+---
+
+
 ## エンジニアだからこそ心理学が必要
 
 **エンジニアにとって心理学は最高の武器になりますが使える人はあまりいません。**
