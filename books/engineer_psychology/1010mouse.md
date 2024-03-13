@@ -1,7 +1,12 @@
+---
+title: "Productivity Weekly (20xx-xx-xx号)"
+emoji: ""
+type: "idea" # tech: 技術記事 / idea: アイデア
+topics: ["ProductivityWeekly", "生産性向上"]
+published: false
+---
 
 
-
-[:contents]
 
 
 ## 笑顔の種類
