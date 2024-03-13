@@ -4,6 +4,6 @@ topics: ["markdown", "zenn", "react"] # トピック（5つまで）
 published: true # falseだと下書き
 price: 3500 # 有料の場合200〜5000
 chapters:
-  - example1 # チャプター1
-  - example2 # チャプター2
+  - 1000視線 # チャプター1
+  - 1010口 # チャプター2
   - example3 # チャプター3
