@@ -1,3 +1,11 @@
+---
+title: "思考を読み取る : 言葉に表れる思考の端々を見逃すな"
+emoji: ""
+type: "idea" # tech: 技術記事 / idea: アイデア
+topics: ["ProductivityWeekly", "生産性向上"]
+published: false
+---
+
 
 
 
