@@ -32,3 +32,38 @@ from https://www.psychologistworld.com/body-language/eyes
 逆に短すぎるアイコンタクトは「見限られた」というサインにも捉えられることもあります。
 
 
+
+// ANKER:
+
+## 右を見る:聴覚的思考
+
+歌や声を思い出す等の心理状態である可能性が高いです。
+
+> 例. 「OOさんは何をしゃべっていたかな...」など、ほかの人の声を思い出すなど。
+
+Read more at: https://www.scienceofpeople.com/read-people-eyes/
+
+
+## 左を見る：視覚的思考
+
+視覚的な情報を思い出すときに、左を見る可能性が高いです。
+
+> 例. ドレスの色を思い出す等の思考作業を行ってます。
+
+Read more at: https://www.scienceofpeople.com/read-people-eyes/
+
+
+## 右を見下ろす：感情、感覚の記憶を作成している。
+
+右を見下ろす場合、感情または感覚記憶を作成する途中である可能性が高いです。 
+それがどのようなものかを考える状態であり、ゼリーで泳ぐなど未知の体験を想像している。
+
+**定理:過去にない経験を想像するときには右下(↘︎)を向く**
+
+Read more at: https://www.scienceofpeople.com/read-people-eyes/
+
+
+## 左を見下ろす；独り言を言う人
+
+Read more at: https://www.scienceofpeople.com/read-people-eyes/
+
