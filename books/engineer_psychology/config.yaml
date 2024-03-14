@@ -2,7 +2,7 @@ title: "エンジニア心理学"
 summary: "本の紹介文"
 topics: ["markdown", "zenn", "react"] # トピック（5つまで）
 published: false # falseだと下書き
-price: 3500 # 有料の場合200〜5000
+price: 2500 # 有料の場合200〜5000
 chapters:
   - readme
   - 1000eye # チャプター1
