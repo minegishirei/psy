@@ -4,6 +4,7 @@ emoji: ""
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["ProductivityWeekly", "生産性向上"]
 published: false
+free: true
 ---
 
 
