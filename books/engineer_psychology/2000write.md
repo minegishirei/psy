@@ -1,5 +1,5 @@
 ---
-title: "思考を読み取る ② : チャットでもわかる"
+title: "影響力を持つ : コントロールする"
 emoji: ""
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ProductivityWeekly", "生産性向上"]
