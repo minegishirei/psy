@@ -1,5 +1,5 @@
 ---
-title: "思考を読み取る② : チャットでもわかる"
+title: "思考を読み取る ② : チャットでもわかる"
 emoji: ""
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ProductivityWeekly", "生産性向上"]
