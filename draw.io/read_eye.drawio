@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T00:27:24.786Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cXQLy_7S1YnRpfl-deCz" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T00:27:51.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0FiT88cXrKd3yDBysqRY" version="24.0.6" type="github">
   <diagram name="read_eye" id="w0lN0k3Da2YKYlmLff3g">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,12 +97,12 @@
         <mxCell id="-Y1X-hNZmjjMe6V45IRv-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-Y1X-hNZmjjMe6V45IRv-19" source="-Y1X-hNZmjjMe6V45IRv-31" target="-Y1X-hNZmjjMe6V45IRv-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="「無言」を選択することで&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;相手は勝手に不安要素を洗い出し、いろいろ想像してしまう&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;不安感をあおることが出来る" link="https://qiita.com/" id="-Y1X-hNZmjjMe6V45IRv-31">
+        <UserObject label="誰かが目を細めたときは、何か恐怖を感じている状態であり、情報の処理に時間がかかっていると判断してよいです。" link="https://qiita.com/" id="-Y1X-hNZmjjMe6V45IRv-31">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
             <mxGeometry x="400" y="30" width="150" height="150" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="-Y1X-hNZmjjMe6V45IRv-32" value="無言戦略" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#12aab5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
+        <mxCell id="-Y1X-hNZmjjMe6V45IRv-32" value="目が細くなる:理解しようとしているor疑いを持つ" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#12aab5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
           <mxGeometry x="400" y="210" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
