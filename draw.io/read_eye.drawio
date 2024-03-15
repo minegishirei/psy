@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T00:22:45.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Rp4NBeuBr_6cCymQD-hY" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T00:23:15.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Z2EKuq0rrhTFJ9mDMfpk" version="24.0.6" type="github">
   <diagram name="read_eye" id="w0lN0k3Da2YKYlmLff3g">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="U0M7dQLLfSlhjiTjjrG8-4" value="眉の動き" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="40" y="400" width="170" height="279.5" as="geometry" />
         </mxCell>
-        <mxCell id="U0M7dQLLfSlhjiTjjrG8-5" value="瞬きの回数が10秒に1~2回：正常な状態&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="U0M7dQLLfSlhjiTjjrG8-4">
+        <mxCell id="U0M7dQLLfSlhjiTjjrG8-5" value="フラッシュとも呼ばれる急激な眉の上昇が見られる場合、それは良い兆候です&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="U0M7dQLLfSlhjiTjjrG8-4">
           <mxGeometry x="10" y="210" width="150" height="63" as="geometry" />
         </mxCell>
         <mxCell id="U0M7dQLLfSlhjiTjjrG8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U0M7dQLLfSlhjiTjjrG8-4" source="U0M7dQLLfSlhjiTjjrG8-7" target="U0M7dQLLfSlhjiTjjrG8-5">
