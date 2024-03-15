@@ -73,6 +73,12 @@ https://ja.wikipedia.org/wiki/%E6%9B%96%E6%98%A7%E3%81%95%E5%9B%9E%E9%81%BF_(%E7
 
 
 
+## 大衆心理
+
+
+
+
+
 
 
 
