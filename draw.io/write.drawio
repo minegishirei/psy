@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T08:19:56.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="SVs3Iku8JUxVg4qGNOqD" version="24.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-15T08:20:02.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="BSnAAH_KrR42orA5h7ix" version="24.0.7" type="github" pages="2">
   <diagram name="ページ1" id="y8jaf4KYFMGn9sLyBysj">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,7 +138,7 @@
         <mxCell id="1Y8fnbNSnIe4RMoUg3lx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1Y8fnbNSnIe4RMoUg3lx-5" source="1Y8fnbNSnIe4RMoUg3lx-8" target="1Y8fnbNSnIe4RMoUg3lx-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Y8fnbNSnIe4RMoUg3lx-8" value="相手が食いつきそうな話題を振るa" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1Y8fnbNSnIe4RMoUg3lx-5">
+        <mxCell id="1Y8fnbNSnIe4RMoUg3lx-8" value="相手が食いつきそうな話題を振る" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1Y8fnbNSnIe4RMoUg3lx-5">
           <mxGeometry x="10" y="34" width="150" height="148" as="geometry" />
         </mxCell>
       </root>
