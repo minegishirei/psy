@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T00:25:49.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="PQB1rUzkUSIOMgFsYmUC" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T00:26:11.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="RTCKvemS5MjTOL95f-nW" version="24.0.6" type="github">
   <diagram name="read_eye" id="w0lN0k3Da2YKYlmLff3g">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,13 +83,13 @@
             <mxGeometry x="10" y="30" width="150" height="150" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="-Y1X-hNZmjjMe6V45IRv-23" value="極端に少ない瞬き：噓の可能性、緊張状態" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
+        <mxCell id="-Y1X-hNZmjjMe6V45IRv-23" value="目を見開く:瞳孔を広げ脅威を見つけるため" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
           <mxGeometry x="200" y="210" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Y1X-hNZmjjMe6V45IRv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-Y1X-hNZmjjMe6V45IRv-19" source="-Y1X-hNZmjjMe6V45IRv-25" target="-Y1X-hNZmjjMe6V45IRv-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="瞬きの数が極端に減少した場合、かなりの緊張状態であることは間違いありません。" link="https://zenn.dev/minegishirei/books/engineer_psychology/viewer/1000eye#%E6%A5%B5%E7%AB%AF%E3%81%AB%E5%B0%91%E3%81%AA%E3%81%84%E7%9E%AC%E3%81%8D%EF%BC%9A%E5%99%93%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%80%81%E7%B7%8A%E5%BC%B5%E7%8A%B6%E6%85%8B" id="-Y1X-hNZmjjMe6V45IRv-25">
+        <UserObject label="この「瞳孔が開く」という現象は、重要な場面でこそ顕著に現れます。" link="https://zenn.dev/minegishirei/books/engineer_psychology/viewer/1000eye#%E6%A5%B5%E7%AB%AF%E3%81%AB%E5%B0%91%E3%81%AA%E3%81%84%E7%9E%AC%E3%81%8D%EF%BC%9A%E5%99%93%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%80%81%E7%B7%8A%E5%BC%B5%E7%8A%B6%E6%85%8B" id="-Y1X-hNZmjjMe6V45IRv-25">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
             <mxGeometry x="200" y="30" width="150" height="149.5" as="geometry" />
           </mxCell>
