@@ -21,14 +21,15 @@ summary: "
 これらの課題をクリアし、全エンジニアにとって心理学の敷居を下げるために、本書は チートシート を導入しています。"
 topics: ["markdown", "zenn", "react"] # トピック（5つまで）
 published: false # falseだと下書き
-price: 300 # 有料の場合200〜5000
+price: 1000 # 有料の場合200〜5000
 chapters:
   - readme
   - 1000eye     # 感情を読み取る
   - 1010mouse   # 感情を読み取る
   - 1100words
   - 1200chat
-  - 2000write # 操りに行く
+  - 2000write   # 書き込み操作
+  - 2100likable # 好感度を上げる
   - 2100silent # 黙る
   - 3000cases # ケース別対応策
   - 3001cases # ケース別対応策1
