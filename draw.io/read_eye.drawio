@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T01:41:38.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="mb5p9UTAIuC7Rt93ZILs" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T01:42:21.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="2wcJYU6sNMPuY-o9ZCH5" version="24.0.6" type="github">
   <diagram name="read_eye" id="w0lN0k3Da2YKYlmLff3g">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,8 +99,8 @@
         <mxCell id="x0OSOg1-lOOPjr7iGktj-11" value="&lt;div&gt;論文「眼球運動の変化に基づく心理状態の推定」によると&lt;/div&gt;&lt;div&gt;課題遂行中に眼球運動の頻度や振幅（これを、サッカード現象と呼ぶ）が減少したことがわかった。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99CC;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="x0OSOg1-lOOPjr7iGktj-7">
           <mxGeometry x="10" y="30" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="x0OSOg1-lOOPjr7iGktj-13" value="瞳孔" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="40" y="720" width="760" height="279.5" as="geometry" />
+        <mxCell id="x0OSOg1-lOOPjr7iGktj-13" value="視線" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="560" height="279.5" as="geometry" />
         </mxCell>
         <mxCell id="x0OSOg1-lOOPjr7iGktj-14" value="瞳孔が少し開く:リラックスした状態&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="x0OSOg1-lOOPjr7iGktj-13">
           <mxGeometry x="10" y="210" width="150" height="63" as="geometry" />
