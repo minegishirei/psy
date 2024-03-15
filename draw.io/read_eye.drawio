@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T00:23:15.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Z2EKuq0rrhTFJ9mDMfpk" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T00:25:24.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="PWjhgQzV32SmjMfQ83aG" version="24.0.6" type="github">
   <diagram name="read_eye" id="w0lN0k3Da2YKYlmLff3g">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,29 +44,65 @@
             <mxGeometry x="200" y="30" width="150" height="149.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="U0M7dQLLfSlhjiTjjrG8-1" value="目を覆う（アイブロック）：拒絶反応を表している。" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="sUTv1DPl5SNuNjNPDAft-5">
+        <mxCell id="U0M7dQLLfSlhjiTjjrG8-1" value="目を覆う（アイブロック）：拒絶反応を表している。" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" parent="sUTv1DPl5SNuNjNPDAft-5" vertex="1">
           <mxGeometry x="400" y="210" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U0M7dQLLfSlhjiTjjrG8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sUTv1DPl5SNuNjNPDAft-5" source="U0M7dQLLfSlhjiTjjrG8-3" target="U0M7dQLLfSlhjiTjjrG8-1">
+        <mxCell id="U0M7dQLLfSlhjiTjjrG8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="sUTv1DPl5SNuNjNPDAft-5" source="U0M7dQLLfSlhjiTjjrG8-3" target="U0M7dQLLfSlhjiTjjrG8-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="何か頼みごとをしたときに、瞬きを遅らせたり、目を覆うのは不快を感じている状態である。" link="https://zenn.dev/minegishirei/books/engineer_psychology/viewer/1000eye#%E6%A5%B5%E7%AB%AF%E3%81%AB%E5%B0%91%E3%81%AA%E3%81%84%E7%9E%AC%E3%81%8D%EF%BC%9A%E5%99%93%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%80%81%E7%B7%8A%E5%BC%B5%E7%8A%B6%E6%85%8B" id="U0M7dQLLfSlhjiTjjrG8-3">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="sUTv1DPl5SNuNjNPDAft-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" parent="sUTv1DPl5SNuNjNPDAft-5" vertex="1">
             <mxGeometry x="400" y="30" width="150" height="149.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="U0M7dQLLfSlhjiTjjrG8-4" value="眉の動き" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="U0M7dQLLfSlhjiTjjrG8-4" value="眉の動き" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="170" height="279.5" as="geometry" />
         </mxCell>
-        <mxCell id="U0M7dQLLfSlhjiTjjrG8-5" value="フラッシュとも呼ばれる急激な眉の上昇が見られる場合、それは良い兆候です&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="U0M7dQLLfSlhjiTjjrG8-4">
+        <mxCell id="U0M7dQLLfSlhjiTjjrG8-5" value="フラッシュとも呼ばれる急激な眉の上昇が見られる場合、それは良い兆候です&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" parent="U0M7dQLLfSlhjiTjjrG8-4" vertex="1">
           <mxGeometry x="10" y="210" width="150" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="U0M7dQLLfSlhjiTjjrG8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U0M7dQLLfSlhjiTjjrG8-4" source="U0M7dQLLfSlhjiTjjrG8-7" target="U0M7dQLLfSlhjiTjjrG8-5">
+        <mxCell id="U0M7dQLLfSlhjiTjjrG8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="U0M7dQLLfSlhjiTjjrG8-4" source="U0M7dQLLfSlhjiTjjrG8-7" target="U0M7dQLLfSlhjiTjjrG8-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div&gt;眉を上げるの行動にはある程度のエネルギーを必要とします。なぜならば、これは重力に逆らう行動だからです。このことから、眉を上げる&lt;span style=&quot;background-color: initial;&quot;&gt;行動は肯定的とみなさることが多いです。&lt;/span&gt;&lt;/div&gt;" link="https://zenn.dev/minegishirei/books/engineer_psychology/viewer/1000eye#%E7%9E%AC%E3%81%8D%E3%81%AE%E5%9B%9E%E6%95%B0%E3%81%8C10%E7%A7%92%E3%81%AB1~2%E5%9B%9E%EF%BC%9A%E6%AD%A3%E5%B8%B8%E3%81%AA%E7%8A%B6%E6%85%8B" id="U0M7dQLLfSlhjiTjjrG8-7">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="U0M7dQLLfSlhjiTjjrG8-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" parent="U0M7dQLLfSlhjiTjjrG8-4" vertex="1">
             <mxGeometry x="10" y="30" width="150" height="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-Y1X-hNZmjjMe6V45IRv-19" value="瞳孔" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="560" height="279.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-Y1X-hNZmjjMe6V45IRv-20" value="瞬きの回数が10秒に1~2回：正常な状態&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
+          <mxGeometry x="10" y="210" width="150" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="-Y1X-hNZmjjMe6V45IRv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-Y1X-hNZmjjMe6V45IRv-19" source="-Y1X-hNZmjjMe6V45IRv-22" target="-Y1X-hNZmjjMe6V45IRv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="6~10の瞬きはリラックスされたフラットな状態" link="https://zenn.dev/minegishirei/books/engineer_psychology/viewer/1000eye#%E7%9E%AC%E3%81%8D%E3%81%AE%E5%9B%9E%E6%95%B0%E3%81%8C10%E7%A7%92%E3%81%AB1~2%E5%9B%9E%EF%BC%9A%E6%AD%A3%E5%B8%B8%E3%81%AA%E7%8A%B6%E6%85%8B" id="-Y1X-hNZmjjMe6V45IRv-22">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
+            <mxGeometry x="10" y="30" width="150" height="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-Y1X-hNZmjjMe6V45IRv-23" value="極端に少ない瞬き：噓の可能性、緊張状態" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
+          <mxGeometry x="200" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Y1X-hNZmjjMe6V45IRv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-Y1X-hNZmjjMe6V45IRv-19" source="-Y1X-hNZmjjMe6V45IRv-25" target="-Y1X-hNZmjjMe6V45IRv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="瞬きの数が極端に減少した場合、かなりの緊張状態であることは間違いありません。" link="https://zenn.dev/minegishirei/books/engineer_psychology/viewer/1000eye#%E6%A5%B5%E7%AB%AF%E3%81%AB%E5%B0%91%E3%81%AA%E3%81%84%E7%9E%AC%E3%81%8D%EF%BC%9A%E5%99%93%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%80%81%E7%B7%8A%E5%BC%B5%E7%8A%B6%E6%85%8B" id="-Y1X-hNZmjjMe6V45IRv-25">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
+            <mxGeometry x="200" y="30" width="150" height="149.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-Y1X-hNZmjjMe6V45IRv-26" value="目を覆う（アイブロック）：拒絶反応を表している。" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
+          <mxGeometry x="400" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Y1X-hNZmjjMe6V45IRv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-Y1X-hNZmjjMe6V45IRv-19" source="-Y1X-hNZmjjMe6V45IRv-28" target="-Y1X-hNZmjjMe6V45IRv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="何か頼みごとをしたときに、瞬きを遅らせたり、目を覆うのは不快を感じている状態である。" link="https://zenn.dev/minegishirei/books/engineer_psychology/viewer/1000eye#%E6%A5%B5%E7%AB%AF%E3%81%AB%E5%B0%91%E3%81%AA%E3%81%84%E7%9E%AC%E3%81%8D%EF%BC%9A%E5%99%93%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%80%81%E7%B7%8A%E5%BC%B5%E7%8A%B6%E6%85%8B" id="-Y1X-hNZmjjMe6V45IRv-28">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="-Y1X-hNZmjjMe6V45IRv-19">
+            <mxGeometry x="400" y="30" width="150" height="149.5" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
