@@ -28,8 +28,8 @@ chapters:
   - 1010mouse   # 感情を読み取る
   - 1100words
   - 1200chat
-  - 2000write   # 書き込み操作
   - 2100likable # 好感度を上げる
+  - 2000write   # 書き込み操作
   - 2100silent  # 黙る
   #- 3000cases # ケース別対応策
   #- 3001cases # ケース別対応策1
