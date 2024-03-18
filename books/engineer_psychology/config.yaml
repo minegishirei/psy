@@ -30,7 +30,7 @@ chapters:
   - 1200chat
   - 2000write   # 書き込み操作
   - 2100likable # 好感度を上げる
-  - 2100silent # 黙る
+  - 2100silent  # 黙る
   #- 3000cases # ケース別対応策
   #- 3001cases # ケース別対応策1
   #- 3002cases # ケース別対応策2
