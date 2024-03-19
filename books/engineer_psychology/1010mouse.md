@@ -96,8 +96,11 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 メッセージは **「私には関係ありません」「わかりません」** です。
 
  Read more at: https://www.scienceofpeople.com/mouth-body-language/
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aBph52PjPj8?start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- Read more at: https://www.scienceofpeople.com/mouth-body-language/
+
+
+https://www.youtube.com/embed/aBph52PjPj8?start=14
+
+
 
 
 ![](https://cdn.images-dot.com/S2000/upload/2022032300035_1.jpg?update=20220617143628&width=850&fit=bounds)
