@@ -139,7 +139,7 @@ https://www.ritsumei.ac.jp/ss/sansharonshu/assets/file/2004/40-3_monden.pdf
 
 
 
-# 信頼関係構築：ラポール
+## 信頼関係構築：ラポール
 
 心理療法で最初に行うべきことは「ラポールの形成」です。
 
