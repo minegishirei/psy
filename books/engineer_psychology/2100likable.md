@@ -1,5 +1,5 @@
 ---
-title: "影響力を持つ : 相手からの信頼を得る"
+title: "干渉する力 : 相手からの信頼を得る"
 emoji: ""
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ProductivityWeekly", "生産性向上"]

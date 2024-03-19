@@ -1,5 +1,5 @@
 ---
-title: "影響力を持つ : コントロールする"
+title: "干渉する力 : 相手を言葉で説得する"
 emoji: ""
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ProductivityWeekly", "生産性向上"]
