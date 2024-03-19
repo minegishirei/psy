@@ -98,7 +98,7 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
  Read more at: https://www.scienceofpeople.com/mouth-body-language/
 
 
-https://www.youtube.com/embed/aBph52PjPj8?start=14
+https://www.youtube.com/aBph52PjPj8?start=14
 
 
 
