@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T00:49:57.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="1WjrWgOZfR67qUZ51m6W" version="24.0.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-19T00:50:10.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="7Yu_-RRzaK8m-gSdKT88" version="24.0.7" type="github" pages="3">
   <diagram name="ページ1" id="y8jaf4KYFMGn9sLyBysj">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,18 +108,6 @@
         </mxCell>
         <mxCell id="0FxFb5HUTFX5HjHVUhmq-30" value="「みんなやってるよ」&lt;br&gt;取り組む" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#e85642;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="0FxFb5HUTFX5HjHVUhmq-21" vertex="1">
           <mxGeometry x="10" y="213" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="CLVLMZULN1EFFdT_O_k0-1" value="行動の一貫性" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="799.5" width="170" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="CLVLMZULN1EFFdT_O_k0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CLVLMZULN1EFFdT_O_k0-1" source="CLVLMZULN1EFFdT_O_k0-3" target="CLVLMZULN1EFFdT_O_k0-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="CLVLMZULN1EFFdT_O_k0-3" value="質問をしてしまった" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FCAD90;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="CLVLMZULN1EFFdT_O_k0-1" vertex="1">
-          <mxGeometry x="10" y="32" width="150" height="148" as="geometry" />
-        </mxCell>
-        <mxCell id="CLVLMZULN1EFFdT_O_k0-4" value="自分の意図に沿わない行動をした後、&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;その行動に合う認識にすり替える" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#e85642;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="CLVLMZULN1EFFdT_O_k0-1" vertex="1">
-          <mxGeometry x="10" y="200" width="150" height="74.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
