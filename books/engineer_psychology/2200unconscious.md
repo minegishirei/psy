@@ -90,6 +90,10 @@ https://www.mitsumura-tosho.co.jp/webmaga/kotoba-to-manabi/kodomo-rikai/detail11
 
 
 
+## アンカリング
+
+
+
 
 
 
