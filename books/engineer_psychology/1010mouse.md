@@ -16,7 +16,7 @@ free: false
 
 意味: 口を閉じた笑顔は、霊長類の世界では従順な表現として考えられています。特に歯が気になる人は、口を閉じて笑うことがよくあります。
 
- Read more at: https://www.scienceofpeople.com/mouth-body-language/
+Read more at: https://www.scienceofpeople.com/mouth-body-language/
 
 ![口を閉じた笑顔は従順の証](https://www.scienceofpeople.com/wp-content/uploads/2021/03/Margot-Robbie-Australian.jpg)
 
@@ -34,7 +34,7 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
 誰かが劣った人々に脅迫されている場合に使用され、多くの場合、素早いまばたきが伴います。
 
- Read more at: https://www.scienceofpeople.com/mouth-body-language/
+Read more at: https://www.scienceofpeople.com/mouth-body-language/
 > すぼめるように口をつぐむ仕草は、不快感や反感をあらわしています。このようなケースは注意された場合などに見られがちです。内容に納得がいかない場合や、怒りを感じている時などにあらわれるため、注意した人はフォローアップが必要です。
 
 from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
@@ -143,15 +143,17 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
 夫が問題に行き詰まるたびに、舌をペロペロしているのによく気づきます。スロッシングは、言う前に何を言うべきか考えていることを示している可能性もあります。
 
-<video width="30%" src="https://www.scienceofpeople.com/wp-content/uploads/2021/03/Jenn-Tongue-Sloshing-1.mp4" autoplay muted loop></video>
+
+
+from https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-to-know
 
 
 ### チロチロと舌を出す:ふざけている or 小さな間違いを犯したことに気づいた
 
 私たちがふざけていることを意味する場合もあれば、人々が小さな間違いを犯していることに気づいたときに見られる場合もあります2。
 
-<video width="30%" src="https://www.scienceofpeople.com/wp-content/uploads/2021/03/Lauren-Tongue-Jutting1.mp4" autoplay muted loop></video>
 
+from https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-to-know
 
 ### 歯をなめる：攻撃の前兆
 
