@@ -142,12 +142,14 @@ https://japan-brain-science.com/archives/1532
 - AVS : Terraform未対応、低品質なドキュメント、誠実な顧客対応、DBの種類が豊富
 - GCD : Terraform採用、ビッグデータ対応、高品質なドキュメント、Doodleサービス対応、サポートはメールにて対応
 
+ポイントは、選択したくない`AVS`のデメリットを先行して書くことと、選択したい`GCD`のメリットを先行して書くことです。
 
 
 
 
+## 注意バイアス
 
-
+https://en.wikipedia.org/wiki/Attentional_bias
 
 
 
