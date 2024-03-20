@@ -16,16 +16,17 @@ free: false
 
 意味: 口を閉じた笑顔は、霊長類の世界では従順な表現として考えられています。特に歯が気になる人は、口を閉じて笑うことがよくあります。
 
-Read more at: https://www.scienceofpeople.com/mouth-body-language/
+https://www.scienceofpeople.com/mouth-body-language/
 
 ![口を閉じた笑顔は従順の証](https://github.com/minegishirei/store/blob/main/psychology/mouse/smile.jpeg?raw=true)
 
 
 ### 口が**少し**空いている状態:理想形
 
-相手が口を開けている時は、無防備になっている状態です。この状態の時はストレスやプレッシャーを感じていることもなく、リラックスした状態と考えられます。
+相手が口を開けている時は、無防備になっている状態です。
+この状態の時はストレスやプレッシャーを感じていることもなく、リラックスした状態と考えられます。
 
-from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
+https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
 
 ## 唇の動き
