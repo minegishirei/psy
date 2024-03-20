@@ -42,13 +42,13 @@ https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 > このようなケースは注意された場合などに見られがちです。
 > 内容に納得がいかない場合や、怒りを感じている時などにあらわれるため、注意した人はフォローアップが必要です。
 
-from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
+https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
 > 意味:唇をすぼめたり、唇を吸い込んだりするのは、ストレスを示している可能性があります。
 > 
 > また、何かを我慢して表情をコントロールしようとしていることを意味する場合もあります。アカゲザルはこれを行い、攻撃しようとするときは眉を上げ、視線を固定し、顎を閉じます1。
 
-Read more at: https://www.scienceofpeople.com/mouth-body-language/
+https://www.scienceofpeople.com/mouth-body-language/
 
 口すぼめは、**裁判の最終弁論中によく見られます。** 
 一方の弁護士が話すとき、反対側は意見の相違により口をすぼめることがあります。
@@ -58,7 +58,7 @@ Read more at: https://www.scienceofpeople.com/mouth-body-language/
 
 意味: 唇を極端にすぼめると、吸い込まれるような唇になります。唇が消えるのは良い兆候ではなく、強いストレスや不安を示しています。実際、ほとんどの人は唇を消すことができますが、それは直線に限られます。口角が逆 U の字になっていることに気づくかもしれません (これは多くの人にとって非常に難しいことです)。
 
- Read more at: https://www.scienceofpeople.com/mouth-body-language/
+https://www.scienceofpeople.com/mouth-body-language/
 
 
 
