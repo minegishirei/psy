@@ -1,5 +1,5 @@
 ---
-title: "戦略をたてる : 無意識に干渉してコントロールする"
+title: "戦略をたてる"
 emoji: ""
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ProductivityWeekly", "生産性向上"]
