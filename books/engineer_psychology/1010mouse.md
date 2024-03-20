@@ -18,7 +18,7 @@ free: false
 
 Read more at: https://www.scienceofpeople.com/mouth-body-language/
 
-![口を閉じた笑顔は従順の証](https://www.scienceofpeople.com/wp-content/uploads/2021/03/Margot-Robbie-Australian.jpg)
+![口を閉じた笑顔は従順の証](https://github.com/minegishirei/store/blob/main/psychology/mouse/smile.jpeg?raw=true)
 
 
 ### 口が**少し**空いている状態:理想形
@@ -32,10 +32,11 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
 ### 口をすぼめるとき,口がとがる:不快
 
-誰かが劣った人々に脅迫されている場合に使用され、多くの場合、素早いまばたきが伴います。
+口がとがるような仕草は不快感が表に出ている状態です。
 
-Read more at: https://www.scienceofpeople.com/mouth-body-language/
-> すぼめるように口をつぐむ仕草は、不快感や反感をあらわしています。このようなケースは注意された場合などに見られがちです。内容に納得がいかない場合や、怒りを感じている時などにあらわれるため、注意した人はフォローアップが必要です。
+> すぼめるように口をつぐむ仕草は、不快感や反感をあらわしています。
+> このようなケースは注意された場合などに見られがちです。
+> 内容に納得がいかない場合や、怒りを感じている時などにあらわれるため、注意した人はフォローアップが必要です。
 
 from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
@@ -43,9 +44,10 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 > 
 > また、何かを我慢して表情をコントロールしようとしていることを意味する場合もあります。アカゲザルはこれを行い、攻撃しようとするときは眉を上げ、視線を固定し、顎を閉じます1。
 
- Read more at: https://www.scienceofpeople.com/mouth-body-language/
+Read more at: https://www.scienceofpeople.com/mouth-body-language/
 
-口すぼめは、**裁判の最終弁論中によく見られます。** 一方の弁護士が話すとき、反対側は意見の相違で口をすぼめることがあります2。裁判官も、サイドバー会議中に弁護士と意見が異なる場合にも同様の措置をとります。
+口すぼめは、**裁判の最終弁論中によく見られます。** 
+一方の弁護士が話すとき、反対側は意見の相違により口をすぼめることがあります。
 
 
 ### 唇をすぼめる：ストレス、言いたいことを我慢している
@@ -156,6 +158,7 @@ from https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-
 
 私たちがふざけていることを意味する場合もあれば、人々が小さな間違いを犯していることに気づいたときに見られる場合もあります2。
 
+![](https://github.com/minegishirei/store/blob/main/psychology/mouse/tong.gif?raw=true)
 
 from https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-to-know
 
