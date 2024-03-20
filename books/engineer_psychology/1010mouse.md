@@ -158,7 +158,7 @@ from https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-
 
 私たちがふざけていることを意味する場合もあれば、人々が小さな間違いを犯していることに気づいたときに見られる場合もあります2。
 
-![](https://github.com/minegishirei/store/blob/main/psychology/mouse/tong.gif?raw=true)
+![チロチロと下をだす](https://github.com/minegishirei/store/blob/main/psychology/mouse/tong.gif?raw=true)
 
 from https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-to-know
 
@@ -168,7 +168,9 @@ from https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-
 
 > 意味: 歯は脅かされたときに使用する原始的な武器であるため、歯を舐めることは通常、攻撃性の兆候と見なされます。喧嘩の直前や、誰かがあなたの快適な空間に許可なく入ってきた場合に起こる可能性があります。
 
- Read more at: https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-to-know
+![](https://github.com/minegishirei/store/blob/main/psychology/mouse/tooth.gif?raw=true)
+
+Read more at: https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-to-know
 
 
 
