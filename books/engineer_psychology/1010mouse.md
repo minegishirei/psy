@@ -162,13 +162,8 @@ https://www.psychologytoday.com/us/blog/spycatcher/202312/the-lips-our-emotional
 
 https://drwebercoaching.com/how-to-read-lip-expressions-and-facial-expressions/
 
-https://www.youtube.com/embed/aBph52PjPj8?start=14
+https://www.youtube.com/watch?v=aBph52PjPj8&t=14s
 
-
-Read more at: https://www.scienceofpeople.com/mouth-body-language/
-
-
-![](https://cdn.images-dot.com/S2000/upload/2022032300035_1.jpg?update=20220617143628&width=850&fit=bounds)
 
 
 ### 口を曲げる時の心理
