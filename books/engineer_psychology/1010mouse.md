@@ -29,7 +29,7 @@ https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
 https://newstyle.link/category16/entry1512.html (要確認)
 
-口が半開きになっている状態からは、
+上記の二つの記事だけでなくそのほかの情報でも、口が半開きになっている状態からが理想形とされています。
 
 
 ### 口を閉じた笑顔：従順
@@ -66,12 +66,13 @@ https://www.scienceofpeople.com/mouth-body-language/
 一方の弁護士が話すとき、反対側は意見の相違により口をすぼめることがあります。
 
 
-### 唇をすぼめる：ストレス、言いたいことを我慢している
+### 唇が消え、直線状になる：ストレス、言いたいことを我慢している
 
-意味: 唇を極端にすぼめると、吸い込まれるような唇になります。唇が消えるのは良い兆候ではなく、強いストレスや不安を示しています。実際、ほとんどの人は唇を消すことができますが、それは直線に限られます。口角が逆 U の字になっていることに気づくかもしれません (これは多くの人にとって非常に難しいことです)。
+> 唇を極端にすぼめると、吸い込まれるような唇になります。
+> 唇が消えるのは良い兆候ではなく、強いストレスや不安を示しています。
+> 実際、ほとんどの人は唇を消し、直線状にすることがありますが、この時に口角が逆Uの字になっています。 これは多くの人にとって状況が非常に難しいことをあらわしてます。
 
 https://www.scienceofpeople.com/mouth-body-language/
-
 
 
 
@@ -120,6 +121,14 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
 https://www.psychologytoday.com/us/blog/spycatcher/202312/the-lips-our-emotional-seismograph
 
+
+> 人が唇を押し付けたり、口の中に吸い戻したりすると、唇が「消える」のを観察したとき。
+> 
+> この口先の表情や微細な表情は、疑い（自分たちの言っていることを信じていない）、誇張（おそらく真実について）、または何かを保留している（真実全体のように）と解釈できます。
+> また、その人がストレス、神経質、緊張を経験していることを表すこともあります。
+> 唇を圧迫することにより、人は文字通り話すことを妨げます。
+
+https://drwebercoaching.com/how-to-read-lip-expressions-and-facial-expressions/
 
 https://www.youtube.com/embed/aBph52PjPj8?start=14
 
