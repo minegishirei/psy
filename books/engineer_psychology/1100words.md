@@ -165,14 +165,11 @@ https://www.tiu.ac.jp/about/research_promotion/kiyou/pdf/18_clinicalpsychology_3
 
 ### 『この（ー）』『その（ー）』『あの（ー）』」 : 
 
-> この心的操作は
-具体的には，名前の検索と，適切な表現の検討
-に二分される。（中略）名前の検索とは簡単に
-言うと，モノ自体はわかっているが，モノの名
-前が思い出せないと言う場合の心的操作であ
-る。
+> この心的操作は具体的には，名前の検索と，適切な表現の検討に二分される。
+> （中略）名前の検索とは簡単に言うと，モノ自体はわかっているが，モノの名前が思い出せないと言う場合の心的操作である。
 
 https://www.tiu.ac.jp/about/research_promotion/kiyou/pdf/18_clinicalpsychology_3.pdf
+
 
 ## イントネーション
 
