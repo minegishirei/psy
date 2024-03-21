@@ -12,6 +12,26 @@ free: false
 
 ## 笑顔の種類
 
+### 口が少し空いている状態:理想形
+
+まずは口の理想的な動き、標準的な動きを覚えておきます。
+**「口を半開きにしている状態が適度にリラックスされた理想的な心理状態」** であることを覚えておきましょう。
+
+> 相手が口を開けている時は、無防備になっている状態です。
+> この状態の時はストレスやプレッシャーを感じていることもなく、リラックスした状態と考えられます。
+
+https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
+
+> 人間は、口を開くと、内臓を見せることになります。舌や歯茎、喉ぼとけなど、これらは、人間の内部、内臓の一部です。
+> したがいまして、口を開けると、相手に自分の内臓をさらすことになり、動物の本能としては、危険や脅威を感じるものなのです。
+> ですから、本当にリラックスしているか、危険や脅威など気にならないくらいに何かに没頭している場合のみ、口を半開きにするしぐさを見せるのです。
+> (要確認)
+
+https://newstyle.link/category16/entry1512.html (要確認)
+
+口が半開きになっている状態からは、
+
+
 ### 口を閉じた笑顔：従順
 
 > 口を閉じた笑顔は、霊長類の世界では従順な表現として考えられています。
@@ -22,14 +42,6 @@ free: false
 https://www.scienceofpeople.com/mouth-body-language/
 
 ただし、「本気の笑顔、リラックスした笑顔」とは異なり、「思考を伴った笑顔。戦略的な笑顔」であることは覚えておいた方が良いと思います。
-
-
-### 口が少し空いている状態:理想形
-
-相手が口を開けている時は、無防備になっている状態です。
-この状態の時はストレスやプレッシャーを感じていることもなく、リラックスした状態と考えられます。
-
-https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
 
 ## 唇の動き
@@ -103,11 +115,16 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
  Read more at: https://www.scienceofpeople.com/mouth-body-language/
 
+> 口の端（交連）を逆さのUのように下に向けて、唇を圧縮することによって、言われたり提案されたことをしぶしぶ、または別の方法で受け入れ、同意していることを覚えておいてください。
+> ロバート・デ・ニーロがそのポーズを取ることで有名で、よく真似されます。
+
+https://www.psychologytoday.com/us/blog/spycatcher/202312/the-lips-our-emotional-seismograph
+
 
 https://www.youtube.com/embed/aBph52PjPj8?start=14
 
 
- Read more at: https://www.scienceofpeople.com/mouth-body-language/
+Read more at: https://www.scienceofpeople.com/mouth-body-language/
 
 
 ![](https://cdn.images-dot.com/S2000/upload/2022032300035_1.jpg?update=20220617143628&width=850&fit=bounds)
