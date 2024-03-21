@@ -95,9 +95,9 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 唇を赤く染める結果につながるような行動は魅力を上げようとしている。
 唇を舌でこすることは、**舌が上向きになり重力に「逆らう」ため、ポジティブな感情を示している可能性があります。** ただし、誰かがストレスを感じていることを示している可能性もあります。
 
-![口を閉じた笑顔は従順の証](https://github.com/minegishirei/store/blob/main/psychology/mouse/lip_slow?raw=true)
+![口を閉じた笑顔は従順の証](https://github.com/minegishirei/store/blob/main/psychology/mouse/lip_slow.gif?raw=true)
 
-![口を閉じた笑顔は従順の証](https://github.com/minegishirei/store/blob/main/psychology/mouse/upper_lip_slow?raw=true)
+![口を閉じた笑顔は従順の証](https://github.com/minegishirei/store/blob/main/psychology/mouse/upper_lip_slow.gif?raw=true)
 
 
 ### 下唇をかむ：魅力を上げたい
