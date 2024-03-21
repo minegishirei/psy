@@ -99,14 +99,14 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
 ![口を閉じた笑顔は従順の証](https://github.com/minegishirei/store/blob/main/psychology/mouse/upper_lip_slow.gif?raw=true)
 
+https://www.scienceofpeople.com/mouth-body-language/
+
 
 ### 下唇をかむ：魅力を上げたい
 
-下唇を噛む行為は、性的魅力を示すために使用されます。唇を噛むと唇に血流が起こり、唇が赤く見えます。
+> 下唇を噛む行為は、性的魅力を示すために使用されます。唇を噛むと唇に血流が起こり、唇が赤く見えます。
 
-また、上唇を舌でこすることは、舌が上向きになり重力に「逆らう」ため、ポジティブな感情を示している可能性があります。ただし、誰かがストレスを感じていることを示している可能性もあります。
-
- Read more at: https://www.scienceofpeople.com/mouth-body-language/
+https://www.scienceofpeople.com/mouth-body-language/
 
 
 
