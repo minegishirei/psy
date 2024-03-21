@@ -1,5 +1,5 @@
 ---
-title: "思考に干渉する ④ : 「しゃべらない」選択肢を持つこと"
+title: "干渉する ④ : 「しゃべらない」選択肢を持つこと"
 emoji: ""
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ProductivityWeekly", "生産性向上"]
