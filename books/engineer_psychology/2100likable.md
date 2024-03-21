@@ -1,5 +1,5 @@
 ---
-title: "干渉する力 : 相手からの信頼を得る"
+title: "思考に干渉する② : 相手からの信頼を得る"
 emoji: ""
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ProductivityWeekly", "生産性向上"]
