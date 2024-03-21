@@ -27,8 +27,8 @@ chapters:
   - 1010mouse   # 感情を読み取る
   - 1100words
   - 1200chat
-  - 2100likable # 好感度を上げる
-  - 2000select_control   # 書き込み操作
+  - 2000likable # 好感度を上げる
+  - 2100select_control   # 書き込み操作
   - 2200unconscious # 無意識への干渉
   - 2100silent  # 黙る
   - 3000strategy
