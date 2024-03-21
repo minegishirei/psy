@@ -1,5 +1,5 @@
 ---
-title: "思考に干渉する② : 相手を言葉で説得する"
+title: "思考に干渉する ② : 相手を言葉で説得する"
 emoji: ""
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ProductivityWeekly", "生産性向上"]

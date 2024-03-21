@@ -30,7 +30,7 @@ chapters:
   - 2000likable # 好感度を上げる
   - 2100select_control   # 書き込み操作
   - 2200unconscious # 無意識への干渉
-  - 2100silent  # 黙る
+  - 2300silent  # 黙る
   - 3000strategy
   - 4000resource_file
   #- 3000cases # ケース別対応策
