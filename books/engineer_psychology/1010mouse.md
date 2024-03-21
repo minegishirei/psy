@@ -8,6 +8,16 @@ free: false
 ---
 
 
+## 唇は反応速度が速い
+
+神経と血管が豊富な唇は、私たちの周囲の世界にリアルタイムで反応します。
+そのため、悪い知らせを聞いたり、恐ろしい出来事を目撃したりすると、唇が消え始め、血管の収縮が起こって非常に薄くなります。
+極度のストレス下では、それらは完全に消失するか、一緒に圧縮されます。
+
+このように、唇を観察することによって、その場その場の心理状況を把握することができます。
+目線から得られるKPIが大局的な状況を表すのに対して、唇の動きはリアルタイムモニタリングとして活用できる指標です。
+
+https://www.jnforensics.com/post/the-lips-don-t-lie
 
 
 ## 笑顔の種類
@@ -75,19 +85,39 @@ https://www.scienceofpeople.com/mouth-body-language/
 
 https://www.scienceofpeople.com/mouth-body-language/
 
+> 唇を噛むことは、唇を圧迫するのと同様、ストレスを感じたときに自分を落ち着かせる方法の 1 つです。
+> 舌で唇を繰り返し舐めることと同様に、軽度で一時的な緊張を和らげるのに役立ちます。
+> 確かに、口の渇きが原因でこのようなことをしてしまうこともありますが、多くの場合、それはストレスを軽減する方法です。
+> そして、ストレスと言えば、人々がそのストレスを解消するために、どれだけ頻繁に唇をつねったり、唇を摘んだり、引っ張ったりするかに注目してください。
+
+https://www.psychologytoday.com/us/blog/spycatcher/202312/the-lips-our-emotional-seismograph
+
+**唇に対して圧力をかける行為は、ストレスを感じたときに出現するサインの一つです。** 
+部下のフォローの際にこのサインが出たときは、「何か言い残していることがないか」の確認を怠らないようにしましょう。
 
 
 ### 唇を隠して話す時の心理
 
-唇を隠して話す時の心理は、**発言に注意しながら話している仕草です。** ウソを見抜かれないようにしている時、隠し事がある時などにあらわれやすいです。また、緊張している時にもあらわれることがあります。
+> 唇を隠して話す時の心理は、**発言に注意しながら話している仕草です。** 
+> ウソを見抜かれないようにしている時、隠し事がある時などにあらわれやすいです。また、緊張している時にもあらわれることがあります。
 
-from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
+https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
+
+> 人は自意識過剰なとき、または自分の考えを誰かに知られたくないとき、唇を隠すとどこかで読んだことがあります。
+
+https://www.quora.com/Women-hiding-their-lips-in-their-mouth-why
+
+テレビ番組の中でも、年収や、ギャラの話など、プライベートの情報の中でもセンシティブな話題に移る時があります。
+この時、自身のプライベートな情報をしゃべる芸能人の口の動きに注目してみてください。
+**どこまで話してよいことなのか、隠しておくべきことを隠しながら話すとき、同時に唇も見え隠れすることがわかります。**
+
+
+## 唇をかむ
 
 ### 上唇をかむ：緊張している
 
-上唇を噛むことは、緊張または不安を示している可能性があります。恐怖を確認するために他のジェスチャーに注意してください。
-
- Read more at: https://www.scienceofpeople.com/mouth-body-language/
+上唇を噛むことは、緊張または不安を示している可能性があります。
+恐怖を確認するために他のジェスチャーに注意してください。瞬きの回数や、手汗、のどの渇きなどが症状です。
 
 
 ### 女性、上唇をなめる、魅力をあげる
@@ -150,11 +180,9 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
 ### 口の片側を上げる:軽蔑
 
- 誰かが口の片側を上げている場合、それは軽蔑を示している可能性があります。
+誰かが口の片側を上げている場合、それは軽蔑を示している可能性があります。
 
- Read more at: https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-to-know
-
-
+https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-to-know
 
 <figure class="figure-image figure-image-fotolife" title="軽蔑">[f:id:minegishirei:20230715131517p:plain:alt=]<figcaption>軽蔑</figcaption></figure>
 
@@ -180,8 +208,6 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 ### 舌が唇の上を往復する:なだめ行動or何を言うべきかを考えている
 
 夫が問題に行き詰まるたびに、舌をペロペロしているのによく気づきます。スロッシングは、言う前に何を言うべきか考えていることを示している可能性もあります。
-
-
 
 from https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-to-know
 
@@ -210,9 +236,11 @@ Read more at: https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-
 
 ### ぷく顔：無力感
 
-意味: 唇の膨らみはすぼみに似ていますが、より致命的です。膨らみとは、唇をしっかりと閉じて空気を押し出すことです。死のまなざしと相まって、この合図は、**攻撃や交尾の前に霊長類によく見られる顔です。**
+唇の膨らみはすぼみに似ていますが、より致命的です。
+膨らみとは、唇をしっかりと閉じて空気を押し出すことです。
+死のまなざしと相まって、この合図は、**攻撃や交尾の前に霊長類によく見られる顔です。**
 
- Read more at: https://www.scienceofpeople.com/mouth-body-language/
+https://www.scienceofpeople.com/mouth-body-language/
 
 
 ### 頬に舌を当てて丸くなる：何かを隠す、逃げる
@@ -249,3 +277,5 @@ Read more at: https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-
 
 
 page:https://qiita.com/minegishirei_v2/items/41606baa240e52082c9c
+
+
