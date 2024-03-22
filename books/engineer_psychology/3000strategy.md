@@ -29,6 +29,46 @@ published: false
 **今まで覚えてきた知識を適切に組み合わせて運用するためには、事前に戦略を立てることが重要なのです**
 
 
+## draw.ioによる会議戦略の組み立て方
+
+これまでご覧いただきました、各章の最後に`draw.io`のコードを載せておきました。
+これらの各コードは、`.drawio`という拡張子で保存し https://draw.io から開くことで、図面として表示させることができます。
+
+各章のコードを「ライブラリ」として保存し、戦略を立てる段階で図面を作成することで、心理学を基にした会議戦略という「コード」が出来上がります。
+
+
+### 1. コードを保存する
+
+各章の末尾に存在する「draw.io」のコードをコピーします。
+
+!()[https://github.com/minegishirei/store/blob/main/psychology/drawio/1_savecode.png?raw=true]
+
+そのあと、適当なテキストエディタで保存（今回はメモ帳を使用）
+
+!()[https://github.com/minegishirei/store/blob/main/psychology/drawio/2_memo.png?raw=true]
+
+
+
+### 2. draw.ioを開く
+
+以下のリンクから 「draw.io」を開きます
+
+https://draw.io
+
+!()[https://github.com/minegishirei/store/blob/main/psychology/drawio/3_open_drawio.png?raw=true]
+
+
+
+
+### 3. 保存したファイルを開く
+
+!()[https://github.com/minegishirei/store/blob/main/psychology/drawio/4_read_memo.png?raw=true]
+
+
+### 4. 完了
+
+
+!()[https://github.com/minegishirei/store/blob/main/psychology/drawio/5_done.png?raw=true]
 
 
 
