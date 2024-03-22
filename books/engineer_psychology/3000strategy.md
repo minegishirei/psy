@@ -73,6 +73,17 @@ https://draw.io
 
 
 
+## サンプル
+
+以下はスクラムのチームビルディングの段階で立てた戦略です。
+
+- 行動の一貫性
+- 相手にしゃべらせる
+- 早めのレスポンス
+
+の三つの技術を活用し、雑談の戦略を立てて、信頼関係の構築を行いました。
+
+![](https://github.com/minegishirei/store/blob/main/psychology/drawio/6_sample.png?raw=true)
 
 
 
