@@ -41,7 +41,7 @@ published: false
 
 各章の末尾に存在する「draw.io」のコードをコピーします。
 
-!()[https://github.com/minegishirei/store/blob/main/psychology/drawio/1_savecode.png?raw=true]
+![](https://github.com/minegishirei/store/blob/main/psychology/drawio/1_savecode.png?raw=true)
 
 そのあと、適当なテキストエディタで保存（今回はメモ帳を使用）
 
