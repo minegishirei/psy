@@ -365,5 +365,131 @@ Macが大好きな人には「あえて」WindowsとMacの違いを振ってみ�
 
 
 
-
+```xml
+<mxfile host="app.diagrams.net" modified="2024-03-22T06:36:09.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="u73di2IGx9RmjJrf1mKI" version="24.0.7" type="github">
+  <diagram name="ページ1" id="13CN3SvOPOdOUp-_F_g6">
+    <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-1" value="高頻度の「私」" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="399" width="170" height="280.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QMJa0BvOyVggRc7bFHfy-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="182" as="sourcePoint" />
+            <mxPoint x="85" y="212.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-3" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;「私」を多く言う人は&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- 会話のボールを意識する人&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- 権力者&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- 正直者&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;これらの要素を自由要旨する&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#2F5B7C;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-1">
+          <mxGeometry x="10" y="30" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-4" value="&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;「私」の高頻度&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;「ボール」を意識している/権力/正直&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#2F5B7C;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;fontStyle=1;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-1">
+          <mxGeometry x="10" y="210" width="150" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-5" value="「我々」" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="170" height="279.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-6" value="&lt;div&gt;「我々」&lt;/div&gt;仲間意識が強い" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-5">
+          <mxGeometry x="10" y="210" width="150" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QMJa0BvOyVggRc7bFHfy-5" source="QMJa0BvOyVggRc7bFHfy-8" target="QMJa0BvOyVggRc7bFHfy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-8" value="仲間意識が強いが&lt;div&gt;決断力が低いケースが多い&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-5">
+          <mxGeometry x="10" y="30" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-9" value="「まぁ」" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="170" height="279.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-10" value="「まぁ」&lt;br&gt;&lt;div&gt;妥協&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-9">
+          <mxGeometry x="10" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QMJa0BvOyVggRc7bFHfy-9" source="QMJa0BvOyVggRc7bFHfy-12" target="QMJa0BvOyVggRc7bFHfy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-12" value="&lt;div&gt;妥協。&lt;/div&gt;&lt;div&gt;「本当は納得していないけど、争いごとを避けたいから肯定しておくか」といった心理が働いた結果、「まぁ…」と言ってしまいます。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-9">
+          <mxGeometry x="10" y="30" width="150" height="149.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-13" value="「ここだけの話」" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="170" height="279.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-14" value="「仲良くしてね」という意図的なメッセージ&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-13">
+          <mxGeometry x="10" y="210" width="150" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QMJa0BvOyVggRc7bFHfy-13" source="QMJa0BvOyVggRc7bFHfy-16" target="QMJa0BvOyVggRc7bFHfy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-16" value="近づきたい、仲良くなりたい人が見つかれば、価値ある情報を提供して特別扱いをして距離を縮めていきます。" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-13">
+          <mxGeometry x="10" y="30" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-17" value="「えーと」「あのー」" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="170" height="279.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QMJa0BvOyVggRc7bFHfy-17" source="QMJa0BvOyVggRc7bFHfy-19" target="QMJa0BvOyVggRc7bFHfy-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="有声休止には考えをまとめる補助的役割がある" link="https://qiita.com/" id="QMJa0BvOyVggRc7bFHfy-19">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-17">
+            <mxGeometry x="10" y="30" width="150" height="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-20" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;脳の回転が遅い、大量の情報に、脳がオーバーフローしている&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#12aab5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-17">
+          <mxGeometry x="10" y="205.9999999999999" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-21" value="コソア型" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="170" height="279.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QMJa0BvOyVggRc7bFHfy-21" source="QMJa0BvOyVggRc7bFHfy-23" target="QMJa0BvOyVggRc7bFHfy-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;名前の検索と，適切な表現の検討に二分される。&lt;span style=&quot;background-color: initial;&quot;&gt;（中略）名前の検索とは簡単に言うと，モノ自体はわかっているが，モノの名前が思い出せないと言う場合の心的操作である。&lt;/span&gt;&lt;/div&gt;" link="https://qiita.com/" id="QMJa0BvOyVggRc7bFHfy-23">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-21">
+            <mxGeometry x="10" y="30" width="150" height="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-24" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;名前を思い出せない&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#12aab5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-21">
+          <mxGeometry x="10" y="205.9999999999999" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-25" value="「ちょっと」" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="640" y="81" width="170" height="279.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-26" value="「重く受け止めるな」&lt;br&gt;&lt;div&gt;というメッセージ&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-25">
+          <mxGeometry x="10" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QMJa0BvOyVggRc7bFHfy-25" source="QMJa0BvOyVggRc7bFHfy-28" target="QMJa0BvOyVggRc7bFHfy-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-28" value="&lt;div&gt;「ちょっと」を付けるとクッションの役目をして、棘のないやんわりとした表現にすることができ、&lt;/div&gt;&lt;div&gt;&amp;gt; 本音をはぐらかすことができます。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-25">
+          <mxGeometry x="10" y="30" width="150" height="149.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-29" value="「つまり」" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="81" width="170" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QMJa0BvOyVggRc7bFHfy-29" source="QMJa0BvOyVggRc7bFHfy-31" target="QMJa0BvOyVggRc7bFHfy-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-31" value="&lt;div&gt;つまりが口癖の人の性格の１つは、「理論的な人」という事です。&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;話が一度に詰まってしまい進みそうにもなくなった時に一度話を切り直してくれる作用があります。&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FCAD90;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-29">
+          <mxGeometry x="10" y="32" width="150" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-32" value="「本質を見極める力」&lt;div&gt;がある状態&lt;/div&gt;&lt;div&gt;変革に向けた準備が&lt;/div&gt;&lt;div&gt;できている&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#e85642;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-29">
+          <mxGeometry x="10" y="200" width="150" height="74.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-33" value="モノが主語" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="170" height="279.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-34" value="「仲良くしてね」という意図的なメッセージ&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-33">
+          <mxGeometry x="10" y="210" width="150" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QMJa0BvOyVggRc7bFHfy-33" source="QMJa0BvOyVggRc7bFHfy-36" target="QMJa0BvOyVggRc7bFHfy-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMJa0BvOyVggRc7bFHfy-36" value="近づきたい、仲良くなりたい人が見つかれば、価値ある情報を提供して特別扱いをして距離を縮めていきます。" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;arcSize=0;perimeterSpacing=2;" vertex="1" parent="QMJa0BvOyVggRc7bFHfy-33">
+          <mxGeometry x="10" y="30" width="150" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+```
 
