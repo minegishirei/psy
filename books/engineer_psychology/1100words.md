@@ -1,5 +1,5 @@
 ---
-title: "思考を読み取る ① : 言葉の使い方から意図を探る"
+title: "思考を汲み取る ① : 言葉の使い方から意図を探る"
 emoji: ""
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ProductivityWeekly", "生産性向上"]
