@@ -234,9 +234,11 @@ https://www.marketing-partners.com/conversations2/the-psychology-of-words-reveal
 ある人が真の誠意を話すとき、その人は話す速度を変えることはありません。
 **通常の会話スピードから変化した場合、言葉の重みを意図的に操っている可能性が高いです。**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q3qinDH_3HE?si=8uzgx7iyBY5rZEme&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=Q3qinDH_3HE&t=33s
 
-> ブレア首相が何度も立ち止まり、話す速度が通常よりもはるかに遅いことに注目してください。誰かが真の誠意を示しているとき、その人は通常、話す速度をあまり変えません。彼のゆっくりした話し方と長い間の間合いは、おそらく彼が自分の誠実さを誇張しようとしていること、そして結局ダイアナ妃の死が彼にそれほど影響を与えていなかったことを示しているのかもしれない。
+> ブレア首相が何度も立ち止まり、話す速度が通常よりもはるかに遅いことに注目してください。
+> 誰かが真の誠意を示しているとき、その人は通常、話す速度をあまり変えません。
+> 彼のゆっくりした話し方と長い間の間合いは、おそらく彼が自分の誠実さを誇張しようとしていること、そして結局ダイアナ妃の死が彼にそれほど影響を与えていなかったことを示しているのかもしれない。
 
 
 ### 早口 : 緊張 or 不誠実
