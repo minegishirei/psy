@@ -45,7 +45,7 @@ published: false
 
 そのあと、適当なテキストエディタで保存（今回はメモ帳を使用）
 
-!()[https://github.com/minegishirei/store/blob/main/psychology/drawio/2_memo.png?raw=true]
+![](https://github.com/minegishirei/store/blob/main/psychology/drawio/2_memo.png?raw=true)
 
 
 
@@ -55,20 +55,20 @@ published: false
 
 https://draw.io
 
-!()[https://github.com/minegishirei/store/blob/main/psychology/drawio/3_open_drawio.png?raw=true]
+![](https://github.com/minegishirei/store/blob/main/psychology/drawio/3_open_drawio.png?raw=true)
 
 
 
 
 ### 3. 保存したファイルを開く
 
-!()[https://github.com/minegishirei/store/blob/main/psychology/drawio/4_read_memo.png?raw=true]
+![](https://github.com/minegishirei/store/blob/main/psychology/drawio/4_read_memo.png?raw=true)
 
 
 ### 4. 完了
 
 
-!()[https://github.com/minegishirei/store/blob/main/psychology/drawio/5_done.png?raw=true]
+![](https://github.com/minegishirei/store/blob/main/psychology/drawio/5_done.png?raw=true)
 
 
 
