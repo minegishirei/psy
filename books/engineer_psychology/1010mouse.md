@@ -67,7 +67,6 @@ https://www.scienceofpeople.com/mouth-body-language/
 https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 
 > 意味:唇をすぼめたり、唇を吸い込んだりするのは、ストレスを示している可能性があります。
-> 
 > また、何かを我慢して表情をコントロールしようとしていることを意味する場合もあります。
 > アカゲザル(哺乳類オナガザル科)はこれを行い、攻撃しようとするときは眉を上げ、視線を固定し、顎を閉じます1。
 
@@ -155,7 +154,6 @@ https://www.psychologytoday.com/us/blog/spycatcher/202312/the-lips-our-emotional
 
 
 > 人が唇を押し付けたり、口の中に吸い戻したりすると、唇が「消える」のを観察したとき。
-> 
 > この口先の表情や微細な表情は、疑い（自分たちの言っていることを信じていない）、誇張（おそらく真実について）、または何かを保留している（真実全体のように）と解釈できます。
 > また、その人がストレス、神経質、緊張を経験していることを表すこともあります。
 > 唇を圧迫することにより、人は文字通り話すことを妨げます。
@@ -178,8 +176,6 @@ from https://psychology-navi.com/2020/09/15/kutimoto-sinnrigaku/
 誰かが口の片側を上げている場合、それは軽蔑を示している可能性があります。
 
 https://www.scienceofpeople.com/mouth-body-language/#6-more-mouth-gestures-to-know
-
-<figure class="figure-image figure-image-fotolife" title="軽蔑">[f:id:minegishirei:20230715131517p:plain:alt=]<figcaption>軽蔑</figcaption></figure>
 
 
 ### 口が伸びる：失敗に気づく
