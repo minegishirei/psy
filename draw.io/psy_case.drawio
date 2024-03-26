@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T23:39:48.542Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pS7n7lMJNrnkVCNuTUof" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T23:40:35.933Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vkLj_uiSvgloGldRR8FM" version="24.1.0" type="github">
   <diagram name="英語" id="dhC7dpjMyy3n1bbPjUTI">
     <mxGraphModel dx="1194" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="foG0x-CLaeSb250egE1I-1" value="威厳(ゆっくりしゃべる)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="foG0x-CLaeSb250egE1I-1" value="" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="40" width="340" height="740" as="geometry" />
         </mxCell>
         <mxCell id="foG0x-CLaeSb250egE1I-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;まず、これは俺と薫の人生の話かつ、俺と薫と向こうの実お金の話です。なので、色々言いたいことあるだろうけどもまずは俺の意見を聞いてほしい。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="foG0x-CLaeSb250egE1I-1">
