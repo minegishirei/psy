@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T01:31:05.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="TXFLTqyeRnsGq0hDwed5" version="24.2.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-27T01:33:54.044Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="4sLiNWKtNH5sZIvVPXNO" version="24.2.0" type="github" pages="2">
   <diagram name="説得" id="dhC7dpjMyy3n1bbPjUTI">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="10" y="30" width="310" height="290" as="geometry" />
         </mxCell>
         <mxCell id="3SkstiafYZ7fMF2HQmnw-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://prd-cdn-netmoney.storage.googleapis.com/images/YioWkUtnIEKkJemzrWbVTOXSDBUvpTLG/c96af983-182e-4b58-be43-63038ae558f5.jpg;" parent="1" vertex="1">
-          <mxGeometry x="210" y="690" width="600" height="400" as="geometry" />
+          <mxGeometry x="1150" y="660" width="600" height="400" as="geometry" />
         </mxCell>
         <mxCell id="3SkstiafYZ7fMF2HQmnw-2" value="利害関係" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="40" width="340" height="410" as="geometry" />
