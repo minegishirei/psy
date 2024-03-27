@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T03:39:49.350Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="8l2_vbTAskL-6X0GaD_M" version="24.2.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-27T03:41:31.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="-7AimDNz6ylcTGsib5sr" version="24.2.0" type="github" pages="2">
   <diagram name="説得" id="dhC7dpjMyy3n1bbPjUTI">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
         <mxCell id="fJ0gMHYLRXLqGnPyuAHR-1" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;line&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="340" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="fJ0gMHYLRXLqGnPyuAHR-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;色々考えたけどマンション購入は一度なしにして他も見てみます&lt;/div&gt;&lt;div&gt;なので今週日曜日も訪問もとりあえず大丈夫です&lt;/div&gt;&lt;div&gt;急な連絡でご心配おかけしました&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="fJ0gMHYLRXLqGnPyuAHR-1">
+        <mxCell id="fJ0gMHYLRXLqGnPyuAHR-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;色々考えたけどマンション購入は一度なしにして他も見てみます&lt;/div&gt;&lt;div&gt;なので今週日曜日の訪問もとりあえず大丈夫です&lt;/div&gt;&lt;div&gt;急な連絡でご心配おかけしました&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="fJ0gMHYLRXLqGnPyuAHR-1">
           <mxGeometry x="10" y="30" width="310" height="120" as="geometry" />
         </mxCell>
       </root>
