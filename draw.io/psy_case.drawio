@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T01:18:14.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="jYDJrl0wAD06pMrjof0E" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T01:18:26.005Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="XBaeW2PWskGGAJYlhK9o" version="24.2.0" type="github">
   <diagram name="英語" id="dhC7dpjMyy3n1bbPjUTI">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,6 +35,12 @@
           <mxGeometry x="1640" y="40" width="340" height="240" as="geometry" />
         </mxCell>
         <mxCell id="b4_Ncs32HFZQgM9vxh_t-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;これで最後、&lt;/div&gt;&lt;div&gt;「&lt;b&gt;向こうの親も同じマンションに入居する&lt;/b&gt;」それによって薫の負担が下がるということを一番に考えている。&lt;br&gt;&lt;/div&gt;&lt;div&gt;資産的なところも最後の最後までチェックして問題ないことを抑えた。パレステージ和光のマンションは住民の面でも資産的な面でも問題ない。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;だから俺は買おうと思ってる。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="b4_Ncs32HFZQgM9vxh_t-3">
+          <mxGeometry x="10" y="30" width="310" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="b4_Ncs32HFZQgM9vxh_t-5" value="資産の話" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="440" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="b4_Ncs32HFZQgM9vxh_t-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;これで最後、&lt;/div&gt;&lt;div&gt;「&lt;b&gt;向こうの親も同じマンションに入居する&lt;/b&gt;」それによって薫の負担が下がるということを一番に考えている。&lt;br&gt;&lt;/div&gt;&lt;div&gt;資産的なところも最後の最後までチェックして問題ないことを抑えた。パレステージ和光のマンションは住民の面でも資産的な面でも問題ない。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;だから俺は買おうと思ってる。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="b4_Ncs32HFZQgM9vxh_t-5">
           <mxGeometry x="10" y="30" width="310" height="210" as="geometry" />
         </mxCell>
       </root>
