@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T00:55:21.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="6STmLXqxiQSrNO_GANbd" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T01:03:52.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="lvXJTtQ2JbuOGjqJMiQk" version="24.2.0" type="github">
   <diagram name="英語" id="dhC7dpjMyy3n1bbPjUTI">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,10 +20,16 @@
           <mxGeometry x="10" y="30" width="310" height="370" as="geometry" />
         </mxCell>
         <mxCell id="3SkstiafYZ7fMF2HQmnw-4" value="環境の話" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="880" y="40" width="340" height="560" as="geometry" />
+          <mxGeometry x="880" y="40" width="340" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="3SkstiafYZ7fMF2HQmnw-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;2040万円を払うことに、そこまでの意義があるのかないのか?&lt;/div&gt;&lt;div&gt;一番大きい点は「&lt;b&gt;向こうの親も同じマンションに入居する&lt;/b&gt;」という話から今の話になっている。&lt;/div&gt;&lt;div&gt;出産育児を手伝っていただけることになってます。&lt;/div&gt;&lt;div&gt;なおかつ、完全に一緒に住むわけじゃなくて、プライベートも確保されたうえで、一緒に住めるというのがもう最高。要は、薫の負担が大幅に減るわけよ。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;それだけじゃなくて、隣人トラブルがないと言い切れる&lt;/div&gt;&lt;div&gt;→この1年間理事会を通じてマンション内の交流を深めてきた。&lt;/div&gt;&lt;div&gt;→上下左右知っている人。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="3SkstiafYZ7fMF2HQmnw-4" vertex="1">
-          <mxGeometry x="10" y="30" width="310" height="510" as="geometry" />
+        <mxCell id="3SkstiafYZ7fMF2HQmnw-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;2040万円を払うことに、そこまでの意義があるのかないのか?&lt;/div&gt;&lt;div&gt;一番大きい点は「&lt;b&gt;向こうの親も同じマンションに入居する&lt;/b&gt;」という話から今の話になっている。&lt;/div&gt;&lt;div&gt;出産育児を手伝っていただけることになってます。&lt;/div&gt;&lt;div&gt;なおかつ、完全に一緒に住むわけじゃなくて、プライベートも確保されたうえで、一緒に住めるというのがもう最高。要は、薫の負担が大幅に減るわけよ。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;それだけじゃなくて、隣人トラブルがないと言い切れる&lt;/div&gt;&lt;div&gt;→この1年間理事会を通じてマンション内の交流を深めてきた。&lt;/div&gt;&lt;div&gt;→上下左右知っている人で、飲み会も定期的に開催するぐらい交流がある。&lt;/div&gt;&lt;div&gt;どうゆう人となりかもよくわかっている。&lt;/div&gt;&lt;div&gt;ついでに言えば、その人たち含めてマンションの管理組合の人は管理がすっごいしっかりしていて、1.8億たまってます（上位10%には入っている。+@マンション全体を建て替えれるレベルの積立金。）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;周囲のマンションとも比べたんだけど&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="3SkstiafYZ7fMF2HQmnw-4" vertex="1">
+          <mxGeometry x="10" y="30" width="310" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="b4_Ncs32HFZQgM9vxh_t-1" value="資産の話" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="40" width="340" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="b4_Ncs32HFZQgM9vxh_t-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;最後に資産の話です。&lt;/div&gt;&lt;div&gt;低めに見積もっても戸建てと条件はさほど変わらない。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;戸建てのメリットって、確かに土地は必ずついてくる。&lt;/div&gt;&lt;div&gt;→土地の値段にもよるけど、そこが確保できているというのはすごく大きい。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="b4_Ncs32HFZQgM9vxh_t-1">
+          <mxGeometry x="10" y="30" width="310" height="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
