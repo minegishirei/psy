@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T12:35:29.051Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_MDhD_avnfDKVvMP4JdD" version="24.2.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-27T23:41:02.839Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OytNSKx7ouUhuNZjTmRa" version="24.2.0" type="github" pages="3">
   <diagram name="説得" id="dhC7dpjMyy3n1bbPjUTI">
     <mxGraphModel dx="1194" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="foG0x-CLaeSb250egE1I-1" value="前段" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="320" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="foG0x-CLaeSb250egE1I-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;まず、これは俺と薫の人生の話かつ、俺と薫と向こうの実家のお金の話です。&lt;/div&gt;&lt;div&gt;なので、色々言いたいことあるだろうけどもまずは俺の意見を理性的に聞いてほしい。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 利害関係者の話&lt;/div&gt;&lt;div&gt;- 環境の話&lt;/div&gt;&lt;div&gt;- 資産の話&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 前提条件 ： 利害関係者が誰なのか?&lt;/div&gt;&lt;div&gt;最終的な利害関係者は自分と薫（+@資金援助していただける勝康さん）&lt;br&gt;&lt;/div&gt;&lt;div&gt;その上で、&lt;b&gt;自分と薫が納得できる買い物ができるかどうかが大事。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="foG0x-CLaeSb250egE1I-1" vertex="1">
+        <mxCell id="foG0x-CLaeSb250egE1I-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;まず、これは俺と薫の人生の話かつ、俺と薫と向こうの実家のお金の話です。&lt;/div&gt;&lt;div&gt;なので、色々言いたいことあるだろうけどもまずは俺の意見を理性的に聞いてほしい。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 利害関係者の話&lt;/div&gt;&lt;div&gt;- 環境の話&lt;/div&gt;&lt;div&gt;- 資産の話&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 前提条件 ： 利害関係者が誰なのか?&lt;/div&gt;&lt;div&gt;最終的な利害関係者は自分と薫（+@資金援助していただける勝康さん）&lt;br&gt;&lt;/div&gt;&lt;div&gt;その上で、&lt;b&gt;自分と薫が納得できる買い物ができるかどうかが大事。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="foG0x-CLaeSb250egE1I-1" vertex="1">
           <mxGeometry x="10" y="30" width="310" height="290" as="geometry" />
         </mxCell>
         <mxCell id="3SkstiafYZ7fMF2HQmnw-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://prd-cdn-netmoney.storage.googleapis.com/images/YioWkUtnIEKkJemzrWbVTOXSDBUvpTLG/c96af983-182e-4b58-be43-63038ae558f5.jpg;" parent="1" vertex="1">
