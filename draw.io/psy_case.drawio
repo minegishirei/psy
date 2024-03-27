@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T01:30:54.205Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="X1lRUfYTnoV7UBLwcUz6" version="24.2.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-27T01:31:05.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="TXFLTqyeRnsGq0hDwed5" version="24.2.0" type="github" pages="2">
   <diagram name="説得" id="dhC7dpjMyy3n1bbPjUTI">
     <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
           <mxGeometry x="440" y="40" width="340" height="160" as="geometry" />
         </mxCell>
         <mxCell id="cpBcZgYPKQHLCi0j5f3B-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;・同じマンションに住むこと&lt;/div&gt;&lt;div&gt;・名義は1:1で支払うこと&lt;/div&gt;&lt;div&gt;・その際に育児などの面倒も一緒に見てくれること&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="cpBcZgYPKQHLCi0j5f3B-1">
-          <mxGeometry x="10" y="30" width="310" height="370" as="geometry" />
+          <mxGeometry x="10" y="30" width="310" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
