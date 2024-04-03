@@ -66,3 +66,4 @@ free: true
 
 
 
+page:https://psy.hatenadiary.com/entry/2024/03/30/214819
