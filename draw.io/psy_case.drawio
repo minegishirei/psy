@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T08:09:49.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ZX0NmhS7oyH3k036W2vR" version="24.3.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-05-02T08:12:26.994Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ONgERaf1may0QdRviDSR" version="24.3.1" type="github" pages="4">
   <diagram name="0503" id="h8QAUj8j9_u4T-ZswDpN">
     <mxGraphModel dx="1674" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="9fn9Vp-uXQXRUbLLEoEW-2" value="基本スタンス" style="swimlane;whiteSpace=wrap;html=1;" parent="9fn9Vp-uXQXRUbLLEoEW-1" vertex="1">
           <mxGeometry x="40" y="240" width="320" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;最終的には現状維持。&lt;span style=&quot;background-color: initial;&quot;&gt;今まで通りパレステージ和光に住んでる。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="9fn9Vp-uXQXRUbLLEoEW-2" vertex="1">
+        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;結局は現状維持。&lt;span style=&quot;background-color: initial;&quot;&gt;今まで通りパレステージ和光に住んでる。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="9fn9Vp-uXQXRUbLLEoEW-2" vertex="1">
           <mxGeometry x="10" y="30" width="310" height="120" as="geometry" />
         </mxCell>
         <mxCell id="oOeZGbqx4HoAVTd6Zwmv-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.the-owner.jp/600/400/mCidMfacWrpSmjdJNwlekYMhjXcBoLIR/c2f9acdd-6db6-494c-8a8d-d34d1b1e47a9.jpg;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-2">
