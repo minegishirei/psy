@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T02:51:36.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="c2U0FIEcQkGdJMyzT7lj" version="24.3.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-05-02T02:53:02.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="G_SS0OmyL5s8a9m6u-MG" version="24.3.1" type="github" pages="4">
   <diagram name="説得" id="dhC7dpjMyy3n1bbPjUTI">
     <mxGraphModel dx="1674" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,10 +51,10 @@
         <mxCell id="9fn9Vp-uXQXRUbLLEoEW-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;lineで話した通りだよ。最終的には現状維持で&lt;/div&gt;&lt;div&gt;今まで通りパレステージ和光に住んでる。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-2">
           <mxGeometry x="10" y="30" width="310" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-4" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;こうゆうこと&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-1">
+        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-4" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;608ってどうした?&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-1">
           <mxGeometry x="440" y="240" width="340" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;・同じマンションに住むこと&lt;/div&gt;&lt;div&gt;・名義は1:1で支払うこと&lt;/div&gt;&lt;div&gt;・その際に育児などの面倒も一緒に見てくれること&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-4">
+        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;（基本は薫に任せるが）&lt;/div&gt;&lt;div&gt;なんか向こうの親父さんが買ったらしい。&lt;/div&gt;&lt;div&gt;詳しくはわからんけど、&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-4">
           <mxGeometry x="10" y="30" width="310" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9fn9Vp-uXQXRUbLLEoEW-6" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;line&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-1">
