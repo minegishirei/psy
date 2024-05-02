@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-01T12:41:21.339Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="X7ztEgl7XST5nH7EWDFy" version="24.3.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-02T02:51:36.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="c2U0FIEcQkGdJMyzT7lj" version="24.3.1" type="github" pages="4">
   <diagram name="説得" id="dhC7dpjMyy3n1bbPjUTI">
-    <mxGraphModel dx="1194" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,27 +40,53 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="0503" id="h8QAUj8j9_u4T-ZswDpN">
+    <mxGraphModel dx="1674" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-0" />
+        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-1" parent="9fn9Vp-uXQXRUbLLEoEW-0" />
+        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-2" value="基本スタンス" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-1">
+          <mxGeometry x="40" y="240" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;lineで話した通りだよ。最終的には現状維持で&lt;/div&gt;&lt;div&gt;今まで通りパレステージ和光に住んでる。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-2">
+          <mxGeometry x="10" y="30" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-4" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;こうゆうこと&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-1">
+          <mxGeometry x="440" y="240" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;・同じマンションに住むこと&lt;/div&gt;&lt;div&gt;・名義は1:1で支払うこと&lt;/div&gt;&lt;div&gt;・その際に育児などの面倒も一緒に見てくれること&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-4">
+          <mxGeometry x="10" y="30" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-6" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;line&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-1">
+          <mxGeometry x="40" y="40" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9fn9Vp-uXQXRUbLLEoEW-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;色々考えたけどマンション購入は一度なしにして他も見てみます&lt;/div&gt;&lt;div&gt;なので今週日曜日の訪問もとりあえず大丈夫です&lt;/div&gt;&lt;div&gt;急な連絡でご心配おかけしました&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9fn9Vp-uXQXRUbLLEoEW-6">
+          <mxGeometry x="10" y="30" width="310" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="SdWDtHSQ3PRxiJJKlAN3" name="3/27">
-    <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CpOxr3M4tCx_cOBMShgT-1" value="前段" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CpOxr3M4tCx_cOBMShgT-1" value="前段" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="240" width="320" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="CpOxr3M4tCx_cOBMShgT-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;最終的には、現状維持です。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;このまま101に住んでいくし、しばらくは家賃支払いになると思ってます。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ただね、出産前までには落ち着きたいし&lt;/div&gt;&lt;div&gt;遅くとも子供が小学校入る前までが妥当な時期かなと思ってます。&lt;/div&gt;&lt;div&gt;→そこまでずっと家賃だと、家賃って極端な話捨てる金だから。お金の点で、落ち着くべきだと思う。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ただ、考慮時間が1週間は短かったし、それについても向こうの親と話してます。&lt;/div&gt;&lt;div&gt;こうゆうこと考えていたのであればもっと早めに話してほしいという風に言ったし、そこは納得してもらいました。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;でも、マンション自体の話で行くとおれは資産は少なくとも落ちないと思う。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="CpOxr3M4tCx_cOBMShgT-1">
+        <mxCell id="CpOxr3M4tCx_cOBMShgT-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;最終的には、現状維持です。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;このまま101に住んでいくし、しばらくは家賃支払いになると思ってます。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ただね、出産前までには落ち着きたいし&lt;/div&gt;&lt;div&gt;遅くとも子供が小学校入る前までが妥当な時期かなと思ってます。&lt;/div&gt;&lt;div&gt;→そこまでずっと家賃だと、家賃って極端な話捨てる金だから。お金の点で、落ち着くべきだと思う。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ただ、考慮時間が1週間は短かったし、それについても向こうの親と話してます。&lt;/div&gt;&lt;div&gt;こうゆうこと考えていたのであればもっと早めに話してほしいという風に言ったし、そこは納得してもらいました。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;でも、マンション自体の話で行くとおれは資産は少なくとも落ちないと思う。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="CpOxr3M4tCx_cOBMShgT-1" vertex="1">
           <mxGeometry x="10" y="30" width="310" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="cpBcZgYPKQHLCi0j5f3B-1" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;こうゆうこと&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cpBcZgYPKQHLCi0j5f3B-1" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;こうゆうこと&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="240" width="340" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="cpBcZgYPKQHLCi0j5f3B-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;・同じマンションに住むこと&lt;/div&gt;&lt;div&gt;・名義は1:1で支払うこと&lt;/div&gt;&lt;div&gt;・その際に育児などの面倒も一緒に見てくれること&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="cpBcZgYPKQHLCi0j5f3B-1">
+        <mxCell id="cpBcZgYPKQHLCi0j5f3B-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;div&gt;・同じマンションに住むこと&lt;/div&gt;&lt;div&gt;・名義は1:1で支払うこと&lt;/div&gt;&lt;div&gt;・その際に育児などの面倒も一緒に見てくれること&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="cpBcZgYPKQHLCi0j5f3B-1" vertex="1">
           <mxGeometry x="10" y="30" width="310" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="fJ0gMHYLRXLqGnPyuAHR-1" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;line&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fJ0gMHYLRXLqGnPyuAHR-1" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;line&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="340" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="fJ0gMHYLRXLqGnPyuAHR-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;色々考えたけどマンション購入は一度なしにして他も見てみます&lt;/div&gt;&lt;div&gt;なので今週日曜日の訪問もとりあえず大丈夫です&lt;/div&gt;&lt;div&gt;急な連絡でご心配おかけしました&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="fJ0gMHYLRXLqGnPyuAHR-1">
+        <mxCell id="fJ0gMHYLRXLqGnPyuAHR-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;色々考えたけどマンション購入は一度なしにして他も見てみます&lt;/div&gt;&lt;div&gt;なので今週日曜日の訪問もとりあえず大丈夫です&lt;/div&gt;&lt;div&gt;急な連絡でご心配おかけしました&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="fJ0gMHYLRXLqGnPyuAHR-1" vertex="1">
           <mxGeometry x="10" y="30" width="310" height="120" as="geometry" />
         </mxCell>
       </root>
