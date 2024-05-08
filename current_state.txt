@@ -36,11 +36,11 @@
 /blog/9000tmp/01read_state/components/言語/word.md
 /blog/9000tmp/01read_state/components/言語/常識的に考えて.md
 /blog/9000tmp/01read_state/components/衣服/帽子.md
-/blog/9000tmp/01read_state/components/発達段階理論/0004潜伏期.md
-/blog/9000tmp/01read_state/components/発達段階理論/0000index.md
-/blog/9000tmp/01read_state/components/発達段階理論/0001口唇期.md
-/blog/9000tmp/01read_state/components/発達段階理論/0003男根期.md
-/blog/9000tmp/01read_state/components/発達段階理論/0002肛門期.md
+/blog/9000tmp/01read_state/components/child_stage/0004潜伏期.md
+/blog/9000tmp/01read_state/components/child_stage/0000index.md
+/blog/9000tmp/01read_state/components/child_stage/0001口唇期.md
+/blog/9000tmp/01read_state/components/child_stage/0003man_root.md
+/blog/9000tmp/01read_state/components/child_stage/0002肛門期.md
 /blog/9000tmp/01read_state/components/big_five/5000誠実性.md
 /blog/9000tmp/01read_state/components/big_five/2000開放性.md
 /blog/9000tmp/01read_state/components/big_five/4000神経症傾向.md
