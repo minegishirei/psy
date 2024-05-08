@@ -1,4 +1,4 @@
 requests
 markdown-to-json
 tweepy
-markdownify==0.4.0
+markdownify
