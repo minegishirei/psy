@@ -1,3 +1,7 @@
+絵が下手な人の脳
+personal
+6801883189104835841
+
 
 - [絵心がない人](#絵心がない人)
   - [ありのままを見れない:観察プロセスでの問題](#ありのままを見れない観察プロセスでの問題)
@@ -89,3 +93,4 @@ from https://bashideza.com/drawing-memory/
 
 
 
+page:https://psy.hatenadiary.com/entry/2023/03/27/180611
