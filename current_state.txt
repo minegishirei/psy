@@ -114,7 +114,7 @@
 /blog/2000users/食べ物の好き嫌い.md
 /blog/2000users/歯が抜けた人.md
 /blog/2000users/肥満.md
-/blog/2000users/絵が下手な人.md
+/blog/2000users/bad_picture.md
 /blog/2000users/TEM/engineer_tem.md
 /blog/2000users/TEM/不妊治療とTEM.md
 /blog/2000users/TEM/0000index.md
