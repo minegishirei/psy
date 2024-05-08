@@ -4,7 +4,7 @@ import json
 import markdown_to_json
 
 HATENA_ID = "minegishirei"
-BLOG_DOMAIN = "minegishirei.hatenablog.com"
+BLOG_DOMAIN = "psy.hatenadiary.com"
 API_KEY = "u6v0f3440e"
 
 def hatena_entry(title, contents, entry_id, categorys=[], updated="", draft=False):
