@@ -73,6 +73,10 @@ jobs:
         # with:
         #   since_last_remote_commit: true 
       
+      - name: run scrapy
+        run: |
+          docker run -v ./data:/data -v ./code:/code pythonconsole bash -c "python /code/scrapy.py"
+
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
