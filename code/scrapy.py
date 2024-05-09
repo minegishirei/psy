@@ -61,6 +61,8 @@ def get_links(url):
         soup = BeautifulSoup(html)
         for a_tag in soup.find_all('a'):
             a_tags.append(a_tag.get('href'))
+            print(a_tag)
+            print(a_tags)
         return a_tags
 
 
