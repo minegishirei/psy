@@ -26,23 +26,25 @@ base_url = "https://www.psychologytoday.com/intl"
 
 def create_japanese_sentence(url):
     sentence = ""
+    title = ""
     with urllib.request.urlopen(url) as u:
         html = u.read()
         soup = BeautifulSoup(html)
-        print(soup.get("title"))
+        title = soup.find('title').text
         markdown = md(html)
         for row in markdown.split("\n"):
             if len(row) < 300:
                 continue
             translated = translator.translate(row, dest="ja");
             sentence += (translated.text + "\n")
-    return sentence
+    return title,sentence
 
 
-sentence = create_japanese_sentence(url)
+title, sentence = create_japanese_sentence(url)
 
+print(title)
 print(sentence)
-
+print("from:",url)
 
 
 
