@@ -88,18 +88,18 @@ def create_link3(link_parts):
 
 
 sites = [
+    #{
+    #    "url" : "https://www.psychologytools.com/professional/techniques/behavioral-experiments/",
+    #    "create_link" : create_link3
+    #}
     {
-        "url" : "https://www.psychologytools.com/professional/techniques/behavioral-experiments/",
-        "create_link" : create_link3
+        "url" : "https://www.psychologistworld.com/",
+        "create_link" : create_link1
+    },
+    {
+        "url" : "https://www.psychologytoday.com",
+        "create_link" : create_link2
     }
-    #,{
-    #    "url" : "https://www.psychologistworld.com/",
-    #    "create_link" : create_link1
-    #}
-    #,{
-    #    "url" : "https://www.psychologytoday.com",
-    #    "create_link" : create_link2
-    #}
 ]
 
 done_url_list = []
