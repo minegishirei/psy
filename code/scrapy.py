@@ -89,7 +89,7 @@ sites = [
 ]
 
 done_url_list = []
-with open(f"scrapy_done_list", mode='a') as f:
+with open(f"scrapy_done_list", mode='r') as f:
     done_url_list = f.read().split("\n")
 
 
