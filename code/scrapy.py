@@ -21,7 +21,9 @@ url = "https://www.psychologytoday.com/intl/blog/denying-to-the-grave/202405/con
 url = "https://www.psychologytoday.com/intl/blog/speaking-in-tongues/202405/financial-infidelity-the-cost-of-keeping-secrets"
 url = "https://www.psychologytoday.com/intl/blog/social-instincts/202405/2-popular-psychology-myths-debunked"
 #url = "https://www.psychologistworld.com/memory/false-memories-questioning-eyewitness-testimony"
-url = "https://www.psychologytoday.com/intl/blog/fixing-families/202405/why-some-of-the-stories-you-tell-yourself-may-be-wrong"
+#url = "https://www.psychologytoday.com/intl/blog/fixing-families/202405/why-some-of-the-stories-you-tell-yourself-may-be-wrong"
+
+url = "https://www.psychologistworld.com/memory/influential-memory-psychology-studies-experiments"
 
 
 base_url = "https://www.psychologytoday.com/intl"
