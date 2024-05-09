@@ -18,6 +18,7 @@ def md(html, **options):
 url = "https://www.psychologytoday.com/intl/blog/all-is-well/202405/who-decides-what-art-is-good"
 url = "https://www.psychologytoday.com/intl/blog/denying-to-the-grave/202405/consequences-of-being-mistreated-by-the-healthcare-system"
 url = "https://www.psychologytoday.com/intl/blog/speaking-in-tongues/202405/financial-infidelity-the-cost-of-keeping-secrets"
+url = "https://www.psychologytoday.com/intl/blog/social-instincts/202405/2-popular-psychology-myths-debunked"
 
 base_url = "https://www.psychologytoday.com/intl"
 
@@ -28,7 +29,7 @@ def create_japanese_sentence(url):
     with urllib.request.urlopen(url) as u:
         html = u.read()
         soup = BeautifulSoup(html)
-        print(soup)
+        print(soup.get("title"))
         markdown = md(html)
         for row in markdown.split("\n"):
             if len(row) < 300:
