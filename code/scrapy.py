@@ -12,6 +12,7 @@ def md(html, **options):
     return ImageBlockConverter(**options).convert(html)
 
 url = "https://www.psychologytoday.com/intl/blog/all-is-well/202405/who-decides-what-art-is-good"
+url = "https://www.psychologytoday.com/intl/blog/denying-to-the-grave/202405/consequences-of-being-mistreated-by-the-healthcare-system"
 
 
 import urllib.request
