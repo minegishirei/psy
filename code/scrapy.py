@@ -34,7 +34,7 @@ def create_japanese_sentence(url):
             if len(row) < 100:
                 continue
             translated = translator.translate(row, dest="ja");
-            sentence += (translated.tex + "\n")
+            sentence += (translated.tet + "\n")
     return sentence
 
 
