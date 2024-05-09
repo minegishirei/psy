@@ -81,11 +81,11 @@ sites = [
     {
         "url" : "https://www.psychologistworld.com/",
         "create_link" : create_link1
-    },
-    {
-        "url" : "https://www.psychologytoday.com",
-        "create_link" : create_link2
     }
+    #,{
+    #    "url" : "https://www.psychologytoday.com",
+    #    "create_link" : create_link2
+    #}
 ]
 
 done_url_list = []
@@ -93,7 +93,7 @@ with open(f"scrapy_done_list", mode='r') as f:
     done_url_list = f.read().split("\n")
 
 
-for row in sites[1:]:
+for row in sites:
     print(row)
     links = get_links(row["url"])
     create_link = row["create_link"]
