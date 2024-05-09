@@ -88,6 +88,11 @@ sites = [
     }
 ]
 
+done_url_list = []
+with open(f"scrapy_done_list", mode='a') as f:
+    done_url_list = f.read().split("\n")
+
+
 for row in sites[1:]:
     print(row)
     links = get_links(row["url"])
@@ -97,12 +102,18 @@ for row in sites[1:]:
         if create_link(link):
             filterd_links.append(create_link(link))
     
-    for url in filterd_links[:5]:
+    count = 0
+    for url in filterd_links:
+        if url in done_url_list:
+            continue
+        count += 1
+        if count > 5:
+            break
         title,description,sentence = create_japanese_sentence(url)
         with open(f"/data/{title}", "w+") as f:
             f.write(description + "\n" + sentence + "\n" + "from:" + url)
         with open(f"scrapy_done_list", mode='a') as f:
-            f.write(url)
+            f.write(url + "\n")
 
 
 
