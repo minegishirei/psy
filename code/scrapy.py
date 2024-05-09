@@ -17,7 +17,7 @@ url = "https://www.psychologytoday.com/intl/blog/denying-to-the-grave/202405/con
 
 import urllib.request
 
-with urllib.request.urlopen('https://techacademy.jp/') as u:
+with urllib.request.urlopen(url) as u:
     print( md(u.read()) )
 
 
