@@ -4,6 +4,9 @@ import urllib.request
 from bs4 import BeautifulSoup
 translator = Translator()
 import traceback
+import datetime
+t_delta = datetime.timedelta(hours=9)
+JST = datetime.timezone(t_delta, 'JST')
 
 class ImageBlockConverter(MarkdownConverter):
     """
@@ -82,10 +85,10 @@ sites = [
         "url" : "https://www.psychologistworld.com/",
         "create_link" : create_link1
     }
-    #,{
-    #    "url" : "https://www.psychologytoday.com",
-    #    "create_link" : create_link2
-    #}
+    ,{
+        "url" : "https://www.psychologytoday.com",
+        "create_link" : create_link2
+    }
 ]
 
 done_url_list = []
@@ -108,10 +111,11 @@ for row in sites:
             pass
         else:
             count += 1
-            if count > 5:
+            if count > 2:
                 break
             title,description,sentence = create_japanese_sentence(url)
-            with open(f"/data/{title}", "w+") as f:
+            now = datetime.datetime.now(JST)
+            with open(f"/data/{now.strftime('%Y%m%d%H%M%S')}{title}", "w+") as f:
                 f.write(description + "\n" + sentence + "\n" + "from:" + url)
             with open(f"scrapy_done_list", mode='a') as f:
                 f.write(url + "\n")
