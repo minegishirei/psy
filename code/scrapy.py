@@ -23,6 +23,9 @@ url = "https://www.psychologytoday.com/intl/blog/social-instincts/202405/2-popul
 base_url = "https://www.psychologytoday.com/intl"
 
 
+def my_translate(text):
+    translated = translator.translate(text, dest="ja")
+    return translated.text
 
 def create_japanese_sentence(url):
     sentence = ""
@@ -30,13 +33,12 @@ def create_japanese_sentence(url):
     with urllib.request.urlopen(url) as u:
         html = u.read()
         soup = BeautifulSoup(html)
-        title = soup.find('title').text
+        title = my_translate(soup.find('title').text)
         markdown = md(html)
         for row in markdown.split("\n"):
             if len(row) < 300:
                 continue
-            translated = translator.translate(row, dest="ja");
-            sentence += (translated.text + "\n")
+            sentence += ( my_translate(row) + "\n")
     return title,sentence
 
 
