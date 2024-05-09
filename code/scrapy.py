@@ -52,7 +52,7 @@ def create_japanese_sentence(url):
 title,description,sentence = create_japanese_sentence(url)
 
 
-with open("/data/{title}") as f:
+with open(f"/data/{title}") as f:
     f.write(description + "\n" + sentence + "\n" + "from:" + url)
 
 
