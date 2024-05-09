@@ -54,11 +54,34 @@ def create_japanese_sentence(url):
     return title,description,sentence
 
 
-title,description,sentence = create_japanese_sentence(url)
+def get_links(url):
+    a_tags = []
+    with urllib.request.urlopen(url) as u:
+        html = u.read()
+        soup = BeautifulSoup(html)
+        for a_tag in soup.find_all('a'):
+            a_tags.append(el.get('href'))
+        return a_tags
 
 
-with open(f"/data/{title}", "w+") as f:
-    f.write(description + "\n" + sentence + "\n" + "from:" + url)
+sites = [
+    {
+        "url" : "https://www.psychologistworld.com/"
+    }
+]
+
+for row in sites:
+    links = get_links(row["url"])
+    print(links)
+
+
+
+
+
+
+#title,description,sentence = create_japanese_sentence(url)
+#with open(f"/data/{title}", "w+") as f:
+#    f.write(description + "\n" + sentence + "\n" + "from:" + url)
 
 
 
