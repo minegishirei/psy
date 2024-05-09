@@ -70,17 +70,25 @@ def get_links(url):
 def create_link1(link_parts):
     if link_parts.startswith("/") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
         return "https://www.psychologistworld.com" + link_parts
-    
+    return False
+
+def create_link2(link_parts):
+    if link_parts.startswith("/") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
+        return "https://www.psychologytoday.com" + link_parts
     return False
 
 sites = [
     {
         "url" : "https://www.psychologistworld.com/",
         "create_link" : create_link1
+    },
+    {
+        "url" : "https://www.psychologytoday.com",
+        "create_link" : create_link2
     }
 ]
 
-for row in sites:
+for row in sites[1:]:
     print(row)
     links = get_links(row["url"])
     create_link = row["create_link"]
@@ -89,7 +97,7 @@ for row in sites:
         if create_link(link):
             filterd_links.append(create_link(link))
     
-    for url in filterd_links[7:10]:
+    for url in filterd_links[:5]:
         title,description,sentence = create_japanese_sentence(url)
         with open(f"/data/{title}", "w+") as f:
             f.write(description + "\n" + sentence + "\n" + "from:" + url)
