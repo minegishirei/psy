@@ -1,7 +1,7 @@
 from markdownify import MarkdownConverter
 from googletrans import Translator
 import urllib.request
-
+translator = Translator()
 
 class ImageBlockConverter(MarkdownConverter):
     """
