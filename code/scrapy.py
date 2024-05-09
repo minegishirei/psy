@@ -66,19 +66,31 @@ def get_links(url):
         return a_tags
 
 
+
+def create_link1(link_parts):
+    if link_parts.startswith("/") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
+        return "https://www.psychologistworld.com/" + link_parts
+    
+    return False
+
 sites = [
     {
-        "url" : "https://www.psychologistworld.com/"
+        "url" : "https://www.psychologistworld.com/",
+        "create_link" : create_link1
     }
 ]
 
 for row in sites:
     print(row)
     links = get_links(row["url"])
-    print(links)
-    title = "納税万歳"
+    create_link = row["create_link"]
+    filterd_links = []
+    for link in links:
+        if create_link(link):
+            filterd_links.append(create_link(link))
+    title = "納税万歳2"
     with open(f"/data/{title}", "w+") as f:
-        f.write(str(links))
+        f.write(str(filterd_links))
 
 
 
