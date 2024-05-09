@@ -73,6 +73,7 @@ sites = [
 ]
 
 for row in sites:
+    print(row)
     links = get_links(row["url"])
     print(links)
 
