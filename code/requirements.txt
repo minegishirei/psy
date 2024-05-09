@@ -2,3 +2,4 @@ requests
 markdown-to-json
 tweepy
 markdownify
+urllib3

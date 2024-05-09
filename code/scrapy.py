@@ -1,5 +1,4 @@
 from markdownify import MarkdownConverter
-import urllib
 
 class ImageBlockConverter(MarkdownConverter):
     """
@@ -15,11 +14,11 @@ def md(html, **options):
 url = "https://www.psychologytoday.com/intl/blog/all-is-well/202405/who-decides-what-art-is-good"
 
 
+import urllib.request
 
-response = urllib.request.urlopen(url)
-content = response.read()
+with urllib.request.urlopen('https://techacademy.jp/') as u:
+    print( md(u.read()) )
 
-print( md(content) )
 
 
 
