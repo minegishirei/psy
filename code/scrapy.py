@@ -89,7 +89,7 @@ for row in sites:
         if create_link(link):
             filterd_links.append(create_link(link))
     
-    for url in filterd_links[3:6]:
+    for url in filterd_links[7:10]:
         title,description,sentence = create_japanese_sentence(url)
         with open(f"/data/{title}", "w+") as f:
             f.write(description + "\n" + sentence + "\n" + "from:" + url)
