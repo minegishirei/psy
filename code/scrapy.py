@@ -69,7 +69,7 @@ def get_links(url):
 
 def create_link1(link_parts):
     if link_parts.startswith("/") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
-        return "https://www.psychologistworld.com/" + link_parts
+        return "https://www.psychologistworld.com" + link_parts
     
     return False
 
@@ -96,7 +96,8 @@ for row in sites:
         title,description,sentence = create_japanese_sentence(url)
         with open(f"/data/{title}", "w+") as f:
             f.write(description + "\n" + sentence + "\n" + "from:" + url)
-
+        with open(f"scrapy_done_list", mode='a') as f:
+            f.write(url)
 
 
 
