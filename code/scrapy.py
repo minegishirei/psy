@@ -91,15 +91,11 @@ for row in sites:
     title = "納税万歳2"
     with open(f"/data/{title}", "w+") as f:
         f.write(str(filterd_links))
-
-
-
-
-
-
-#title,description,sentence = create_japanese_sentence(url)
-#with open(f"/data/{title}", "w+") as f:
-#    f.write(description + "\n" + sentence + "\n" + "from:" + url)
+    
+    for url in filterd_links:
+        title,description,sentence = create_japanese_sentence(url)
+        with open(f"/data/{title}", "w+") as f:
+            f.write(description + "\n" + sentence + "\n" + "from:" + url)
 
 
 
