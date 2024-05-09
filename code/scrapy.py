@@ -76,7 +76,8 @@ for row in sites:
     print(row)
     links = get_links(row["url"])
     print(links)
-    with open(f"/data/{"test"}", "w+") as f:
+    title = "納税万歳"
+    with open(f"/data/{title}", "w+") as f:
         f.write(str(links))
 
 
