@@ -1,6 +1,7 @@
 from markdownify import MarkdownConverter
 from googletrans import Translator
 import urllib.request
+from bs4 import BeautifulSoup
 translator = Translator()
 
 class ImageBlockConverter(MarkdownConverter):
@@ -22,15 +23,25 @@ base_url = "https://www.psychologytoday.com/intl"
 
 
 
+def create_japanese_sentence(url):
+    sentence = ""
+    html = urllib.request.urlopen(url)
+    soup = BeautifulSoup(response)
+    with html as u:
+        markdown = md(u.read())
+        for row in markdown.split("\n"):
+            if len(row) < 100:
+                continue
+            translated = translator.translate(row, dest="ja");
+            print(translated.text) # Japanese
+            sentence += (translated + "\n")
+    return soup.get("title"), sentence
 
-with urllib.request.urlopen(url) as u:
-    markdown = md(u.read())
-    for row in markdown.split("\n"):
-        if len(row) < 100:
-            continue
-        translated = translator.translate(row, dest="ja");
-        print(translated.text) # Japanese
 
+title, sentence = create_japanese_sentence(url)
+
+print(title)
+print(sentence)
 
 
 
