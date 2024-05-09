@@ -1,4 +1,6 @@
 from markdownify import MarkdownConverter
+from googletrans import Translator
+import urllib.request
 
 class ImageBlockConverter(MarkdownConverter):
     """
@@ -15,10 +17,12 @@ url = "https://www.psychologytoday.com/intl/blog/all-is-well/202405/who-decides-
 url = "https://www.psychologytoday.com/intl/blog/denying-to-the-grave/202405/consequences-of-being-mistreated-by-the-healthcare-system"
 
 
-import urllib.request
+
 
 with urllib.request.urlopen(url) as u:
-    print( md(u.read()) )
+    markdown = md(u.read())
+    translated = translator.translate(markdown, dest="ja");
+    print(translated.text) # Japanese
 
 
 
