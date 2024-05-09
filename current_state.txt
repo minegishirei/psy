@@ -99,6 +99,7 @@
 /blog/3000cases/5000プレゼンテーション/main.md
 /blog/treasure/disaster_47.md
 /blog/treasure/simple_contact.md
+/blog/data/main.md
 /blog/engineer_psychology/2100select_control.md
 /blog/engineer_psychology/readme.md
 /blog/engineer_psychology/1200chat.md
