@@ -105,15 +105,16 @@ for row in sites:
     count = 0
     for url in filterd_links:
         if url in done_url_list:
-            continue
-        count += 1
-        if count > 5:
-            break
-        title,description,sentence = create_japanese_sentence(url)
-        with open(f"/data/{title}", "w+") as f:
-            f.write(description + "\n" + sentence + "\n" + "from:" + url)
-        with open(f"scrapy_done_list", mode='a') as f:
-            f.write(url + "\n")
+            pass
+        else:
+            count += 1
+            if count > 5:
+                break
+            title,description,sentence = create_japanese_sentence(url)
+            with open(f"/data/{title}", "w+") as f:
+                f.write(description + "\n" + sentence + "\n" + "from:" + url)
+            with open(f"scrapy_done_list", mode='a') as f:
+                f.write(url + "\n")
 
 
 
