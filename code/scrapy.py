@@ -31,7 +31,7 @@ def create_japanese_sentence(url):
         print(soup)
         markdown = md(html)
         for row in markdown.split("\n"):
-            if len(row) < 100:
+            if len(row) < 300:
                 continue
             translated = translator.translate(row, dest="ja");
             sentence += (translated.text + "\n")
