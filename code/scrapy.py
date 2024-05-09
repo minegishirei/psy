@@ -22,8 +22,11 @@ url = "https://www.psychologytoday.com/intl/blog/denying-to-the-grave/202405/con
 
 with urllib.request.urlopen(url) as u:
     markdown = md(u.read())
-    translated = translator.translate(markdown, dest="ja");
-    print(translated.text) # Japanese
+    for row in markdown:
+        if len(row) < 300:
+            continue
+        translated = translator.translate(row, dest="ja");
+        print(translated.text) # Japanese
 
 
 
