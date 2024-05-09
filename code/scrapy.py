@@ -73,7 +73,7 @@ def create_link1(link_parts):
     return False
 
 def create_link2(link_parts):
-    if link_parts.startswith("/") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
+    if link_parts and link_parts.startswith("/") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
         return "https://www.psychologytoday.com" + link_parts
     return False
 
