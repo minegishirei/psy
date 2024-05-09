@@ -3,6 +3,7 @@ from googletrans import Translator
 import urllib.request
 from bs4 import BeautifulSoup
 translator = Translator()
+import traceback
 
 class ImageBlockConverter(MarkdownConverter):
     """
@@ -43,7 +44,11 @@ def create_japanese_sentence(url):
         for row in markdown.split("\n"):
             if len(row) < 100:
                 continue
-            sentence += ( my_translate(row) + "\n")
+            try:
+                sentence += ( my_translate(row) + "\n")
+            except:
+                print("error_row : ",row)
+                traceback.print_exc()
     return title,description,sentence
 
 
