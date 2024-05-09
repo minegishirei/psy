@@ -75,7 +75,7 @@ jobs:
       
       - name: run scrapy
         run: |
-          docker run -v ./data:/data -v ./code:/code pythonconsole bash -c "python /code/scrapy.py" > .data/main.test
+          docker run -v ./data:/data -v ./code:/code pythonconsole bash -c "python /code/scrapy.py" > ./data/main.test
 
 
       - uses: stefanzweifel/git-auto-commit-action@v4
