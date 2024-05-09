@@ -33,8 +33,7 @@ def create_japanese_sentence(url):
             if len(row) < 100:
                 continue
             translated = translator.translate(row, dest="ja");
-            print(translated.text) # Japanese
-            sentence += (translated + "\n")
+            sentence += (translated.tex + "\n")
     return soup.get("title"), sentence
 
 
