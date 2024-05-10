@@ -102,10 +102,15 @@ sites = [
     #    "create_link" : create_link4
     #},
     {
-        "url" : "https://journals.sagepub.com/home/pss",
-        "domain" : "https://journals.sagepub.com/home/pss",
+        "url" : "https://www.apa.org/education-career/guide/science",
+        "domain" : "https://www.apa.org/education-career",
         "create_link" : create_link4
     },
+    #{
+    #""    "url" : "https://journals.sagepub.com/home/pss",
+    #""    "domain" : "https://journals.sagepub.com/home/pss",
+    #J    "create_link" : create_link4
+    #},
 
     #{
     #    "url" : "https://www.psychologistworld.com/",
