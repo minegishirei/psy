@@ -45,7 +45,10 @@ def create_japanese_sentence(url):
         html = u.read()
         soup = BeautifulSoup(html)
         title = my_translate(soup.find('title').text)
-        description = my_translate(soup.find('meta', attrs={'name': 'description'}).get('content'))
+        try:
+            description = my_translate(soup.find('meta', attrs={'name': 'description'}).get('content'))
+        except:
+            pass
         markdown = md(str(soup.find("body")))
         for row in markdown.split("\n"):
             if len(row) < 100:
