@@ -7,7 +7,8 @@ import traceback
 import datetime
 t_delta = datetime.timedelta(hours=9)
 JST = datetime.timezone(t_delta, 'JST')
-
+from urllib.parse import urlparse
+ 
 class ImageBlockConverter(MarkdownConverter):
     """
     Create a custom MarkdownConverter that adds two newlines after an image
@@ -101,9 +102,13 @@ sites = [
     #    "domain" : "https://www.scientificamerican.com",
     #    "create_link" : create_link4
     #},
+    #{
+    #    "url" : "https://www.apa.org/education-career/guide/science",
+    #J    "domain" : "https://www.apa.org",
+    #J    "create_link" : create_link4
+    #},
     {
-        "url" : "https://www.apa.org/education-career/guide/science",
-        "domain" : "https://www.apa.org",
+        "url" : "https://www.sciencenews.org/topic/psychology",
         "create_link" : create_link4
     },
     #{
@@ -130,11 +135,17 @@ with open(f"scrapy_done_list", mode='r') as f:
 for row in sites:
     links = get_links(row["url"])
     print("【log】 links : ", links)
+    # 解析対象URL 
+    # URLをパースする
+    parsed_url = urlparse(row["url"])
+    domain = parsed_url.netloc
+    print("【log】 domain : ", domain)
+    
     create_link = row["create_link"]
-    filterd_links = list(filter( lambda link : create_link(link,row["domain"]) ,links) )
+    filterd_links = list(filter( lambda link : create_link(link,domain) ,links) )
 
     print("【log】 filterd_links : ", filterd_links)
-    filterd_links = list(map(lambda link : create_link(link,row["domain"]), filterd_links) )
+    filterd_links = list(map(lambda link : create_link(link,domain), filterd_links) )
 
     count = 0
     for url in filterd_links:
