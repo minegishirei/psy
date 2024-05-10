@@ -100,6 +100,7 @@
 /blog/treasure/disaster_47.md
 /blog/treasure/distance_society.md
 /blog/treasure/simple_contact.md
+/blog/treasure/sad_song.md
 /blog/treasure/false_memory.md
 /blog/engineer_psychology/2100select_control.md
 /blog/engineer_psychology/readme.md
