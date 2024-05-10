@@ -98,6 +98,7 @@
 /blog/3000cases/9000操作/ゆっくりしゃべる.md
 /blog/3000cases/5000プレゼンテーション/main.md
 /blog/treasure/disaster_47.md
+/blog/treasure/distance_society.md
 /blog/treasure/simple_contact.md
 /blog/treasure/false_memory.md
 /blog/engineer_psychology/2100select_control.md
