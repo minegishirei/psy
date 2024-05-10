@@ -122,10 +122,8 @@ for row in sites:
     print(row)
     links = get_links(row["url"])
     create_link = row["create_link"]
-    filterd_links = []
-    for link in links:
-        if create_link(link, row["domain"]):
-            filterd_links.append(create_link(link, row["domain"]))
+    filterd_links = list(filter( lambda link : create_link(link,row["domain"]) ,links) )
+    filterd_links = list(map(lambda link : create_link(link,row["domain"]), filterd_links) )
     
     count = 0
     for url in filterd_links:
