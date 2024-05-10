@@ -112,7 +112,6 @@ sites = [
     #},
     {
         "url" : "https://www.sciencenews.org/topic/psychology",
-        "create_link" : create_link4
     },
     #{
     #""    "url" : "https://journals.sagepub.com/home/pss",
@@ -122,12 +121,10 @@ sites = [
 
     {
         "url" : "https://www.psychologistworld.com/",
-        "create_link" : create_link1
     },
-    #{
-    #    "url" : "https://www.psychologytoday.com",
-    #    "create_link" : create_link2
-    #}
+    {
+        "url" : "https://www.psychologytoday.com",
+    }
 ]
 
 done_url_list = []
