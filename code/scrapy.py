@@ -155,7 +155,7 @@ for row in sites:
             pass
         else:
             count += 1
-            if count > 4:
+            if count > 1:
                 break
             print("【log】search : ",url)
             try:
@@ -165,6 +165,7 @@ for row in sites:
                     f.write(description + "\n" + sentence + "\n" + "from:" + url)
                 with open(f"scrapy_done_list", mode='a') as f:
                     f.write(url + "\n")
+                    done_url_list.append(url)
             except:
                 print("error_url : ",url)
                 traceback.print_exc()
