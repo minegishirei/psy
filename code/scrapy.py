@@ -58,6 +58,8 @@ def create_japanese_sentence(url):
             except:
                 print("error_row : ",row)
                 traceback.print_exc()
+                import time
+                time.sleep(10)
     return title,description,sentence
 
 
@@ -156,12 +158,15 @@ for row in sites:
             if count > 4:
                 break
             print("【log】search : ",url)
-            title,description,sentence = create_japanese_sentence(url)
-            now = datetime.datetime.now(JST)
-            with open(f"/data/{now.strftime('%Y%m%d%H%M%S')}{title}", "w+") as f:
-                f.write(description + "\n" + sentence + "\n" + "from:" + url)
-            with open(f"scrapy_done_list", mode='a') as f:
-                f.write(url + "\n")
-
+            try:
+                title,description,sentence = create_japanese_sentence(url)
+                now = datetime.datetime.now(JST)
+                with open(f"/data/{now.strftime('%Y%m%d%H%M%S')}{title}", "w+") as f:
+                    f.write(description + "\n" + sentence + "\n" + "from:" + url)
+                with open(f"scrapy_done_list", mode='a') as f:
+                    f.write(url + "\n")
+            except:
+                print("error_url : ",url)
+                traceback.print_exc()
 
 
