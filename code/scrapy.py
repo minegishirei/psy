@@ -103,7 +103,7 @@ sites = [
     #},
     {
         "url" : "https://www.apa.org/education-career/guide/science",
-        "domain" : "https://www.apa.org/education-career",
+        "domain" : "https://www.apa.org",
         "create_link" : create_link4
     },
     #{
