@@ -129,6 +129,7 @@ with open(f"scrapy_done_list", mode='r') as f:
 
 for row in sites:
     links = get_links(row["url"])
+    print("【log】 links : ", links)
     create_link = row["create_link"]
     filterd_links = list(filter( lambda link : create_link(link,row["domain"]) ,links) )
 
