@@ -85,6 +85,12 @@ def create_link3(link_parts):
         return "https://www.psychologytools.com" + link_parts
     return False
 
+def create_link4(link_parts, domain):
+    if link_parts and link_parts.startswith("/") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
+        return domain + link_parts
+    return False
+
+
 
 
 sites = [
@@ -93,13 +99,18 @@ sites = [
     #    "create_link" : create_link3
     #}
     {
-        "url" : "https://www.psychologistworld.com/",
-        "create_link" : create_link1
+        "url" : "https://www.scientificamerican.com/mind-and-brain/",
+        "domain" : "https://www.scientificamerican.com",
+        "create_link" : create_link4
     },
-    {
-        "url" : "https://www.psychologytoday.com",
-        "create_link" : create_link2
-    }
+    #{
+    #    "url" : "https://www.psychologistworld.com/",
+    #    "create_link" : create_link1
+    #},
+    #{
+    #    "url" : "https://www.psychologytoday.com",
+    #    "create_link" : create_link2
+    #}
 ]
 
 done_url_list = []
@@ -114,7 +125,7 @@ for row in sites:
     filterd_links = []
     for link in links:
         if create_link(link):
-            filterd_links.append(create_link(link))
+            filterd_links.append(create_link(link), row["domain"])
     
     count = 0
     for url in filterd_links:
@@ -122,7 +133,7 @@ for row in sites:
             pass
         else:
             count += 1
-            if count > 2:
+            if count > 4:
                 break
             title,description,sentence = create_japanese_sentence(url)
             now = datetime.datetime.now(JST)

@@ -74,9 +74,9 @@ jobs:
         with:
           commit_message: Changed files
       
-      - name: Tweet commit message
-        run: |
-          docker run -v ./:/blog -v ./code:/code pythonconsole bash -c "python /code/twitter_api.py ${{ github.event.head_commit.message }}"
+      #- name: Tweet commit message
+      #  run: |
+      #    docker run -v ./:/blog -v ./code:/code pythonconsole bash -c "python /code/twitter_api.py ${{ github.event.head_commit.message }}"
         # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
         # with:
         #   since_last_remote_commit: true 
