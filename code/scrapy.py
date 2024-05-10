@@ -64,8 +64,6 @@ def get_links(url):
         soup = BeautifulSoup(html)
         for a_tag in soup.find_all('a'):
             a_tags.append(a_tag.get('href'))
-            print(a_tag)
-            print(a_tags)
         return a_tags
 
 
@@ -125,7 +123,6 @@ with open(f"scrapy_done_list", mode='r') as f:
 
 
 for row in sites:
-    print(row)
     links = get_links(row["url"])
     create_link = row["create_link"]
     filterd_links = list(filter( lambda link : not create_link(link,row["domain"]) ,links) )
@@ -139,6 +136,7 @@ for row in sites:
             count += 1
             if count > 4:
                 break
+            print("【log】search : ",url)
             title,description,sentence = create_japanese_sentence(url)
             now = datetime.datetime.now(JST)
             with open(f"/data/{now.strftime('%Y%m%d%H%M%S')}{title}", "w+") as f:
