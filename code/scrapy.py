@@ -124,8 +124,8 @@ for row in sites:
     create_link = row["create_link"]
     filterd_links = []
     for link in links:
-        if create_link(link):
-            filterd_links.append(create_link(link), row["domain"])
+        if create_link(link, row["domain"]):
+            filterd_links.append(create_link(link, row["domain"]))
     
     count = 0
     for url in filterd_links:
