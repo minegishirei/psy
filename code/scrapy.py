@@ -50,12 +50,16 @@ def create_japanese_sentence(url):
         except:
             pass
         markdown = md(str(soup.find("body")))
+        count = 0
         for row in markdown.split("\n"):
             if len(row) < 100:
                 continue
             try:
                 sentence += ( my_translate(row) + "\n")
             except:
+                count += 1
+                if count > 10:
+                    return title,description,sentence+"\n"+"error: 途中で終わりました。"
                 print("error_row : ",row)
                 traceback.print_exc()
                 import time
