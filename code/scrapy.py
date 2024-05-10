@@ -98,11 +98,17 @@ sites = [
     #    "url" : "https://www.psychologytools.com/professional/techniques/behavioral-experiments/",
     #    "create_link" : create_link3
     #}
+    #{
+    #    "url" : "https://www.scientificamerican.com/mind-and-brain/",
+    #    "domain" : "https://www.scientificamerican.com",
+    #    "create_link" : create_link4
+    #},
     {
-        "url" : "https://www.scientificamerican.com/mind-and-brain/",
-        "domain" : "https://www.scientificamerican.com",
+        "url" : "https://journals.sagepub.com/home/pss",
+        "domain" : "https://journals.sagepub.com/home/pss",
         "create_link" : create_link4
     },
+
     #{
     #    "url" : "https://www.psychologistworld.com/",
     #    "create_link" : create_link1
