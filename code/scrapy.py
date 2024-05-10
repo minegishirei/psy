@@ -117,10 +117,10 @@ sites = [
     #J    "create_link" : create_link4
     #},
 
-    #{
-    #    "url" : "https://www.psychologistworld.com/",
-    #    "create_link" : create_link1
-    #},
+    {
+        "url" : "https://www.psychologistworld.com/",
+        "create_link" : create_link1
+    },
     #{
     #    "url" : "https://www.psychologytoday.com",
     #    "create_link" : create_link2
