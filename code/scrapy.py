@@ -144,7 +144,7 @@ for row in sites:
     domain = "https://" + parsed_url.netloc
     print("【log】 domain : ", domain)
     
-    create_link = row["create_link"]
+    create_link = create_link4
     filterd_links = list(filter( lambda link : create_link(link,domain) ,links) )
 
     print("【log】 filterd_links : ", filterd_links)
