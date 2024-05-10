@@ -155,7 +155,7 @@ for row in sites:
             pass
         else:
             count += 1
-            if count > 1:
+            if count > 2:
                 break
             print("【log】search : ",url)
             try:
