@@ -11,7 +11,7 @@ def getContent(filePath):
 
 def isPage(content):
     for row in content:
-        if "page:https://minegishirei.hatenablog.com" in row:
+        if "page:https://" in row:
             return True
     return False
 

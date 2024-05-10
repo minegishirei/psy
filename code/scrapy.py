@@ -20,18 +20,6 @@ class ImageBlockConverter(MarkdownConverter):
 def md(html, **options):
     return ImageBlockConverter(**options).convert(html)
 
-url = "https://www.psychologytoday.com/intl/blog/all-is-well/202405/who-decides-what-art-is-good"
-url = "https://www.psychologytoday.com/intl/blog/denying-to-the-grave/202405/consequences-of-being-mistreated-by-the-healthcare-system"
-url = "https://www.psychologytoday.com/intl/blog/speaking-in-tongues/202405/financial-infidelity-the-cost-of-keeping-secrets"
-url = "https://www.psychologytoday.com/intl/blog/social-instincts/202405/2-popular-psychology-myths-debunked"
-#url = "https://www.psychologistworld.com/memory/false-memories-questioning-eyewitness-testimony"
-#url = "https://www.psychologytoday.com/intl/blog/fixing-families/202405/why-some-of-the-stories-you-tell-yourself-may-be-wrong"
-
-url = "https://www.psychologistworld.com/memory/influential-memory-psychology-studies-experiments"
-
-
-base_url = "https://www.psychologytoday.com/intl"
-
 
 def my_translate(text):
     translated = translator.translate(text, dest="ja")
@@ -78,27 +66,21 @@ def get_links(url):
 
 
 
-def create_link1(link_parts):
-    if link_parts.startswith("/") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
-        return "https://www.psychologistworld.com" + link_parts
-    return False
 
-def create_link2(link_parts):
-    if link_parts and link_parts.startswith("/") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
-        return "https://www.psychologytoday.com" + link_parts
-    return False
 
-def create_link3(link_parts):
-    if link_parts and link_parts.startswith("/resource") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
-        return "https://www.psychologytools.com" + link_parts
-    return False
-
-def create_link4(link_parts, domain):
+def create_link(link_parts, domain):
     if link_parts and link_parts.startswith("/") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
         return domain + link_parts
     return False
 
 
+def bloganize(sentence):
+    new_sentence = ""
+    for p in sentence.split("/n"):
+        for jp_p in p.split("。"):
+            new_sentence += jp_p + "/n"
+        new_sentence += "/n/n"
+    return new_sentence
 
 
 sites = [
@@ -140,16 +122,12 @@ with open(f"scrapy_done_list", mode='r') as f:
 
 for row in sites:
     links = get_links(row["url"])
-    print("【log】 links : ", links)
     # 解析対象URL 
     # URLをパースする
     parsed_url = urlparse(row["url"])
     domain = "https://" + parsed_url.netloc
     print("【log】 domain : ", domain)
-    
-    create_link = create_link4
     filterd_links = list(filter( lambda link : create_link(link,domain) ,links) )
-
     print("【log】 filterd_links : ", filterd_links)
     filterd_links = list(map(lambda link : create_link(link,domain), filterd_links) )
 
@@ -166,7 +144,7 @@ for row in sites:
                 title,description,sentence = create_japanese_sentence(url)
                 now = datetime.datetime.now(JST)
                 with open(f"/data/{now.strftime('%Y%m%d%H%M%S')}{title}", "w+") as f:
-                    f.write(description + "\n" + sentence + "\n" + "from:" + url)
+                    f.write(description + "\n" + bloganize(sentence) + "\n" + "from:" + url)
                 with open(f"scrapy_done_list", mode='a') as f:
                     f.write(url + "\n")
                     done_url_list.append(url)
