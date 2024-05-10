@@ -138,7 +138,7 @@ for row in sites:
     # 解析対象URL 
     # URLをパースする
     parsed_url = urlparse(row["url"])
-    domain = parsed_url.netloc
+    domain = "https://" + parsed_url.netloc
     print("【log】 domain : ", domain)
     
     create_link = row["create_link"]
