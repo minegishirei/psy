@@ -1,5 +1,7 @@
 不幸な音楽は「心地よい」感情を作り出す
 
+6801883189105567214
+
 
 
 
@@ -43,3 +45,4 @@ from https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013
 from:https://www.psychologistworld.com/emotion/sad-music-emotions-study
 
 
+page:https://psy.hatenadiary.com/entry/2024/05/11/221732
