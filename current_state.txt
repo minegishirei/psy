@@ -93,7 +93,6 @@
 /blog/data/20240512191551お母さんに電話する必要がある2つの重要な理由|今日の心理学.md
 /blog/data/20240512150417関係|今日の心理学.md
 /blog/data/20240512151753発行アーカイブ|今日の心理学.md
-/blog/data/20240512145500row_sexy.md
 /blog/data/20240512180919神経科学|今日の心理学.md
 /blog/engineer_psychology/2100select_control.md
 /blog/engineer_psychology/1200chat.md
