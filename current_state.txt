@@ -80,7 +80,10 @@
 /blog/data/20240512150720子育て|今日の心理学.md
 /blog/data/20240512145500低い性的欲求|今日の心理学.md
 /blog/data/20240512150544子どもの発達|今日の心理学.md
+/blog/data/20240512151546セラピー|今日の心理学.md
+/blog/data/20240512151719治療の種類|今日の心理学.md
 /blog/data/20240512150417関係|今日の心理学.md
+/blog/data/20240512151753発行アーカイブ|今日の心理学.md
 /blog/engineer_psychology/2100select_control.md
 /blog/engineer_psychology/1200chat.md
 /blog/engineer_psychology/3000strategy.md
