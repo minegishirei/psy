@@ -33,7 +33,7 @@ def create_link(link_parts, domain):
 
 sites = [
     #"https://www.sciencenews.org/topic/psychology",
-    #"https://www.psychologistworld.com/",
+    "https://www.psychologistworld.com/",
     "https://www.psychologytoday.com"
 ]
 
@@ -46,7 +46,7 @@ for site_url in sites:
     print(filterd_links)
     count = 0
     for url in filterd_links:
-        if count < 3 and (url not in done_url_list):
+        if count < 1 and (url not in done_url_list):
             count += 1
             print("【log】search : ",url)
             title, sentence = create_japanese_sentence(url)
