@@ -2,6 +2,7 @@ from datetime import datetime
 import requests as req
 import json
 import markdown_to_json
+import xmltodict
 
 HATENA_ID = "minegishirei"
 BLOG_DOMAIN = "psy.hatenadiary.com"
@@ -91,14 +92,23 @@ if __name__ == "__main__":
     print(entry_id)
     print(len(entry_id))
     print(len(entry_id) > 0)
-    if len(entry_id) > 0:
+    if len(entry_id) > len("6801883189104822716") -1:
         r = hatena_update_entry(title , escape_xml(content), entry_id, categorys,True, False)
         print(r)
         if "400 XML Parse Failed" in r:
             print(escape_xml(content))
     else:
         r = hatena_create_entry(title , escape_xml(content), categorys, False)
-        print(r)
+        root = xmltodict.parse(r)
+        entry_xml = root['entry']
+        entry_link = entry_xml['link'][0]['@href']
+        page_link = entry_xml['link'][1]['@href']
+        with open(arg, "w") as f:
+            f.write(title)
+            f.write( ",".join(categorys))
+            f.write(entry_link.replace(f"https://blog.hatena.ne.jp/minegishirei/{BLOG_DOMAIN}/atom/entry/", ""))
+            f.write(content)
+            f.write( "page:" + page_link + "\n")
         if "400 XML Parse Failed" in r:
             print(escape_xml(content))
 
