@@ -77,8 +77,10 @@
 /blog/3000cases/9000操作/最終手段.md
 /blog/3000cases/5000プレゼンテーション/main.md
 /blog/treasure/inside.md
+/blog/data/20240512150720子育て|今日の心理学.md
 /blog/data/20240512145500低い性的欲求|今日の心理学.md
-/blog/data/20240512145339喫煙|今日の心理学.md
+/blog/data/20240512150544子どもの発達|今日の心理学.md
+/blog/data/20240512150417関係|今日の心理学.md
 /blog/engineer_psychology/2100select_control.md
 /blog/engineer_psychology/1200chat.md
 /blog/engineer_psychology/3000strategy.md
