@@ -31,14 +31,14 @@ def change(bsObj, target_tags):
             try:
                 child.string = my_translate(child.text)
             except:
-                child.string = (child.text + "!!!!!!!")
+                child.string = (child.text + "[error]")
     return bsObj
 
 def create_japanese_sentence(url):
     with urllib.request.urlopen(url) as u:
         html = u.read()
         soup = BeautifulSoup(html,features="html.parser")
-        title = my_translate(soup.find('title').text)
+        title = soup.find('title').text
         body_soup = soup.find("body")
         change(body_soup, ["li", "p", "h5", "h4" ,"h3","h2", "h1", "a"])
         return title,md(str(body_soup))
