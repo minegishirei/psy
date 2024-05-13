@@ -68,7 +68,7 @@ jobs:
       - name: run scrapy
         run: |
           echo test
-        # docker run -v ./data:/data -v ./code:/code pythonconsole bash -c "python /code/scrapy.py" 
+          docker run -v ./data:/data -v ./code:/code pythonconsole bash -c "python /code/scrapy.py" 
 
 
       - uses: stefanzweifel/git-auto-commit-action@v4
@@ -77,4 +77,5 @@ jobs:
       
       - name: Tweet commit message
         run: |
-          docker run -v ./:/blog -v ./code:/code pythonconsole bash -c "python /code/twitter_api.py ${{ github.event.head_commit.message }}"
+          echo
+        #  docker run -v ./:/blog -v ./code:/code pythonconsole bash -c "python /code/twitter_api.py ${{ github.event.head_commit.message }}"
