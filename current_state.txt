@@ -79,8 +79,11 @@
 /blog/treasure/inside.md
 /blog/data/20240512194438昨日は今日気分が良くなることを考えています|今日の心理学.md
 /blog/data/20240512194331多発性睡眠パターン - 心理学者の世界.md
+/blog/data/20240513151220Why Do We Dream? - Psychologist World.md
 /blog/data/20240512191446フロイトパーソナリティタイプテスト - 心理学者の世界.md
+/blog/data/20240513151346Effortful Helping in Teenagers at Risk for Psychopathy | Psychology Today.md
 /blog/data/20240512152410ガスライト|今日の心理学.md
+/blog/data/20240513151513Verywell Mind Review Board.md
 /blog/data/20240513144839When Bad Breakups Lead to Suicidal Thoughts | Psychology Today.md
 /blog/data/20240512152929感情的な予測|今日の心理学.md
 /blog/data/20240512180804フォームテクニックを使用して小さな話をする方法 - 心理学者の世界.md
