@@ -52,6 +52,7 @@ for site_url in sites:
             print("【log】search : ",url)
             title, sentence = create_japanese_sentence(url)
             with open(f"/data/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}{title}.md", "w+") as f:
+                f.write("[:contents]")
                 f.write(sentence)
                 f.write("\n")
                 f.write(url)

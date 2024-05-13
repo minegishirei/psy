@@ -89,9 +89,6 @@ if __name__ == "__main__":
         title, categorys, entry_id, *content = f.readlines()
     categorys = categorys.split(",")
     content = "\n".join(content)
-    print(entry_id)
-    print(len(entry_id))
-    print(len(entry_id) > 0)
     if len(entry_id) > len("6801883189104822716") -1:
         r = hatena_update_entry(title , escape_xml(content), entry_id, categorys,True, False)
         print(r)
