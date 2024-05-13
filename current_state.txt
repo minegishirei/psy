@@ -79,7 +79,9 @@
 /blog/treasure/inside.md
 /blog/data/20240512194438昨日は今日気分が良くなることを考えています|今日の心理学.md
 /blog/data/20240512194331多発性睡眠パターン - 心理学者の世界.md
+/blog/data/20240513143646About Us – Meet Our Team and Review Board.md
 /blog/data/20240512191446フロイトパーソナリティタイプテスト - 心理学者の世界.md
+/blog/data/2024051314331010 Influential Memory Theories and Studies in Psychology - Psychologist World.md
 /blog/data/20240512152410ガスライト|今日の心理学.md
 /blog/data/20240512152929感情的な予測|今日の心理学.md
 /blog/data/20240512151546セラピー|今日の心理学.md
