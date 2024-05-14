@@ -58,13 +58,17 @@ for site_url in sites:
         if count < 5 and (url not in done_url_list):
             count += 1
             print("【log】search : ",url)
-            title, sentence = create_japanese_sentence(url)
-            with open(f"/data/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}{title}.md", "w+") as f:
-                f.write("[:contents]")
-                f.write(f"参考 : {url}")
-                f.write(sentence)
-                f.write("\n")
-                f.write(url)
+            try:
+                title, sentence = create_japanese_sentence(url)
+                with open(f"/data/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}{title}.md", "w+") as f:
+                    f.write("[:contents]")
+                    f.write(f"参考 : {url}")
+                    f.write(sentence)
+                    f.write("\n")
+                    f.write(url)
+            except:
+                import traceback
+                traceback.format_exc()
             with open(f"scrapy_done_list", mode='a') as f:
                 f.write(url + "\n")
                 done_url_list.append(url)
