@@ -36,6 +36,7 @@ def create_link(link_parts,site_url):
         return site_url + link_parts
     return False
 
+
 sites = [
     #"https://www.sciencenews.org/topic/psychology",
     #"https://www.psychologistworld.com/",
