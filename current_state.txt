@@ -78,7 +78,10 @@
 /blog/3000cases/5000プレゼンテーション/main.md
 /blog/treasure/inside.md
 /blog/data/20240512194438昨日は今日気分が良くなることを考えています|今日の心理学.md
+/blog/data/20240514120758Frontiers in Psychology | Emotion Science.md
 /blog/data/20240512194331多発性睡眠パターン - 心理学者の世界.md
+/blog/data/20240514120818Loop | David L. Rodrigues.md
+/blog/data/20240514120812Loop | Thiago de Almeida.md
 /blog/data/20240513151220Why Do We Dream? - Psychologist World.md
 /blog/data/20240512191446フロイトパーソナリティタイプテスト - 心理学者の世界.md
 /blog/data/20240513151346Effortful Helping in Teenagers at Risk for Psychopathy | Psychology Today.md
@@ -89,9 +92,11 @@
 /blog/data/20240513144839When Bad Breakups Lead to Suicidal Thoughts | Psychology Today.md
 /blog/data/20240512152929感情的な予測|今日の心理学.md
 /blog/data/20240514115851Frontiers | Publisher of peer-reviewed articles in open access journals.md
+/blog/data/20240514120407Frontiers in Psychology.md
 /blog/data/20240512180804フォームテクニックを使用して小さな話をする方法 - 心理学者の世界.md
 /blog/data/20240513145004Our Editorial Process.md
 /blog/data/20240512152823外向性と内向 - 心理学者の世界.md
+/blog/data/20240514120543Frontiers in Psychology | Emotion Science.md
 /blog/data/20240513144733Sigmund Freud Revision Quiz - Psychologist World.md
 /blog/data/20240513184141First Encounters: How To Behave if You Want to Be Liked | Psychology Today.md
 /blog/data/20240512191551お母さんに電話する必要がある2つの重要な理由|今日の心理学.md
