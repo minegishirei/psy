@@ -40,7 +40,8 @@ sites = [
     #"https://www.psychologistworld.com/",
     #"https://www.psychologytoday.com",
     #"https://www.verywellmind.com/theories-of-love-2795341",
-    "https://www.frontiersin.org/research-topics/48534/the-psychology-of-love/magazine"
+    #"https://www.frontiersin.org/research-topics/48534/the-psychology-of-love/magazine",
+    "https://www.nature.com/collections/abjigjgige"
 ]
 
 
