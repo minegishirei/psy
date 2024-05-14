@@ -82,6 +82,8 @@
 /blog/data/20240513151220Why Do We Dream? - Psychologist World.md
 /blog/data/20240512191446フロイトパーソナリティタイプテスト - 心理学者の世界.md
 /blog/data/20240513151346Effortful Helping in Teenagers at Risk for Psychopathy | Psychology Today.md
+/blog/data/20240513184056Defense Mechanisms Quiz - Psychologist World.md
+/blog/data/20240513184327Crisis Support.md
 /blog/data/20240512152410ガスライト|今日の心理学.md
 /blog/data/20240513151513Verywell Mind Review Board.md
 /blog/data/20240513144839When Bad Breakups Lead to Suicidal Thoughts | Psychology Today.md
@@ -90,6 +92,7 @@
 /blog/data/20240513145004Our Editorial Process.md
 /blog/data/20240512152823外向性と内向 - 心理学者の世界.md
 /blog/data/20240513144733Sigmund Freud Revision Quiz - Psychologist World.md
+/blog/data/20240513184141First Encounters: How To Behave if You Want to Be Liked | Psychology Today.md
 /blog/data/20240512191551お母さんに電話する必要がある2つの重要な理由|今日の心理学.md
 /blog/data/20240512180919神経科学|今日の心理学.md
 /blog/engineer_psychology/2100select_control.md
