@@ -24,8 +24,9 @@ client = tweepy.Client(
 
 _, arg = sys.argv
 
-#ツイートする
-client.create_tweet(text=arg)
+if arg.startswith("tw:"):
+	text = arg.replace("tw:")
+	client.create_tweet(text=text)
 
 
 
