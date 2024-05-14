@@ -88,6 +88,7 @@
 /blog/data/20240513151513Verywell Mind Review Board.md
 /blog/data/20240513144839When Bad Breakups Lead to Suicidal Thoughts | Psychology Today.md
 /blog/data/20240512152929感情的な予測|今日の心理学.md
+/blog/data/20240514115851Frontiers | Publisher of peer-reviewed articles in open access journals.md
 /blog/data/20240512180804フォームテクニックを使用して小さな話をする方法 - 心理学者の世界.md
 /blog/data/20240513145004Our Editorial Process.md
 /blog/data/20240512152823外向性と内向 - 心理学者の世界.md
