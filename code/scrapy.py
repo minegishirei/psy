@@ -52,7 +52,7 @@ for site_url in sites:
     print(filterd_links)
     count = 0
     for url in filterd_links:
-        if count < 1 and (url not in done_url_list):
+        if count < 5 and (url not in done_url_list):
             count += 1
             print("【log】search : ",url)
             title, sentence = create_japanese_sentence(url)
