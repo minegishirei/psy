@@ -26,9 +26,13 @@ def get_links(url):
             a_tags.append(a_tag.get('href'))
         return a_tags
 
-def create_link(link_parts, domain):
-    if link_parts and link_parts.startswith("/") and  (not link_parts.endswith("/")) and len(link_parts) > 15:
+def create_link(link_parts,site_url):
+    domain = "https://" + (urlparse(site_url).netloc)
+    return urllib.parse.urljoin(site_url, link_parts)
+    if link_parts and link_parts.startswith("/"):
         return domain + link_parts
+    if link_parts and str(link_parts[0]).isalnum():
+        return site_url + link_parts
     return False
 
 sites = [
@@ -44,7 +48,7 @@ for site_url in sites:
     done_url_list = get_done_url_list()
     domain = "https://" + (urlparse(site_url).netloc)
     links = get_links(site_url)
-    filterd_links = list(map(lambda link : create_link(link,domain), filter( lambda link : create_link(link,domain) ,links)) )
+    filterd_links = list(map(lambda link : create_link(link,site_url), filter( lambda link : create_link(link,site_url) ,links)) )
     print(filterd_links)
     count = 0
     for url in filterd_links:
