@@ -32,10 +32,11 @@ def create_link(link_parts, domain):
     return False
 
 sites = [
-    "https://www.sciencenews.org/topic/psychology",
+    #"https://www.sciencenews.org/topic/psychology",
     #"https://www.psychologistworld.com/",
     #"https://www.psychologytoday.com",
-    "https://www.verywellmind.com/theories-of-love-2795341"
+    #"https://www.verywellmind.com/theories-of-love-2795341",
+    "https://www.frontiersin.org/research-topics/48534/the-psychology-of-love/magazine"
 ]
 
 
