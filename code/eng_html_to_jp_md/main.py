@@ -43,7 +43,7 @@ def create_japanese_sentence(url):
             title = soup.find('title').text
         except:
             title = ""
-        body_soup = soup.find("body")
+        body_soup = soup
         change(body_soup, ["li", "p", "h5", "h4" ,"h3","h2", "h1", "a"])
         return title,md(str(body_soup))
 
