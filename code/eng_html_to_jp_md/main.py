@@ -22,8 +22,10 @@ def md(html, **options):
     return ImageBlockConverter(**options).convert(html)
 
 def my_translate(text):
-    translated = translator.translate(text, dest="ja")
-    return translated.text
+    if len(text) > 0:
+        translated = translator.translate(text, dest="ja")
+        return translated.text
+    
 
 def change(bsObj, target_tags):
     for tag in target_tags:

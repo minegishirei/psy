@@ -29,7 +29,7 @@ def get_links(url):
 
 def create_link(link_parts,site_url):
     domain = "https://" + (urlparse(site_url).netloc)
-    return urllib.parse.urljoin(site_url, link_parts)
+    return urllib.parse.urljoin(site_url, link_parts).split('#')[0]
     if link_parts and link_parts.startswith("/"):
         return domain + link_parts
     if link_parts and str(link_parts[0]).isalnum():
