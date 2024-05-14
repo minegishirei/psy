@@ -17,6 +17,7 @@ def get_done_url_list():
         done_url_list = f.read().split("\n")
     return done_url_list
 
+
 def get_links(url):
     a_tags = []
     with urllib.request.urlopen(url) as u:
