@@ -191,6 +191,4 @@
 
 
 
-
-page:https://psy.hatenadiary.com/entry/2024/05/16/084045
 page:https://psy.hatenadiary.com/entry/2024/05/16/085336
