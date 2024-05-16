@@ -1,5 +1,10 @@
 心理学
 
+6801883189106762892
+
+
+
+
 
 
 
@@ -11,22 +16,47 @@
 
 
 
+
+
+
+
 ## 目の動きからわかる心理学
+
+
+
 
 
 [https://psy.hatenadiary.com/entry/2024/04/03/093238:embed:cite]
 
 
+
+
+
 ## 口の動きからわかる心理学
+
+
+
 
 
 [https://psy.hatenadiary.com/entry/2023/07/15/114621:embed:cite]
 
 
 
+
+
+
+
 ## 言葉の使い方から意図を探る
 
+
+
 [https://psy.hatenadiary.com/entry/2024/05/08/212821:embed:cite]
+
+
+
+
+
+
 
 
 
@@ -36,18 +66,37 @@
 
 
 
+
+
+
+
 [https://psy.hatenadiary.com/entry/2023/03/27/180611:embed:cite]
+
+
+
+
 
 
 
 ## 人間は47歳で不幸になる（中年危機）
 
 
+
+
+
 [https://psy.hatenadiary.com/entry/2024/05/08/220135:embed:cite]
 
 
 
+
+
+
+
 ## 収集癖は社会的孤立の兆候である(ホーディング、異常収集癖)
+
+
+
+
 
 
 
@@ -57,7 +106,15 @@
 
 
 
+
+
+
+
+
+
 ## 単純接触効果とは何か
+
+
 
 [https://psy.hatenadiary.com/entry/2024/05/08/212234:embed:cite]
 
@@ -97,4 +154,43 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 page:https://psy.hatenadiary.com/entry/2024/05/16/084045
+page:https://psy.hatenadiary.com/entry/2024/05/16/085336
