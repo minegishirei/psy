@@ -9,6 +9,7 @@
 /blog/data/20240513184327Crisis Support.md
 /blog/data/20240513184141First Encounters: How To Behave if You Want to Be Liked | Psychology Today.md
 /blog/data/20240513145004Our Editorial Process.md
+/blog/data/20240516095822Children with autism spectrum disorder show atypical electroencephalographic response to processing contextual incongruencies | Scientific Reports.md
 /blog/data/20240514113145About Us – Meet Our Team and Review Board.md
 /blog/data/20240513144839When Bad Breakups Lead to Suicidal Thoughts | Psychology Today.md
 /blog/data/20240514174956Top articles | Scientific Reports.md
@@ -20,6 +21,7 @@
 /blog/data/20240512194438昨日は今日気分が良くなることを考えています|今日の心理学.md
 /blog/data/20240515182226Acute and protracted abstinence from methamphetamine bidirectionally changes intrinsic excitability of indirect pathway spiny projection neurons in the dorsomedial striatum | Scientific Reports.md
 /blog/data/20240516091850Deep language algorithms predict semantic comprehension from brain activity | Scientific Reports.md
+/blog/data/20240516095357Misinformation of COVID-19 vaccines and vaccine hesitancy | Scientific Reports.md
 /blog/data/20240516084705Higher emotional awareness is associated with greater domain-general reflective tendencies | Scientific Reports.md
 /blog/data/20240514150422Top 100 in Psychology - 2022.md
 /blog/data/20240516085150Investigation of humans individual differences as predictors of their animal interaction styles, focused on the domestic cat | Scientific Reports.md
@@ -28,6 +30,7 @@
 /blog/data/20240516091241Group VR experiences can produce ego attenuation and connectedness comparable to psychedelics | Scientific Reports.md
 /blog/data/20240512191551お母さんに電話する必要がある2つの重要な理由|今日の心理学.md
 /blog/data/20240512194331多発性睡眠パターン - 心理学者の世界.md
+/blog/data/20240516095000Top 100 in Psychology - 2022.md
 /blog/data/20240512180919神経科学|今日の心理学.md
 /blog/data/20240513151220Why Do We Dream? - Psychologist World.md
 /blog/data/20240513144733Sigmund Freud Revision Quiz - Psychologist World.md
@@ -52,6 +55,7 @@
 /blog/data/20240512152410ガスライト|今日の心理学.md
 /blog/data/20240514120812Loop | Thiago de Almeida.md
 /blog/data/20240515181703SARS-CoV-2 spike protein induces cognitive deficit and anxiety-like behavior in mouse via non-cell autonomous hippocampal neuronal death | Scientific Reports.md
+/blog/data/20240516100152Childhood temperament and adulthood personality differentially predict life outcomes | Scientific Reports.md
 /blog/data/20240516091538Smartphone-based ecological momentary assessment reveals mental health benefits of birdlife | Scientific Reports.md
 /blog/data/20240516090829Cichlids and stingrays can add and subtract ‘one’ in the number space from one to five | Scientific Reports.md
 /blog/data/20240512191446フロイトパーソナリティタイプテスト - 心理学者の世界.md
@@ -60,6 +64,7 @@
 /blog/data/20240514172314Top 100 in Psychology - 2022.md
 /blog/data/20240514150422.md
 /blog/data/20240514180954The impact of digital media on children’s intelligence while controlling for genetic differences in cognition and socioeconomic background | Scientific Reports.md
+/blog/data/20240516100436Identification of genes associated with human-canine communication in canine evolution | Scientific Reports.md
 /blog/data/20240514181441Birdsongs alleviate anxiety and paranoia in healthy participants | Scientific Reports.md
 /blog/treasure/inside.md
 /blog/books/engineer_psychology/1100words.md
