@@ -19,11 +19,13 @@
 /blog/data/20240514172504Top 100 in Psychology - 2022.md
 /blog/data/20240512194438昨日は今日気分が良くなることを考えています|今日の心理学.md
 /blog/data/20240515182226Acute and protracted abstinence from methamphetamine bidirectionally changes intrinsic excitability of indirect pathway spiny projection neurons in the dorsomedial striatum | Scientific Reports.md
+/blog/data/20240516091850Deep language algorithms predict semantic comprehension from brain activity | Scientific Reports.md
 /blog/data/20240516084705Higher emotional awareness is associated with greater domain-general reflective tendencies | Scientific Reports.md
 /blog/data/20240514150422Top 100 in Psychology - 2022.md
 /blog/data/20240516085150Investigation of humans individual differences as predictors of their animal interaction styles, focused on the domestic cat | Scientific Reports.md
 /blog/data/20240514120407Frontiers in Psychology.md
 /blog/data/20240514115851Frontiers | Publisher of peer-reviewed articles in open access journals.md
+/blog/data/20240516091241Group VR experiences can produce ego attenuation and connectedness comparable to psychedelics | Scientific Reports.md
 /blog/data/20240512191551お母さんに電話する必要がある2つの重要な理由|今日の心理学.md
 /blog/data/20240512194331多発性睡眠パターン - 心理学者の世界.md
 /blog/data/20240512180919神経科学|今日の心理学.md
@@ -33,6 +35,7 @@
 /blog/data/20240512180804フォームテクニックを使用して小さな話をする方法 - 心理学者の世界.md
 /blog/data/20240512152823外向性と内向 - 心理学者の世界.md
 /blog/data/20240513151513Verywell Mind Review Board.md
+/blog/data/20240516090402Top 100 in Psychology - 2022.md
 /blog/data/20240513184056Defense Mechanisms Quiz - Psychologist World.md
 /blog/data/20240514174649Scientific Reports.md
 /blog/data/20240514172157Top 100 in Psychology - 2022.md
@@ -49,6 +52,8 @@
 /blog/data/20240512152410ガスライト|今日の心理学.md
 /blog/data/20240514120812Loop | Thiago de Almeida.md
 /blog/data/20240515181703SARS-CoV-2 spike protein induces cognitive deficit and anxiety-like behavior in mouse via non-cell autonomous hippocampal neuronal death | Scientific Reports.md
+/blog/data/20240516091538Smartphone-based ecological momentary assessment reveals mental health benefits of birdlife | Scientific Reports.md
+/blog/data/20240516090829Cichlids and stingrays can add and subtract ‘one’ in the number space from one to five | Scientific Reports.md
 /blog/data/20240512191446フロイトパーソナリティタイプテスト - 心理学者の世界.md
 /blog/data/20240514174909Nature.md
 /blog/data/20240514120758Frontiers in Psychology | Emotion Science.md
@@ -162,3 +167,4 @@
 /blog/engineer_psychology/準備中/4000users.md
 /blog/engineer_psychology/準備中/3005cases.md
 /blog/draw.io/Readme.md
+/blog/main/controller/一貫性の法則.md
