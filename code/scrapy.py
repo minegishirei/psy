@@ -40,10 +40,10 @@ def create_link(link_parts,site_url):
 sites = [
     #"https://www.sciencenews.org/topic/psychology",
     #"https://www.psychologistworld.com/",
-    #"https://www.psychologytoday.com",
+    "https://www.psychologytoday.com",
     #"https://www.verywellmind.com/theories-of-love-2795341",
     #"https://www.frontiersin.org/research-topics/48534/the-psychology-of-love/magazine",
-    "https://www.nature.com/collections/abjigjgige"
+    #"https://www.nature.com/collections/abjigjgige"
 ]
 
 
@@ -60,7 +60,7 @@ for site_url in sites:
             print("【log】search : ",url)
             try:
                 title, sentence = create_japanese_sentence(url)
-                with open(f"/data/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}{title}.md", "w+") as f:
+                with open(f"/data/{site_url}/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}{title}.md", "w+") as f:
                     f.write("[:contents]")
                     f.write(f"参考 : {url}")
                     f.write(sentence)
