@@ -107,69 +107,8 @@
 /blog/engineer_psychology/準備中/3004cases.md
 /blog/engineer_psychology/準備中/3000cases.md
 /blog/engineer_psychology/準備中/3003cases.md
-/blog/data/20240512194331多発性睡眠パターン - 心理学者の世界.md
-/blog/data/20240514120543Frontiers in Psychology | Emotion Science.md
-/blog/data/20240516083151Top 100 in Psychology - 2022.md
-/blog/data/20240516100152Childhood temperament and adulthood personality differentially predict life outcomes | Scientific Reports.md
-/blog/data/20240515182507Indeterminacy of cannabis impairment and ∆9-tetrahydrocannabinol (∆9-THC) levels in blood and breath | Scientific Reports.md
-/blog/data/20240515181934Prevalence, age of decision, and interpersonal warmth judgements of childfree adults | Scientific Reports.md
-/blog/data/20240514172314Top 100 in Psychology - 2022.md
 /blog/data/20240512152823外向性と内向 - 心理学者の世界.md
-/blog/data/20240514181214Reading on a smartphone affects sigh generation, brain activity, and comprehension | Scientific Reports.md
-/blog/data/20240516084323Fitness tracking reveals task-specific associations between memory, mental health, and physical activity | Scientific Reports.md
-/blog/data/20240512191446フロイトパーソナリティタイプテスト - 心理学者の世界.md
-/blog/data/20240512194438昨日は今日気分が良くなることを考えています|今日の心理学.md
-/blog/data/20240515182226Acute and protracted abstinence from methamphetamine bidirectionally changes intrinsic excitability of indirect pathway spiny projection neurons in the dorsomedial striatum | Scientific Reports.md
-/blog/data/20240513151220Why Do We Dream? - Psychologist World.md
-/blog/data/20240514180556Top 100 in Psychology - 2022.md
-/blog/data/20240514174909Nature.md
-/blog/data/20240516083932Perceiving societal pressure to be happy is linked to poor well-being, especially in happy nations | Scientific Reports.md
-/blog/data/20240516095822Children with autism spectrum disorder show atypical electroencephalographic response to processing contextual incongruencies | Scientific Reports.md
-/blog/data/20240516100436Identification of genes associated with human-canine communication in canine evolution | Scientific Reports.md
-/blog/data/20240514181441Birdsongs alleviate anxiety and paranoia in healthy participants | Scientific Reports.md
-/blog/data/20240513144839When Bad Breakups Lead to Suicidal Thoughts | Psychology Today.md
-/blog/data/20240516090829Cichlids and stingrays can add and subtract ‘one’ in the number space from one to five | Scientific Reports.md
-/blog/data/20240514150609Scientific Reports.md
-/blog/data/20240514174956Top articles | Scientific Reports.md
-/blog/data/20240514120812Loop | Thiago de Almeida.md
 /blog/data/20240512180804フォームテクニックを使用して小さな話をする方法 - 心理学者の世界.md
-/blog/data/20240514175401Cats learn the names of their friend cats in their daily lives | Scientific Reports.md
-/blog/data/20240513184141First Encounters: How To Behave if You Want to Be Liked | Psychology Today.md
-/blog/data/20240514115851Frontiers | Publisher of peer-reviewed articles in open access journals.md
-/blog/data/20240516090402Top 100 in Psychology - 2022.md
-/blog/data/20240514120407Frontiers in Psychology.md
-/blog/data/20240516095000Top 100 in Psychology - 2022.md
 /blog/data/20240512180919神経科学|今日の心理学.md
-/blog/data/20240514180350Top 100 in Psychology - 2022.md
-/blog/data/20240514150958
-        Nature.com
-    .md
-/blog/data/20240514113145About Us – Meet Our Team and Review Board.md
-/blog/data/20240516084705Higher emotional awareness is associated with greater domain-general reflective tendencies | Scientific Reports.md
-/blog/data/20240516091241Group VR experiences can produce ego attenuation and connectedness comparable to psychedelics | Scientific Reports.md
-/blog/data/20240513151513Verywell Mind Review Board.md
-/blog/data/20240514174649Top 100 in Psychology - 2022.md
-/blog/data/20240514174649Scientific Reports.md
-/blog/data/20240515181703SARS-CoV-2 spike protein induces cognitive deficit and anxiety-like behavior in mouse via non-cell autonomous hippocampal neuronal death | Scientific Reports.md
-/blog/data/20240514151115Top 100 in Psychology - 2022.md
-/blog/data/20240514172504Top 100 in Psychology - 2022.md
-/blog/data/20240516091850Deep language algorithms predict semantic comprehension from brain activity | Scientific Reports.md
-/blog/data/20240513184327Crisis Support.md
-/blog/data/20240515181435Top 100 in Psychology - 2022.md
-/blog/data/20240514150422Top 100 in Psychology - 2022.md
-/blog/data/20240516085150Investigation of humans individual differences as predictors of their animal interaction styles, focused on the domestic cat | Scientific Reports.md
-/blog/data/20240512191551お母さんに電話する必要がある2つの重要な理由|今日の心理学.md
-/blog/data/20240514150422.md
-/blog/data/20240514172007Top 100 in Psychology - 2022.md
-/blog/data/20240516091538Smartphone-based ecological momentary assessment reveals mental health benefits of birdlife | Scientific Reports.md
 /blog/data/20240512152929感情的な予測|今日の心理学.md
-/blog/data/20240514180954The impact of digital media on children’s intelligence while controlling for genetic differences in cognition and socioeconomic background | Scientific Reports.md
-/blog/data/20240513144733Sigmund Freud Revision Quiz - Psychologist World.md
-/blog/data/20240513151346Effortful Helping in Teenagers at Risk for Psychopathy | Psychology Today.md
 /blog/data/20240512152410ガスライト|今日の心理学.md
-/blog/data/20240516095357Misinformation of COVID-19 vaccines and vaccine hesitancy | Scientific Reports.md
-/blog/data/20240513184056Defense Mechanisms Quiz - Psychologist World.md
-/blog/data/20240513145004Our Editorial Process.md
-/blog/data/20240514120818Loop | David L. Rodrigues.md
-/blog/data/20240514172157Top 100 in Psychology - 2022.md
-/blog/data/20240514120758Frontiers in Psychology | Emotion Science.md
