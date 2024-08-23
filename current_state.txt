@@ -85,7 +85,6 @@
 /blog/9000tmp/TV/1000the_copy_writing.md
 /blog/books/engineer_psychology/2200unconscious.md
 /blog/books/engineer_psychology/2300silent.md
-/blog/books/engineer_psychology/2000likable.md
 /blog/books/engineer_psychology/1100words.md
 /blog/books/engineer_psychology/2100select_control.md
 /blog/books/engineer_psychology/1200chat.md
@@ -110,4 +109,6 @@
 /blog/engineer_psychology/準備中/3004cases.md
 /blog/engineer_psychology/準備中/3000cases.md
 /blog/engineer_psychology/準備中/3002cases.md
+/blog/2000vorcal/2000likable.md
+/blog/2000vorcal/reactions.md
 /blog/main/controller/一貫性の法則.md
