@@ -85,7 +85,6 @@
 /blog/9000tmp/TV/1000the_copy_writing.md
 /blog/books/engineer_psychology/2200unconscious.md
 /blog/books/engineer_psychology/2300silent.md
-/blog/books/engineer_psychology/1100words.md
 /blog/books/engineer_psychology/2100select_control.md
 /blog/books/engineer_psychology/1200chat.md
 /blog/books/engineer_psychology/3000strategy.md
