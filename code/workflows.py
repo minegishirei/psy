@@ -88,13 +88,16 @@ if __name__ == "__main__":
     with open(arg, "r") as f:
         title, categorys, entry_id, *content = f.readlines()
     categorys = categorys.split(",")
-    content = "\n".join(content)
-    if len(entry_id) > len("6801883189104822716") -1:
+    print(len(entry_id) > 2)
+    if len(entry_id) > 2: #3行目が2文字以上なら
+        content = "".join(content)
         r = hatena_update_entry(title , escape_xml(content), entry_id, categorys,True, False)
         print(r)
         if "400 XML Parse Failed" in r:
             print(escape_xml(content))
     else:
+        content = "".join(content)
+        #content = content.replace("\n\n" , "\n")
         r = hatena_create_entry(title , escape_xml(content), categorys, False)
         root = xmltodict.parse(r)
         entry_xml = root['entry']
@@ -104,8 +107,9 @@ if __name__ == "__main__":
             f.write(title)
             f.write( ",".join(categorys))
             f.write(entry_link.replace(f"https://blog.hatena.ne.jp/minegishirei/{BLOG_DOMAIN}/atom/entry/", ""))
-            f.write(content)
+            f.write( content+ "\n")
             f.write( "page:" + page_link + "\n")
         if "400 XML Parse Failed" in r:
             print(escape_xml(content))
+
 
