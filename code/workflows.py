@@ -104,7 +104,7 @@ if __name__ == "__main__":
             f.write(title)
             f.write( ",".join(categorys))
             f.write(entry_link.replace(f"https://blog.hatena.ne.jp/minegishirei/{BLOG_DOMAIN}/atom/entry/", ""))
-            f.write(content + "\n")
+            f.write(content)
             f.write( "page:" + page_link + "\n")
         if "400 XML Parse Failed" in r:
             print(escape_xml(content))
