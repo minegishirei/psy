@@ -127,6 +127,15 @@ https://qiita.com/minegishirei_v2/items/776068c2d9b4c9e5aed2
 - vorcal
 - baum
 
+ディレクトリのナンバーは「見る順」
+
+- 0 : human
+    - 0000 : 全人類に当てはまること
+- 1 : personal
+    - 1000 : その人のパーソナリティを理解する上で助けになるヒント
+- 3000 : readその人の状態を読み解くコツ
+- 5000 : writeその人を操作するコツ
+- 
 
 
 
