@@ -1,6 +1,10 @@
 神経症傾向とは何か?
 
-6801883189106757366
+
+
+
+[:contents]
+
 
 ## 神経症傾向
 
@@ -132,6 +136,3 @@ https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%83%E3%82%B0%E3%83%95%E3%82%A1%E3%8
 
 
 
-
-
-page:https://psy.hatenadiary.com/entry/2024/05/16/082002
