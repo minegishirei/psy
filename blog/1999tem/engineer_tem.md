@@ -32,6 +32,7 @@ from https://www.jstage.jst.go.jp/article/jjet/43/4/43_43057/_pdf
 
 
 
+
 ## TEMとは
 
 > 人はさまざまな社会文化的および歴史的文脈を生きています。
