@@ -88,7 +88,6 @@ from https://jinjibu.jp/keyword/detl/1455/
 
 
 
-
 ## よく見られるペルソナのアーキタイプ
 
 
