@@ -97,9 +97,6 @@
 /blog/blog/1000personal/bigfive/4000neuroticism.md
 /blog/blog/1000personal/bigfive/3000cooperativeness.md
 /blog/blog/1000personal/bigfive/1000extrovertism.md
-/blog/blog/1000body/肥満.md
-/blog/blog/1000body/歯が抜けた人.md
-/blog/blog/1000body/食べ物の好き嫌い.md
 /blog/blog/2000users/個人名/長嶋一茂.md
 /blog/blog/2000users/個人名/マツコデラックス.md
 /blog/blog/2000users/個人名/有吉.md
