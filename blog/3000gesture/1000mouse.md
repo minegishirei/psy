@@ -1,7 +1,6 @@
 唇の動きから把握できること
 ジェスチャー
-
-
+6802418398323766189
 
 # 唇は反応速度が速い
 
@@ -265,3 +264,5 @@ https://www.scienceofpeople.com/mouth-body-language/
 page:https://qiita.com/minegishirei_v2/items/41606baa240e52082c9c
 
 
+
+page:https://psy.hatenadiary.com/entry/2025/01/27/210441

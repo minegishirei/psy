@@ -1,7 +1,6 @@
 目線から把握できることの全て
 ジェスチャー
-
-
+6802418398323766219
 
 
 # 目線から得る情報でKPIを判定する
@@ -231,3 +230,5 @@ from https://shuchi.php.co.jp/article/6949
 page:https://note.com/rei_minegishi/n/n59a175545430
 
 
+
+page:https://psy.hatenadiary.com/entry/2025/01/27/210443

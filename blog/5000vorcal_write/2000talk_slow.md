@@ -1,7 +1,6 @@
 ゆ っ く り し ゃ べ ろ う【エンジニア心理学】
 ボーカルライト,信頼関係構築
-
-
+6802418398323766251
 
 
 あらためまして、みねぎしれいです
@@ -112,3 +111,4 @@ https://www.jmedj.co.jp/journal/paper/detail.php?id=3938
 
 
 お役に立ちそうだなと思った方は「LGTM」お願い致します！
+page:https://psy.hatenadiary.com/entry/2025/01/27/210450

@@ -1,7 +1,6 @@
 1on1信頼関係構築 完全ガイド【エンジニア心理学】
 ボーカルライト,信頼関係構築
-
-
+6802418398323766240
 ## 雑談の戦略
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1678228/112a90c2-5695-87e6-34e2-2de2bf17d361.png)
@@ -132,3 +131,4 @@ from https://life-and-mind.com/nlp-mirroring-4657#i-2
 
 逆に、素早いレスポンスは「安心感」を生んでくれます。
 **そのレスポンスがネガティブであれ、ポジティブであれ、レスポンスがないよりははるかにマシです。**
+page:https://psy.hatenadiary.com/entry/2025/01/27/210448
