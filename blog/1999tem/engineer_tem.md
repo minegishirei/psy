@@ -1,7 +1,6 @@
 新人は何を考えているのか
 TEM
-
-
+6802418398323764036
 
 
 ## TEMは人生のロードマップ
@@ -168,3 +167,5 @@ from https://www.jstage.jst.go.jp/article/jjet/43/4/43_43057/_pdf
 
 
 
+
+page:https://psy.hatenadiary.com/entry/2025/01/27/205719

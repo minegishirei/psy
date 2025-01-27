@@ -1,7 +1,6 @@
 異なる人生や発達の径路を歩みながらも，類似の結果にたどり着く
 TEM
-
-
+6802418398323764023
 
 
 
@@ -139,3 +138,5 @@ https://www.humanservices.jp/wp/wp-content/uploads/2021/09/vol11_11_ichikawa.pdf
 
 
 
+
+page:https://psy.hatenadiary.com/entry/2025/01/27/205717

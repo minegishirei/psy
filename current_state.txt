@@ -73,11 +73,6 @@
 /blog/data/20240512180804フォームテクニックを使用して小さな話をする方法 - 心理学者の世界.md
 /blog/data/20240512152823外向性と内向 - 心理学者の世界.md
 /blog/data/20240512180919神経科学|今日の心理学.md
-/blog/blog/1999tem/engineer_tem.md
-/blog/blog/1999tem/不妊治療とTEM.md
-/blog/blog/1999tem/0000index.md
-/blog/blog/1900education/計画性.md
-/blog/blog/1900education/マザコン-ファザコン.md
 /blog/blog/5000vorcal_write/2000talk_slow.md
 /blog/blog/5000vorcal_write/2901influence.md
 /blog/blog/5000vorcal_write/2900influence.md

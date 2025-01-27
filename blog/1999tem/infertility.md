@@ -1,7 +1,6 @@
 不妊治療を諦めるきっかけ
 TEM
-
-
+6802418398323764069
 
 - [すべての人間がもつ“次世代への継承”という根源的な欲求](#すべての人間がもつ次世代への継承という根源的な欲求)
 - [TEM図](#tem図)
@@ -209,3 +208,5 @@ from https://www.jstage.jst.go.jp/article/jans/37/0/37_37026/_article/-char/ja/
 
 from https://www.jstage.jst.go.jp/article/jans/37/0/37_37026/_html/-char/ja
 
+
+page:https://psy.hatenadiary.com/entry/2025/01/27/205725

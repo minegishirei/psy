@@ -1,7 +1,6 @@
 【教育心理学】計画性はいつ発現するか
 教育心理学,能力
-
-
+6802418398323764052
 
 
 ## まとめ
@@ -162,3 +161,5 @@ from https://www.ritsumei.ac.jp/file.jsp?id=397448
 
 
 
+
+page:https://psy.hatenadiary.com/entry/2025/01/27/205721
