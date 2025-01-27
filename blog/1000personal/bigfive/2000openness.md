@@ -1,7 +1,6 @@
 開放性とは何か?
 bigfive
-
-
+6802418398323761387
 
 [:contents]
 
@@ -157,3 +156,5 @@ Facebook投稿での相関があるテキストは以下の通り。
 
 
 
+
+page:https://psy.hatenadiary.com/entry/2025/01/27/204537

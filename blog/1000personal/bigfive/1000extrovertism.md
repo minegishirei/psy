@@ -1,7 +1,6 @@
 外交性が低い人の特徴
 bigfive
-
-
+6802418398323761376
 
 
 
@@ -102,3 +101,5 @@ from https://www.frontiersin.org/articles/10.3389/fpsyg.2020.01076/full
 
 
 
+
+page:https://psy.hatenadiary.com/entry/2025/01/27/204535

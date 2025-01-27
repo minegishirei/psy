@@ -1,7 +1,6 @@
 ビッグファイブとは何か?
 bigfive
-
-
+6802418398323761436
 
 
 [:contents]
@@ -159,3 +158,5 @@ from https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%83%E3%82%B0%E3%83%95%E3%82%A1
 page:https://psy.hatenadiary.com/entry/2024/05/16/081953
 
 page:https://psy.hatenadiary.com/entry/2025/01/27/144530
+
+page:https://psy.hatenadiary.com/entry/2025/01/27/204545

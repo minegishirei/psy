@@ -92,11 +92,6 @@
 /blog/blog/5000write/00write/フットインザドア.md
 /blog/blog/5000write/00write/返報性の原理.md
 /blog/blog/1000personal/main.md
-/blog/blog/1000personal/bigfive/2000openness.md
-/blog/blog/1000personal/bigfive/5000sincerity.md
-/blog/blog/1000personal/bigfive/4000neuroticism.md
-/blog/blog/1000personal/bigfive/3000cooperativeness.md
-/blog/blog/1000personal/bigfive/1000extrovertism.md
 /blog/blog/2000users/個人名/長嶋一茂.md
 /blog/blog/2000users/個人名/マツコデラックス.md
 /blog/blog/2000users/個人名/有吉.md
