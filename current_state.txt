@@ -1,5 +1,4 @@
 /blog/Problem.md
-/blog/README.md
 /blog/9000tmp/ブランド.md
 /blog/9000tmp/treasure2.md
 /blog/9000tmp/Treasure.md

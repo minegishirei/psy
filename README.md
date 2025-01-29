@@ -1,7 +1,6 @@
 心理学/脳科学 学習サイト
 
-
-
+6802418398324248655
 
 # 🍵 エンジニア心理学
 
@@ -159,3 +158,5 @@ https://qiita.com/minegishirei_v2/items/776068c2d9b4c9e5aed2
 
 
 
+
+page:https://psy.hatenadiary.com/entry/2025/01/29/181734
