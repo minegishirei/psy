@@ -1,9 +1,5 @@
-<!--
-title:   心理学はエンジニアリングにどう貢献できるか？
-tags:    1on1,エンジニア心理学,コミュニケーション
-id:      c465770bdc47365577ff
-private: false
--->
+心理学/脳科学 学習サイト
+
 
 
 
@@ -35,6 +31,25 @@ https://qiita.com/minegishirei_v2/items/49784ea87ba160ef8065
 - チームリーダーが「プログラマー」に適切な行動をとってもらうための「関係性作り」
 - チームリーダーが 「顧客」に向けて要件を聞き出し、期待値をコントロールする
 
+
+## 記事一覧
+
+- human
+- personal
+    - baum : バウムテスト
+    - body : 身体的特徴
+    - personal : 人格特性
+    - education : 教育心理学
+    - tem : TEM
+    - crime : 犯罪心理学
+- users
+- read
+    - gesture : ジェスチャー
+    - vorcal_read : ボーカルリード
+- write
+    - vorcal_write
+        - relationship : 信頼関係構築
+        - persuasion : 説得
 
 
 ## 🤝 チームリーダーが「プログラマー」に適切な行動をとってもらうための「関係性作り」

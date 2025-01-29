@@ -1,5 +1,5 @@
 誠実性とは何か?
-bigfive
+bigfive,人格特性
 6802418398323761418
 [:contents]
 
