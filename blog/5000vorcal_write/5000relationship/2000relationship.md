@@ -1,11 +1,14 @@
 1on1信頼関係構築 完全ガイド【エンジニア心理学】
 ボーカルライト,信頼関係構築
 6802418398323766240
+
+
+[:contents]
+
+
 ## 雑談の戦略
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1678228/112a90c2-5695-87e6-34e2-2de2bf17d361.png)
-
-
 
 ## 準備事項
 

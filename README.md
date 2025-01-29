@@ -2,6 +2,11 @@
 
 6802418398324248655
 
+
+
+[:contents]
+
+
 # 🍵 エンジニア心理学
 
 https://qiita.com/minegishirei_v2/items/49784ea87ba160ef8065
