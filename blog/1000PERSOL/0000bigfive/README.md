@@ -28,17 +28,17 @@ from https://jinjibu.jp/keyword/detl/1455/
 ビッグファイブでは名前の通り、人の性格的な特性を5つの要素に分解したものです。
 それぞれの項目が高いことは、以下のような意味を持ちます。
 
-- [開放性](https://psy.hatenadiary.com/entry/2025/01/27/204535)
+- [開放性](https://psy.hatenadiary.com/entry/2025/01/27/204537)
   - 開放性が高い人は知的好奇心が強く、感情に関してオープンで、美しさに敏感で、新しいことに挑戦する意欲がある。
-- [誠実性](https://psy.hatenadiary.com/entry/2025/01/27/204537)
+- [誠実性](https://psy.hatenadiary.com/entry/2025/01/27/204543)
   1. 自己を律する能力があること
   2. 他人の期待に答えたいという気持ち（エゴ）
-- [外向性](https://psy.hatenadiary.com/entry/2025/01/27/204539)
+- [外向性](https://psy.hatenadiary.com/entry/2025/01/27/204535)
   - おしゃべりであること
 - [協調性](https://psy.hatenadiary.com/entry/2025/01/27/204539)
   - 他人とうまくやろうという気持ち
   - 人を助けたいという気持ち（見返りのない協力）
-- [神経症傾向](https://psy.hatenadiary.com/entry/2025/01/27/204543)
+- [神経症傾向](https://psy.hatenadiary.com/entry/2025/01/27/204541)
   - 心理的ストレスを受けやすい傾向
 
 
