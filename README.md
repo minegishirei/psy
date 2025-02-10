@@ -38,7 +38,7 @@ https://qiita.com/minegishirei_v2/items/49784ea87ba160ef8065
 
 ## 記事一覧
 
-- human
+- [human](https://psy.hatenadiary.com/entry/2025/02/10/094334)
 - personal
     - [bigfive(ビッグファイブ)](https://psy.hatenadiary.com/entry/2025/01/27/204545)
     - baum : バウムテスト
@@ -46,9 +46,9 @@ https://qiita.com/minegishirei_v2/items/49784ea87ba160ef8065
     - [brain(脳科学)](https://psy.hatenadiary.com/entry/2025/02/10/090234)
     - [education(教育心理学)](https://psy.hatenadiary.com/entry/2025/02/10/090236)
     - [tem(TEM)](https://psy.hatenadiary.com/entry/2025/01/27/205717)
-- users
+- [users](https://psy.hatenadiary.com/entry/2025/02/10/090649)
 - read
-    - gesture : ジェスチャー
+    - [gesture](https://psy.hatenadiary.com/entry/2025/02/10/094335)
     - vorcal_read : ボーカルリード
 - write
     - vorcal_write
