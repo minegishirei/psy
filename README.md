@@ -56,8 +56,6 @@ https://qiita.com/minegishirei_v2/items/49784ea87ba160ef8065
             - [信頼関係構築 - 1](https://psy.hatenadiary.com/entry/2025/01/27/210448)
             - [信頼関係構築 - 2](https://psy.hatenadiary.com/entry/2025/01/27/210456)
         - persuasion : 説得
-            - [説得方法 - 1](https://psy.hatenadiary.com/entry/2025/01/27/210452)
-            - [説得方法 - 2](https://psy.hatenadiary.com/entry/2025/01/27/210454)
 - business
 - market
 
