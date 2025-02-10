@@ -44,9 +44,8 @@ https://qiita.com/minegishirei_v2/items/49784ea87ba160ef8065
     - baum : バウムテスト
     - [body(身体的特徴)](https://psy.hatenadiary.com/entry/2025/02/10/085352)
     - [brain(脳科学)](https://psy.hatenadiary.com/entry/2025/02/10/090234)
-    - [education : 教育心理学](https://psy.hatenadiary.com/entry/2025/02/10/090236)
-    - [tem : TEM](https://psy.hatenadiary.com/entry/2025/01/27/205717)
-    - crime : 犯罪心理学
+    - [education(教育心理学)](https://psy.hatenadiary.com/entry/2025/02/10/090236)
+    - [tem(TEM)](https://psy.hatenadiary.com/entry/2025/01/27/205717)
 - users
 - read
     - gesture : ジェスチャー
