@@ -42,9 +42,9 @@ https://qiita.com/minegishirei_v2/items/49784ea87ba160ef8065
 - personal
     - [bigfive(ビッグファイブ)](https://psy.hatenadiary.com/entry/2025/01/27/204545)
     - baum : バウムテスト
-    - body : 身体的特徴
-    - personal : 人格特性
-    - education : 教育心理学
+    - [body(身体的特徴)](https://psy.hatenadiary.com/entry/2025/02/10/085352)
+    - [brain(脳科学)]()
+    - [education : 教育心理学
     - tem : TEM
     - crime : 犯罪心理学
 - users
