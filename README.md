@@ -41,17 +41,53 @@ https://qiita.com/minegishirei_v2/items/49784ea87ba160ef8065
 - [human](https://psy.hatenadiary.com/entry/2025/02/10/094334)
 - personal
     - [bigfive(ビッグファイブ)](https://psy.hatenadiary.com/entry/2025/01/27/204545)
+        - [開放性](https://psy.hatenadiary.com/entry/2025/01/27/204537)
+            - 開放性が高い人は知的好奇心が強く、感情に関してオープンで、美しさに敏感で、新しいことに挑戦する意欲がある。
+        - [誠実性](https://psy.hatenadiary.com/entry/2025/01/27/204543)
+            1. 自己を律する能力があること
+            2. 他人の期待に答えたいという気持ち（エゴ）
+        - [外向性](https://psy.hatenadiary.com/entry/2025/01/27/204535)
+            - おしゃべりであること
+        - [協調性](https://psy.hatenadiary.com/entry/2025/01/27/204539)
+            - 他人とうまくやろうという気持ち
+            - 人を助けたいという気持ち（見返りのない協力）
+        - [神経症傾向](https://psy.hatenadiary.com/entry/2025/01/27/204541)
+            - 心理的ストレスを受けやすい傾向
     - baum : バウムテスト
     - [body(身体的特徴)](https://psy.hatenadiary.com/entry/2025/02/10/085352)
+        - [どこで人は太るのか](https://psy.hatenadiary.com/entry/2025/01/27/204322)
+        - [食べ物単位での好き嫌いはどこで発生するのか](https://psy.hatenadiary.com/entry/2025/01/27/204324)
+        - 顔
+            - [髭の生物学的特徴](https://psy.hatenadiary.com/entry/2025/02/09/094738)
+            - [若くて歯が抜けている人の特徴](https://psy.hatenadiary.com/entry/2025/01/27/204326)
     - [brain(脳科学)](https://psy.hatenadiary.com/entry/2025/02/10/090234)
+        - [犯罪神経学](https://psy.hatenadiary.com/entry/2025/02/09/094740)
+        - [人を理解するためのヒント](https://psy.hatenadiary.com/entry/2025/02/09/211337)
     - [education(教育心理学)](https://psy.hatenadiary.com/entry/2025/02/10/090236)
+        - [【教育心理学】計画性はいつ発現するか](https://psy.hatenadiary.com/entry/2025/01/27/205721)
+        - [マザコンとは「母親の過干渉と期待に答えようとした状態」](https://psy.hatenadiary.com/entry/2025/01/27/205723)
     - [tem(TEM)](https://psy.hatenadiary.com/entry/2025/01/27/205717)
+        - [新人は何を考えているのか](https://psy.hatenadiary.com/entry/2025/01/27/205719)
+        - [不妊治療を諦めるきっかけ](https://psy.hatenadiary.com/entry/2025/01/27/205725)
 - [users](https://psy.hatenadiary.com/entry/2025/02/10/090649)
+    - [k](https://psy.hatenadiary.com/entry/2025/02/09/213633)
+    - [t](https://psy.hatenadiary.com/entry/2025/02/09/213635)
 - read
     - [gesture](https://psy.hatenadiary.com/entry/2025/02/10/094335)
+        - [唇の動きから把握できること](https://psy.hatenadiary.com/entry/2025/01/27/210441)
+        - [目線から把握できることの全て](https://psy.hatenadiary.com/entry/2025/01/27/210443)
     - vorcal_read : ボーカルリード
 - write
     - [vorcal_write(言葉による書き込み)](https://psy.hatenadiary.com/entry/2025/02/10/203905)
+        - 信頼関係構築方法
+            - [1on1信頼関係構築 完全ガイド](https://psy.hatenadiary.com/entry/2025/01/27/210448)
+            - [信頼関係構築の鍵](https://psy.hatenadiary.com/entry/2025/01/27/210456)
+        - 説得方法
+            - [説得方法 - 1](https://psy.hatenadiary.com/entry/2025/01/27/210452)
+            - [説得方法 - 2](https://psy.hatenadiary.com/entry/2025/01/27/210454)
+            - [陰謀論者を説得する技術](https://psy.hatenadiary.com/entry/2025/02/10/200017)
+    - [write_base(基本的な操作方法)](https://psy.hatenadiary.com/entry/2025/02/11/110753)
+        - [一貫性の法則を強化する](https://psy.hatenadiary.com/entry/2025/02/11/110343)
 - business
 - market
 
