@@ -134,4 +134,6 @@ from https://life-and-mind.com/nlp-mirroring-4657#i-2
 
 逆に、素早いレスポンスは「安心感」を生んでくれます。
 **そのレスポンスがネガティブであれ、ポジティブであれ、レスポンスがないよりははるかにマシです。**
+
+
 page:https://psy.hatenadiary.com/entry/2025/01/27/210448
