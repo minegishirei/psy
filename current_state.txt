@@ -1,8 +1,6 @@
 /blog/Problem.md
 /blog/9000tmp/ブランド.md
 /blog/9000tmp/treasure2.md
-/blog/9000tmp/Treasure.md
-/blog/9000tmp/treasure.md
 /blog/9000tmp/5000ポーカー心理学.md
 /blog/9000tmp/publish/template.md.old
 /blog/9000tmp/publish/Readme.md
