@@ -51,11 +51,7 @@ https://qiita.com/minegishirei_v2/items/49784ea87ba160ef8065
     - [gesture](https://psy.hatenadiary.com/entry/2025/02/10/094335)
     - vorcal_read : ボーカルリード
 - write
-    - vorcal_write
-        - relationship : 信頼関係構築
-            - [信頼関係構築 - 1](https://psy.hatenadiary.com/entry/2025/01/27/210448)
-            - [信頼関係構築 - 2](https://psy.hatenadiary.com/entry/2025/01/27/210456)
-        - persuasion : 説得
+    - [vorcal_write(言葉による書き込み)](https://psy.hatenadiary.com/entry/2025/02/10/203905)
 - business
 - market
 
