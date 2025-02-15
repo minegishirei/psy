@@ -86,6 +86,10 @@ https://qiita.com/minegishirei_v2/items/49784ea87ba160ef8065
             - [説得方法 - 1](https://psy.hatenadiary.com/entry/2025/01/27/210452)
             - [説得方法 - 2](https://psy.hatenadiary.com/entry/2025/01/27/210454)
             - [陰謀論者を説得する技術](https://psy.hatenadiary.com/entry/2025/02/10/200017)
+        - 文法
+            - [ラベリング](https://psy.hatenadiary.com/entry/2025/02/15/110419)
+        - 言語
+            - [形容詞よりも名詞の方が推論が働きやすい](https://psy.hatenadiary.com/entry/2025/02/15/110417)
     - [write_base(基本的な操作方法)](https://psy.hatenadiary.com/entry/2025/02/11/110753)
         - [一貫性の法則を強化する](https://psy.hatenadiary.com/entry/2025/02/11/110343)
 - business
