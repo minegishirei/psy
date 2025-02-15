@@ -1,7 +1,6 @@
 ラベリングテクニック
 
-
-
+6802418398328910118
 
 ## 効果:ラベリングテクニック
 
@@ -474,3 +473,5 @@ https://en.wikipedia.org/wiki/Attentional_bias
 
 
 page:https://psy.hatenadiary.com/entry/2024/12/19/175224
+
+page:https://psy.hatenadiary.com/entry/2025/02/15/110419
