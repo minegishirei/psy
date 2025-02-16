@@ -77,6 +77,13 @@ if __name__ == "__main__":
     print(json.dumps(nodeDataArray, ensure_ascii=False))
     print(json.dumps(linkDataArray, ensure_ascii=False))
     with open("/json/main.json", "w") as f:
-        f.write(json.dumps(nodeDataArray, ensure_ascii=False))
+        f.write(json.dumps({
+            "class": "go.GraphLinksModel",
+            "nodeCategoryProperty": "type",
+            "linkFromPortIdProperty": "frompid",
+            "linkToPortIdProperty": "topid",
+            "nodeDataArray" : nodeDataArray,
+            "linkDataArray" : linkDataArray
+        }, ensure_ascii=False))
 
 

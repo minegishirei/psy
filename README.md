@@ -202,6 +202,9 @@ https://qiita.com/minegishirei_v2/items/776068c2d9b4c9e5aed2
 
 
 
+docker run -d -p 8080:80 --name nginx -v $PWD:/usr/share/nginx/html nginx
+
+docker run -it -v ./code:/code -v ./json:/json -v ./blog:/blog pythonconsole bash -c "python /code/index.py"
 
 
 
