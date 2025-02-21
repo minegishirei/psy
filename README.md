@@ -197,7 +197,9 @@ https://qiita.com/minegishirei_v2/items/776068c2d9b4c9e5aed2
 
 docker run -p 8080:80 --name nginx4 --rm -v $PWD:/usr/share/nginx/html nginx
 
-docker run -it -v ./code:/code -v ./json:/json -v ./blog:/blog pythonconsole bash -c "python /code/index.py"
+docker build -t pythonconsole . 
+
+docker run -it -v ./code:/code -v ./json:/json -v ./blog:/blog pythonconsole --rm bash -c "python /code/index.py"
 
 
 **やりたいことを選考して、**

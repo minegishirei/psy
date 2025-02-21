@@ -12,6 +12,7 @@
 <script src="https://cdn.jsdelivr.net/npm/create-gojs-kit@3.0.19/dist/extensions/Themes.js"></script>
 <script id="code">
   isSample = true
+  isExplainOpen = false
   function init() {
     myDiagram = new go.Diagram('myDiagramDiv', {
       allowCopy: false,
@@ -83,6 +84,9 @@
       if(category == 'read'){
         return '#7D1C4A'
       }
+      if(category == 'persol'){
+        return '#493D60'
+      }
       return '#155e75'
     }
 
@@ -133,7 +137,7 @@
                     // with the list data bound in the Table Panel
                     new go.Panel('Table', {
                       name: 'COLLAPSIBLE', // identify to the PanelExpanderButton
-                      visible: false, // default close
+                      visible: isExplainOpen, // default close
                       padding: 2,
                       stretch: go.Stretch.Horizontal, // take up whole available width
                       defaultAlignment: go.Spot.Left, // thus no need to specify alignment on each element
@@ -284,6 +288,14 @@
     }
   };
 
+  const changeIsExplainOpen = () => {
+    const myDiagram = go.Diagram.fromDiv('myDiagramDiv');
+    if (myDiagram) {
+      isExplainOpen = true
+    }
+    init()
+  };
+
   window.addEventListener('DOMContentLoaded', init);
 
 
@@ -297,15 +309,12 @@
     <option value="light">Light</option>
     <option value="dark">Dark</option>
   </select>
-  <p>
-    An <em>IVR tree</em>, or Interactive Voice Response Tree, is typically used by automated answering systems to direct calls to the correct party. This
-    particular example is for a car dealership to route calls.
-  </p>
-  <p>
-    This Interactive Voice Response Tree (IVR tree) has nodes that contain a collapsible list of actions, controlled by a <b>PanelExpanderButton</b>, with a
-    <b>TreeExpanderButton</b> underneath the body. See the <a href="../intro/buttons.html">Intro page on Buttons</a> for more GoJS button information.
-  </p>
-  <p>The dark and light themes are controlled using the <a>ThemeManager</a>.</p>
+  isExplainOpen:
+  <select id="isExplainOpen" onchange="changeIsExplainOpen()">
+    <option value="true">true</option>
+    <option value="false">false</option>
+  </select>
+
 </div>
 
           
