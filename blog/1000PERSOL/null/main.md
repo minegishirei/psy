@@ -1,7 +1,6 @@
 
 
-
-
+6802418398330627134
 
 ## 効果:外交性が低い
 
@@ -39,3 +38,5 @@
 - example:a
 - effect:終了
 
+
+page:https://psy.hatenadiary.com/entry/2025/02/21/115125
