@@ -49,10 +49,6 @@ def search_markdown_files(directory):
             **row,
             "file_path" : str(file_path)
         }, extracted_sections))
-
-        if "relationship.md" in str(file_path):
-            ic(extracted_sections)
-        
         if extracted_sections:
             results.extend(extracted_sections)
     return results
@@ -165,9 +161,9 @@ if __name__ == "__main__":
 
 
     sites = [
-        #"https://www.sciencenews.org/topic/psychology",
+        "https://www.sciencenews.org/topic/psychology",
         #"https://www.psychologistworld.com/",
-        "https://www.psychologytoday.com",
+        #"https://www.psychologytoday.com",
         #"https://www.verywellmind.com/theories-of-love-2795341",
         #"https://www.frontiersin.org/research-topics/48534/the-psychology-of-love/magazine",
         #"https://www.nature.com/collections/abjigjgige"
@@ -187,15 +183,17 @@ if __name__ == "__main__":
                 print("【log】search : ",url)
                 try:
                     title, sentence = create_japanese_sentence(url)
-                    with open(f"/data/{site_url}/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}{title}.md", "w+") as f:
+                    with open(f"/data/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}{title}.md", "w+") as f:
+                        f.write("\n")
                         f.write("[:contents]")
+                        f.write("\n")
                         f.write(f"参考 : {url}")
                         f.write(sentence)
                         f.write("\n")
                         f.write(url)
                 except:
                     import traceback
-                    traceback.format_exc()
+                    print(traceback.format_exc())
                 with open(f"scrapy_done_list", mode='a') as f:
                     f.write(url + "\n")
                     done_url_list.append(url)

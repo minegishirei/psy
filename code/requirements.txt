@@ -8,3 +8,12 @@ bs4
 xmltodict
 icecream
 groq
+numpy
+anyio
+starlette
+fastapi
+sse_starlette
+starlette-context
+pydantic-settings
+groq
+Levenshtein

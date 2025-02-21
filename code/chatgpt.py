@@ -1,11 +1,9 @@
 import os
-from groq import Groq
-import time
-
+import groq
 
 
 def get_client(api_key):
-    client = Groq(api_key=api_key)
+    client = groq.Groq(api_key=api_key)
     return client
 
 def call_groq(client, system_prompt, user_prompt):

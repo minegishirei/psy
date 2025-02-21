@@ -33,6 +33,7 @@ def change(bsObj, target_tags):
             try:
                 child.string = my_translate(child.text)
             except:
+                print(traceback.format_exc())
                 child.string = (child.text + "[error]")
     return bsObj
 
