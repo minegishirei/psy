@@ -13,7 +13,7 @@ from eng_html_to_jp_md.main import run_scrapy
 
 def get_done_url_list():
     done_url_list = []
-    with open(f"scrapy_done_list", mode='r') as f:
+    with open(f"/code/scrapy_done_list", mode='r') as f:
         done_url_list = f.read().split("\n")
     return done_url_list
 
@@ -36,6 +36,10 @@ def create_link(link_parts,site_url):
         return site_url + link_parts
     return False
 
+
+def add_done(url):
+    with open(f"/code/scrapy_done_list", mode='a') as f:
+        f.write(url + "\n")
 
 if __name__ == "__main__":
     sites = [

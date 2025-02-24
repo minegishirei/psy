@@ -199,7 +199,7 @@ docker run -p 8080:80 --name nginx4 --rm -v $PWD:/usr/share/nginx/html nginx
 
 docker build -t pythonconsole . 
 
-docker run -it --rm  -v ./code:/code -v ./json:/json -v ./blog:/blog pythonconsole bash -c "python /code/index.py"
+docker run -it --rm  -v ./code:/code -v ./json:/json -v ./blog:/blog -v ./data:/data pythonconsole bash -c "python /code/index.py"
 
 
 **やりたいことを選考して、**

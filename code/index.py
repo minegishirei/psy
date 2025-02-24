@@ -7,7 +7,7 @@ import json
 import itertools
 from urllib.parse import urlparse
 from chatgpt import get_client, call_groq
-from scrapy import get_done_url_list, get_links, create_link
+from scrapy import get_done_url_list, get_links, create_link, add_done
 from eng_html_to_jp_md.main import create_japanese_sentence
 from eng_html_to_jp_md.main import run_scrapy
 import datetime
@@ -153,36 +153,72 @@ def run_chatgpt(request):
     text = response.choices[0].message.content
     return text
 
+def get_markdown_template(url, result):
+    return f"""
+
+hhhhhhhhhhhhhhhhhhh
+    
+[:contents]
+
+参考 : {url}
+
+{result}
+
+    """
+
+
+def get_prompt_template(sentence):
+    return f"""
+次の記事から得られる実用的な心理学の定理を日本語で導き出して！(複数の効果を導き出しても良いです)
+
+## 効果:<タイトル>
+- action:<タイトル>
+- content:<なぜそれが起きるのか>
+- effect:<予想できる事象>
+- example:<具体例>
+
+<記事の要約>
+
+以下要約するターゲットです。（日本語でお願いします。）
+
+{sentence}
+
+    """
+
+
 if __name__ == "__main__":
     sites = [
+        # "https://www.simplypsychology.org/regression-defence-mechanism.html", #退行:forbidden
+        "https://newstyle.link/category58/", #口癖
+        "https://japan-brain-science.com/archives/3618",
+        #"https://japan-brain-science.com/",
         "https://psychcentral.com/",
-        "https://www.apa.org/",
+        "https://ja.wikipedia.org/wiki/%E5%A4%A7%E8%84%B3", #低変質
+        #"https://www.apa.org/",
         #"https://www.sciencenews.org/topic/psychology",
         #"https://www.psychologistworld.com/",
-        "https://www.psychologytoday.com",
+        #"https://www.psychologytoday.com",
         #"https://www.verywellmind.com/theories-of-love-2795341",
         #"https://www.frontiersin.org/research-topics/48534/the-psychology-of-love/magazine",
         #"https://www.nature.com/collections/abjigjgige"
     ]
     print(sites)
     for site_url in sites:
-        done_url_list = get_done_url_list()
+        done_url_list = get_done_url_list()[20:]
         domain = "https://" + (urlparse(site_url).netloc)
         links = get_links(site_url)
-        print(links)
-        filterd_links = list(map(lambda link : create_link(link,site_url), filter( lambda link : create_link(link,site_url) ,links)) )
-        print(filterd_links)
+        filterd_links = list(map(lambda link : create_link(link,site_url), filter( lambda link : create_link(link,site_url) not in done_url_list ,links)) )
         count = 0
         for url in filterd_links:
-            if count < 5 and (url not in done_url_list):
-                count += 1
-                sentence = run_scrapy(url)
-                result = run_chatgpt("次の文章を和訳して、要約して！" + sentence)
-                print(result)
-                with open(f"scrapy_done_list", mode='a') as f:
-                    f.write(url + "\n")
-                    done_url_list.append(url)
-
+            print(url)
+            if (count > 100):
+                break
+            count += 1
+            sentence = run_scrapy(url)
+            result = run_chatgpt(get_prompt_template(sentence)[:6000] )
+            with open(f"/data/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}.md", "w+") as f:
+                f.write(get_markdown_template(url, result))
+            add_done(url)
     target_directory = "/blog"  # ここを調査したいディレクトリに変更
     extracted_results = search_markdown_files(target_directory)
     nodeDataArray = IVRtreeBuild().nodeDataArray(extracted_results)

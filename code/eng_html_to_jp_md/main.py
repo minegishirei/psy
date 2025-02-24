@@ -37,6 +37,18 @@ def change(bsObj, target_tags):
                 child.string = (child.text + "[error]")
     return bsObj
 
+
+def change(bsObj, target_tags):
+    for tag in target_tags:
+        for child in bsObj.find_all(tag):
+            try:
+                child.string = my_translate(child.text)
+            except:
+                print(traceback.format_exc())
+                child.string = (child.text + "[error]")
+    return bsObj
+
+
 def create_japanese_sentence(url):
     with urllib.request.urlopen(url) as u:
         html = u.read()
