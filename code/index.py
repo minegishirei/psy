@@ -9,6 +9,7 @@ from urllib.parse import urlparse
 from chatgpt import get_client, call_groq
 from scrapy import get_done_url_list, get_links, create_link
 from eng_html_to_jp_md.main import create_japanese_sentence
+from eng_html_to_jp_md.main import run_scrapy
 import datetime
 t_delta = datetime.timedelta(hours=9)
 JST = datetime.timezone(t_delta, 'JST')
@@ -145,25 +146,20 @@ class IVRtreeBuild():
         return linkDataArray
 
 
+def run_chatgpt(request):
+    GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+    SYSTEM_PROMPT = "あなたは便利な日本人アシスタントです。質問には簡潔に日本語で答えてください。"
+    response = call_groq(get_client(GROQ_API_KEY), SYSTEM_PROMPT, request)
+    text = response.choices[0].message.content
+    return text
+
 if __name__ == "__main__":
-    #request = """
-    #大好きな友人からお前は配慮が足りないからあと一回配慮が足りないことしたら縁を切ると言われてしまいました。
-    #自分はアスペルガーを持っており幼い時から自分の世界に閉じこもる癖があったりしてアスペルガー特有の配慮が足りない人間です。
-    #友人も一応僕が障害持ちであることは知っているのですが、それを理解した上でこういったことを言ってるんだと思います。
-    #配慮がある人間になるためにはどうしたらよいのでしょうか？
-    #"""
-    #GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-    #SYSTEM_PROMPT = "あなたは便利な日本人アシスタントです。質問には簡潔に日本語で答えてください。"
-    #response = call_groq(get_client(GROQ_API_KEY), SYSTEM_PROMPT, request)
-    #text = response.choices[0].message.content
-    #print(text)
-
-
-
     sites = [
-        "https://www.sciencenews.org/topic/psychology",
+        "https://psychcentral.com/",
+        "https://www.apa.org/",
+        #"https://www.sciencenews.org/topic/psychology",
         #"https://www.psychologistworld.com/",
-        #"https://www.psychologytoday.com",
+        "https://www.psychologytoday.com",
         #"https://www.verywellmind.com/theories-of-love-2795341",
         #"https://www.frontiersin.org/research-topics/48534/the-psychology-of-love/magazine",
         #"https://www.nature.com/collections/abjigjgige"
@@ -180,24 +176,12 @@ if __name__ == "__main__":
         for url in filterd_links:
             if count < 5 and (url not in done_url_list):
                 count += 1
-                print("【log】search : ",url)
-                try:
-                    title, sentence = create_japanese_sentence(url)
-                    with open(f"/data/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}{title}.md", "w+") as f:
-                        f.write("\n")
-                        f.write("[:contents]")
-                        f.write("\n")
-                        f.write(f"参考 : {url}")
-                        f.write(sentence)
-                        f.write("\n")
-                        f.write(url)
-                except:
-                    import traceback
-                    print(traceback.format_exc())
+                sentence = run_scrapy(url)
+                result = run_chatgpt("次の文章を和訳して、要約して！" + sentence)
+                print(result)
                 with open(f"scrapy_done_list", mode='a') as f:
                     f.write(url + "\n")
                     done_url_list.append(url)
-
 
     target_directory = "/blog"  # ここを調査したいディレクトリに変更
     extracted_results = search_markdown_files(target_directory)

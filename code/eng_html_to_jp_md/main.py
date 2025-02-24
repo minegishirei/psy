@@ -1,9 +1,9 @@
 from markdownify import MarkdownConverter
-from googletrans import Translator
+#from googletrans import Translator
 import urllib.request
 from bs4 import BeautifulSoup
 from bs4 import element
-translator = Translator()
+#translator = Translator()
 import traceback
 import datetime
 t_delta = datetime.timedelta(hours=9)
@@ -50,3 +50,10 @@ def create_japanese_sentence(url):
         change(body_soup, ["li", "p", "h5", "h4" ,"h3","h2", "h1", "a"])
         return title,md(str(body_soup))
 
+
+def run_scrapy(url):
+    with urllib.request.urlopen(url) as u:
+        html = u.read()
+        soup = BeautifulSoup(html,features="html.parser")
+        body_test = soup.find('body').text
+        return md(body_test)

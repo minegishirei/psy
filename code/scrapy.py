@@ -1,15 +1,15 @@
 from markdownify import MarkdownConverter
-from googletrans import Translator
+#from googletrans import Translator
 import urllib.request
 from bs4 import BeautifulSoup
 from bs4 import element
-translator = Translator()
 import traceback
 import datetime
 t_delta = datetime.timedelta(hours=9)
 JST = datetime.timezone(t_delta, 'JST')
 from urllib.parse import urlparse
 from eng_html_to_jp_md.main import create_japanese_sentence
+from eng_html_to_jp_md.main import run_scrapy
 
 def get_done_url_list():
     done_url_list = []
@@ -60,13 +60,15 @@ if __name__ == "__main__":
                 count += 1
                 print("【log】search : ",url)
                 try:
-                    title, sentence = create_japanese_sentence(url)
-                    with open(f"/data/{site_url}/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}{title}.md", "w+") as f:
-                        f.write("[:contents]")
-                        f.write(f"参考 : {url}")
-                        f.write(sentence)
-                        f.write("\n")
-                        f.write(url)
+                    sentence = run_scrapy(url)
+                    print(sentence)
+                    #title, sentence = create_japanese_sentence(url)
+                    #with open(f"/data/{site_url}/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}{title}.md", "w+") as f:
+                    #    f.write("[:contents]")
+                    #    f.write(f"参考 : {url}")
+                    #    f.write(sentence)
+                    #    f.write("\n")
+                    #    f.write(url)
                 except:
                     import traceback
                     traceback.format_exc()
