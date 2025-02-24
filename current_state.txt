@@ -29,6 +29,7 @@
 /blog/data/20240512152929感情的な予測|今日の心理学.md
 /blog/data/20240512180804フォームテクニックを使用して小さな話をする方法 - 心理学者の世界.md
 /blog/data/20240512180919神経科学|今日の心理学.md
+/blog/data/2025022115290731 Psychological Defense Mechanisms Explained - Psychologist World.md
 /blog/9000tmp/ブランド.md
 /blog/9000tmp/treasure2.md
 /blog/9000tmp/5000ポーカー心理学.md
