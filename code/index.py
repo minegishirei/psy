@@ -11,6 +11,7 @@ from scrapy import get_done_url_list, get_links, create_link, add_done
 from eng_html_to_jp_md.main import create_japanese_sentence
 from eng_html_to_jp_md.main import run_scrapy
 import datetime
+import groq
 t_delta = datetime.timedelta(hours=9)
 JST = datetime.timezone(t_delta, 'JST')
 
@@ -188,6 +189,8 @@ def get_prompt_template(sentence):
 
 if __name__ == "__main__":
     sites = [
+        # "https://www.psychologistworld.com/dreams/", #夢
+        # "https://www.psychologistworld.com/",
         # "https://www.simplypsychology.org/regression-defence-mechanism.html", #退行:forbidden
         "https://newstyle.link/category58/", #口癖
         "https://japan-brain-science.com/archives/3618",
@@ -196,7 +199,6 @@ if __name__ == "__main__":
         "https://ja.wikipedia.org/wiki/%E5%A4%A7%E8%84%B3", #低変質
         #"https://www.apa.org/",
         #"https://www.sciencenews.org/topic/psychology",
-        #"https://www.psychologistworld.com/",
         #"https://www.psychologytoday.com",
         #"https://www.verywellmind.com/theories-of-love-2795341",
         #"https://www.frontiersin.org/research-topics/48534/the-psychology-of-love/magazine",
@@ -213,12 +215,19 @@ if __name__ == "__main__":
             print(url)
             if (count > 100):
                 break
+            if url in done_url_list:
+                continue
             count += 1
             sentence = run_scrapy(url)
-            result = run_chatgpt(get_prompt_template(sentence)[:6000] )
+            result = ""
+            try:
+                result = run_chatgpt(get_prompt_template(sentence)[:6000] )
+            except groq.RateLimitError:
+                pass
             with open(f"/data/{datetime.datetime.now(JST).strftime('%Y%m%d%H%M%S')}.md", "w+") as f:
                 f.write(get_markdown_template(url, result))
             add_done(url)
+            done_url_list.append(url)
     target_directory = "/blog"  # ここを調査したいディレクトリに変更
     extracted_results = search_markdown_files(target_directory)
     nodeDataArray = IVRtreeBuild().nodeDataArray(extracted_results)
