@@ -1,4 +1,5 @@
 import urllib
+from icecream import ic
 from chatgpt import get_client, call_groq
 from scrapy import get_done_url_list, get_links, create_link, add_done
 from eng_html_to_jp_md.main import create_japanese_sentence
@@ -10,29 +11,7 @@ JST = datetime.timezone(t_delta, 'JST')
 from urllib.parse import urlparse
 import os
 
-def get_prompt_template(sentence):
-    return f"""
-後述する記事から得られる実用的な心理学の定理を、次の形式で、**日本語で** 出力してください(複数可)
 
-## 効果:<タイトル>
-- action:<タイトル>
-- content:<なぜそれが起きるのか>
-- effect:<予想できる事象>
-- example:<具体例>
-
-以下は具体例です。
-
-## 効果:一貫性の法則
-- action:一貫性の法則
-- content:一貫性を保つことは社会生活において他者から高い評価を受ける
-- example:好きな歌手のCDだからという理由だけで買ってしまう
-- effect:同じ行動を取り続ける
-
-以下要約するターゲットです。
-
-{sentence}
-
-    """
 
 def get_markdown_template(url, result):
     return f"""
@@ -47,15 +26,6 @@ hhhhhhhhhhhhhhhhhhh
 
     """
 
-def get_method(file_path):
-    if "WRITE" in file_path:
-        return "write"
-    elif "PERSOL" in file_path:
-        return "persol"
-    elif "READ" in file_path:
-        return "read"
-    return ""
-
 
 def run_chatgpt(request):
     GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
@@ -65,27 +35,35 @@ def run_chatgpt(request):
     return text
 
 
+def curry_url_filtering(done_url_list,domain, site_own_filtering):
+    def url_filtering(url):
+        result =  (url not in done_url_list) and (domain in url)
+        return result and site_own_filtering(url)
+    return url_filtering
 
-def main(sites):
-    for site_url in sites:
-        done_url_list = get_done_url_list()[20:]
+
+def default_filter(url):
+    return True
+
+
+def main(sites, get_prompt_template, batch_size):
+    for site_info in sites:
+        site_url = site_info["link"]
+        site_own_filtering = site_info.get("filter", default_filter)
+        done_url_list = get_done_url_list()
         domain = "https://" + (urlparse(site_url).netloc)
-        links = get_links(site_url)
-        filterd_links = list(map(lambda link : create_link(link,site_url), filter( lambda link : create_link(link,site_url) not in done_url_list ,links)) )
-        count = 0
-        for url in filterd_links:
-            print(url)
-            if (count > 5):
-                break
+        ic(domain)
+        url_filtering =  curry_url_filtering(done_url_list, domain, site_own_filtering)
+        cleaned_links = map(lambda link :  create_link(link,site_url) , get_links(site_url) )
+        filterd_links = list(filter( url_filtering , cleaned_links))
+        for url in filterd_links[:batch_size]:
+            ic(url)
             if url in done_url_list:
                 continue
-            count += 1
             sentence = ""
             try:
                 sentence = run_scrapy(url)
-            except (AttributeError, UnicodeEncodeError):
-                pass
-            except urllib.error.HTTPError:
+            except (AttributeError, UnicodeEncodeError, urllib.error.HTTPError):
                 pass
             result = ""
             try:

@@ -9,6 +9,7 @@ from scrapy import get_done_url_list, get_links, create_link, add_done
 from eng_html_to_jp_md.main import create_japanese_sentence
 from eng_html_to_jp_md.main import run_scrapy
 import datetime
+import random
 t_delta = datetime.timedelta(hours=9)
 JST = datetime.timezone(t_delta, 'JST')
 
@@ -51,6 +52,16 @@ def search_markdown_files(directory):
         if extracted_sections:
             results.extend(extracted_sections)
     return results
+
+
+def get_method(file_path):
+    if "WRITE" in file_path:
+        return "write"
+    elif "PERSOL" in file_path:
+        return "persol"
+    elif "READ" in file_path:
+        return "read"
+    return ""
 
 
 class Build():
