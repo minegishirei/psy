@@ -10,6 +10,7 @@
 /blog/3000cases/0000心理学以前/主語がない.md
 /blog/3000cases/0000心理学以前/NGワード.md
 /blog/3000cases/9000操作/最終手段.md
+/blog/blog/20250316221330「気にしない」という.md
 /blog/blog/2000USER/プライベート/新谷.md
 /blog/blog/2000USER/プライベート/kh.md
 /blog/blog/2000USER/プライベート/team_play.md
