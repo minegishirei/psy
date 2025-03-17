@@ -13,6 +13,7 @@
 /blog/blog/20250317115806以下は、入力文を基に.md
 /blog/blog/20250317100507「気が重い」という口.md
 /blog/blog/20250316221330「気にしない」という.md
+/blog/blog/20250317123049今すぐ使える新時代の.md
 /blog/blog/2000USER/プライベート/新谷.md
 /blog/blog/2000USER/プライベート/kh.md
 /blog/blog/2000USER/プライベート/team_play.md
