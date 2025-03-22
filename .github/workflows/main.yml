@@ -28,7 +28,7 @@ jobs:
         run: |
           TOKEN=${{ secrets.MY_PAT }}
           OWNER=${{ secrets.OWNER }}
-          REPO="flamevalue_blog"
+          REPO="master_tuner_blog"
           curl \
             -X POST \
             -H "Authorization: token $TOKEN" \
