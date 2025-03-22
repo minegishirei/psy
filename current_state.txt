@@ -73,6 +73,7 @@
 /blog/blog/20250319171816「正直言って」という.md
 /blog/blog/20250317141500「それこそ」という口.md
 /blog/blog/20250322131633「ごめんなさい」とい.md
+/blog/blog/20250322191514**「ありがとう」と.md
 /blog/blog/2000USER/プライベート/新谷.md
 /blog/blog/2000USER/プライベート/kh.md
 /blog/blog/2000USER/プライベート/team_play.md
