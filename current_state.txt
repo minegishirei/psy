@@ -1,4 +1,5 @@
 /blog/Problem.md
+/blog/result.md
 /blog/3000cases/tmp.md
 /blog/3000cases/5000プレゼンテーション/main.md
 /blog/3000cases/2000知識共有/Readme.md
@@ -60,6 +61,7 @@
 /blog/blog/20250318181534「ワクワクする」とい.md
 /blog/blog/20250319122644「しかたがない」「し.md
 /blog/blog/20250324120246「チーム一丸となって.md
+/blog/blog/20250324181640我々は、心理学講座を.md
 /blog/blog/20250317131834「私に言わせれば」と.md
 /blog/blog/20250320141455以下は、わかりやすく.md
 /blog/blog/20250318115554「大人だね」という口.md
